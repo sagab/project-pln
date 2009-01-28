@@ -1,0 +1,1181 @@
+<Dialog team="t2">
+<Participants>
+<Person nickname="George"/>
+<Person nickname="Dumitru"/>
+<Person nickname="Mircea"/>
+<Person nickname="Ionut"/>
+</Participants>
+<Topics/>
+<Body>
+<Turn nickname="George">
+<Utterance genid="1" ref="-1" time="24/12/2008 06:55:53">joins the room</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="2" ref="-1" time="24/12/2008 06:56:26">joins the room</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="3" ref="-1" time="24/12/2008 07:22:02">test</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="4" ref="-1" time="24/12/2008 07:22:07">test</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="5" ref="-1" time="24/12/2008 07:24:26">joins the room</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="6" ref="-1" time="24/12/2008 07:24:54">joins the room</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="7" ref="-1" time="24/12/2008 07:40:52">hi everyone</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="8" ref="-1" time="24/12/2008 07:41:00">hello</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="9" ref="-1" time="24/12/2008 07:41:04">hi there</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="10" ref="-1" time="24/12/2008 07:41:13">hello</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="11" ref="-1" time="24/12/2008 07:43:53">I guess we are all here</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="12" ref="-1" time="24/12/2008 07:44:01">so we can get started</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="13" ref="-1" time="24/12/2008 07:44:19">I guess we should first introduce ourselves</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="14" ref="8" time="24/12/2008 07:44:34">my name is Mircea (Bardac Mircea Ionut) and I will be representing the Support Vector Machines (SVM) technique for automatic classification</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="15" ref="-1" time="24/12/2008 07:46:04">My name is Dumitru (George Dumitru Milescu) and i will be presenting the Naive Bayes classifier</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="16" ref="-1" time="24/12/2008 07:46:12">I am Ionut (Bardac Mircea Ionut) and I am representing ART Neural Networks as an alternative classification technique</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="17" ref="-1" time="24/12/2008 07:47:24">Hello again. I am George (George Dumitru Milescu) and i will present one of the most used classifiers, K-Means</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="18" ref="-1" time="24/12/2008 07:47:27">now... who should start first?</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="19" ref="-1" time="24/12/2008 07:47:31">George?</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="20" ref="-1" time="24/12/2008 07:47:47">ok</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="21" ref="-1" time="24/12/2008 07:48:05">could you tell us some details about K-Means?</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="22" ref="-1" time="24/12/2008 07:49:15">yes</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="23" ref="-1" time="24/12/2008 07:49:20">it will be my pleasure</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="24" ref="-1" time="24/12/2008 07:49:59">k means is one of the most well known classifiers</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="25" ref="-1" time="24/12/2008 07:50:18">it's principles are simple</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="26" ref="-1" time="24/12/2008 07:50:34">you have n objects</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="27" ref="-1" time="24/12/2008 07:50:50">and you want to put them in k cathegories</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="28" ref="-1" time="24/12/2008 07:52:04">in order to do that, yoy will use a metric, called distance, to measure how far an object is from another</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="29" ref="-1" time="24/12/2008 07:52:52">the goal is to have, inside a cathegory (or partiion) a minimum sum of distances</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="30" ref="28" time="24/12/2008 07:53:35">oh, we use a metric in SVM too... I will talk about this later...</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="31" ref="-1" time="24/12/2008 07:53:43">the algotithm chooses k points in the space of the problem</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="32" ref="-1" time="24/12/2008 07:54:18">representing the k partitions</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="33" ref="-1" time="24/12/2008 07:54:23">and then starts binding the n object to the partitions</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="34" ref="-1" time="24/12/2008 07:55:20">an object is being binded to the partition with the closest center</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="35" ref="-1" time="24/12/2008 07:55:31">where closest is based on the metric</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="36" ref="-1" time="24/12/2008 07:55:49">after an object is inserted in a partion</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="37" ref="-1" time="24/12/2008 07:56:04">the center of the partition is recalculated</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="38" ref="-1" time="24/12/2008 07:56:18">usind the same distance</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="39" ref="-1" time="24/12/2008 07:57:05">basically this is the algorithm</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="40" ref="37" time="24/12/2008 07:57:05">so.. the updating algorithm would be O(n), with n being the number of components of the partition</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="41" ref="40" time="24/12/2008 07:57:28">this wouldn't scale very well... I think...</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="42" ref="-1" time="24/12/2008 07:57:40">there is an improuvement, called Lloyd's algorithm, that starts differrently</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="43" ref="41" time="24/12/2008 07:57:48">would repartitioning fix this problem?</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="44" ref="-1" time="24/12/2008 07:58:36">Lloyd's algorithm starts by partitioning the input points into k partitions</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="45" ref="-1" time="24/12/2008 07:58:59">then calculates the mean point</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="46" ref="-1" time="24/12/2008 07:59:49">and after that it constructs a new partition by associating each point with the closest partition (the onte with the closest center, or centroid)</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="47" ref="-1" time="24/12/2008 08:00:34">now, Ionut</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="48" ref="-1" time="24/12/2008 08:01:23">yes, it will be O(n)</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="49" ref="-1" time="24/12/2008 08:01:52">it is easy to make a parallel or distributed algorithm</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="50" ref="-1" time="24/12/2008 08:02:10">that improuves the centroid update time</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="51" ref="43" time="24/12/2008 08:03:07">in what way &amp;quot;fix the problem ?&amp;quot;</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="52" ref="-1" time="24/12/2008 08:03:40">fix the poblem of not being able to scale well</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="53" ref="-1" time="24/12/2008 08:03:58">repartitioning doesn't fix that</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="54" ref="-1" time="24/12/2008 08:04:04">the problem persists</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="55" ref="-1" time="24/12/2008 08:04:25">you could predict the new position of the centroid</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="56" ref="-1" time="24/12/2008 08:04:45">or find a faster way of calculating it</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="57" ref="-1" time="24/12/2008 08:04:53">but not by repartitioning</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="58" ref="-1" time="24/12/2008 08:04:56">ok</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="59" ref="-1" time="24/12/2008 08:04:58">I understand</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="60" ref="-1" time="24/12/2008 08:05:09">now... Mircea</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="61" ref="-1" time="24/12/2008 08:05:12">so...</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="62" ref="-1" time="24/12/2008 08:05:13">Mircea</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="63" ref="-1" time="24/12/2008 08:05:20">tell us about your method</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="64" ref="-1" time="24/12/2008 08:05:22">you said that SVM also does use some sort of metric</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="65" ref="-1" time="24/12/2008 08:05:27">what is that about?</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="66" ref="63" time="24/12/2008 08:07:27">yes</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="67" ref="-1" time="24/12/2008 08:07:34">my method is called SVM</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="68" ref="-1" time="24/12/2008 08:08:20">SVM = Support vector machine</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="69" ref="-1" time="24/12/2008 08:09:09">as I was saying, the method is used for classification</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="70" ref="-1" time="24/12/2008 08:09:49">as we know, we have gathered here in order to discuss classification methods needed for machine learning</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="71" ref="-1" time="24/12/2008 08:10:08">haven't we, Mircea...</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="72" ref="-1" time="24/12/2008 08:10:11">:-p</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="73" ref="-1" time="24/12/2008 08:10:26">given a set of data points</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="74" ref="-1" time="24/12/2008 08:11:15">SVM is able to classify it into two classes</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="75" ref="-1" time="24/12/2008 08:12:24">so, if we have a new data point...</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="76" ref="-1" time="24/12/2008 08:12:31">we can easily decide in which class it should stand</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="77" ref="-1" time="24/12/2008 08:13:12">the space of data points is considered n-dimensional</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="78" ref="-1" time="24/12/2008 08:13:47">so, classifying the data points is actually equivalent to splitting the n-dimensional space</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="79" ref="-1" time="24/12/2008 08:13:51">into 2 parts</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="80" ref="-1" time="24/12/2008 08:14:05">by using an (n-1)-dimensional plane</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="81" ref="-1" time="24/12/2008 08:14:35">the method also wants to achieve the maximum distance</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="82" ref="-1" time="24/12/2008 08:14:46">between this (n-1)-dimensional plane</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="83" ref="82" time="24/12/2008 08:15:04">(also known as hyperplane)</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="84" ref="-1" time="24/12/2008 08:15:07">why the maximum distance ?</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="85" ref="-1" time="24/12/2008 08:16:14">and the nearest datapoint in each of the 2 parts</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="86" ref="84" time="24/12/2008 08:17:10">this maximum distance ensures that the classification provides well defined classes of data points</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="87" ref="-1" time="24/12/2008 08:17:46">so.. the first resulting class</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="88" ref="-1" time="24/12/2008 08:18:10">is &amp;quot;as different as possible&amp;quot; compared with the second resulting class</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="89" ref="-1" time="24/12/2008 08:19:21">we can also say</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="90" ref="86" time="24/12/2008 08:22:07">that this is equivalent to maximizing the distance</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="91" ref="-1" time="24/12/2008 08:22:32">between the nearest datapoint in the fist class and the nearest datapoint in the second class</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="92" ref="-1" time="24/12/2008 08:22:36">ok. thank you for the clarifications</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="93" ref="-1" time="24/12/2008 08:22:41">neared to the dividing plane</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="94" ref="-1" time="24/12/2008 08:23:32">compared to George's solution</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="95" ref="-1" time="24/12/2008 08:23:42">this provides only a binary classification</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="96" ref="-1" time="24/12/2008 08:23:50">which is not what we want, right?</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="97" ref="-1" time="24/12/2008 08:23:52">what's wrong with my solution ?</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="98" ref="-1" time="24/12/2008 08:24:03">is the best solution ever</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="99" ref="-1" time="24/12/2008 08:24:04">:-p</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="100" ref="98" time="24/12/2008 08:24:27">but... don't worry... SVM has alternatives too</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="101" ref="100" time="24/12/2008 08:24:50">there's also MultiClass SVM</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="102" ref="-1" time="24/12/2008 08:25:01">we will have a discussion on the advantages of each method, right ?</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="103" ref="102" time="24/12/2008 08:25:10">:)</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="104" ref="102" time="24/12/2008 08:25:23">in the end</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="105" ref="-1" time="24/12/2008 08:25:37">that is how it's planned according to our meeting's agenda</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="106" ref="97" time="24/12/2008 08:25:42">calm down, George. :-p</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="107" ref="-1" time="24/12/2008 08:25:53">relax</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="108" ref="106" time="24/12/2008 08:26:32">do I seem stressed ?</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="109" ref="101" time="24/12/2008 08:26:58">getting back to to MultiClass SVM</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="110" ref="-1" time="24/12/2008 08:28:02">the multiclass problem is being split into multiple binary problems</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="111" ref="-1" time="24/12/2008 08:28:12">how ?</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="112" ref="110" time="24/12/2008 08:28:27">how is the splittign being done ?</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="113" ref="112" time="24/12/2008 08:30:44">multiclass svm is used by assigning labels to instances</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="114" ref="113" time="24/12/2008 08:31:15">instances being data points</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="115" ref="112" time="24/12/2008 08:32:33">everything starts with from the binary classifiers being used</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="116" ref="-1" time="24/12/2008 08:33:07">they must distinguish between one of the labels and the rest</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="117" ref="-1" time="24/12/2008 08:33:18">and between every paid of the classes</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="118" ref="117" time="24/12/2008 08:34:09">every &amp;quot;pair&amp;quot;, not every &amp;quot;paid&amp;quot;</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="119" ref="115" time="24/12/2008 08:34:34">ok.. I understand</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="120" ref="-1" time="24/12/2008 08:34:43">now, Dumitru</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="121" ref="115" time="24/12/2008 08:34:48">ok</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="122" ref="-1" time="24/12/2008 08:34:52">thank you</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="123" ref="-1" time="24/12/2008 08:34:55">what can you tell us about your classifier?</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="124" ref="-1" time="24/12/2008 08:35:49">the naive Bayes classifier is a probabilistic classifier</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="125" ref="-1" time="24/12/2008 08:36:04">it is based on Bayes' theorem</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="126" ref="-1" time="24/12/2008 08:36:34">actually it is based on applying Bayes' theorem</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="127" ref="-1" time="24/12/2008 08:37:06">in simple words</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="128" ref="-1" time="24/12/2008 08:37:25">this classifier starts from the same problem</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="129" ref="-1" time="24/12/2008 08:37:31">we have n objects</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="130" ref="-1" time="24/12/2008 08:37:34">and k partitions</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="131" ref="-1" time="24/12/2008 08:37:53">each object has different characteristics (like color, shape, size, etc)</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="132" ref="-1" time="24/12/2008 08:38:29">the naive Bayes classifier assumes that each characteristic (or feature)</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="133" ref="-1" time="24/12/2008 08:38:47">is not related to the presence or absance of the other characteristics.</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="134" ref="-1" time="24/12/2008 08:39:23">this means that the fact that a coin is round</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="135" ref="-1" time="24/12/2008 08:39:32">has nothing to do with it's color</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="136" ref="-1" time="24/12/2008 08:39:36">or size</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="137" ref="-1" time="24/12/2008 08:40:27">let's take a real example</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="138" ref="-1" time="24/12/2008 08:40:34">we want to classify fruits</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="139" ref="-1" time="24/12/2008 08:41:10">fruit may be considered to be an orange if it is orange</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="140" ref="-1" time="24/12/2008 08:41:24">round, and about 7 cm in diameter</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="141" ref="-1" time="24/12/2008 08:41:39">a naive Bayes classifier considers</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="142" ref="-1" time="24/12/2008 08:42:07">this characteristics to independantly contribute to the probability</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="143" ref="-1" time="24/12/2008 08:42:14">of an fruit being an orange</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="144" ref="142" time="24/12/2008 08:42:47">you mean that...</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="145" ref="-1" time="24/12/2008 08:42:56">the naive Bayes classifiers can be (an most commonly are) trained</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="146" ref="144" time="24/12/2008 08:43:05">it provides some sort of rank based on each characteristic</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="147" ref="146" time="24/12/2008 08:43:26">and it combines in the end the results and says.. &amp;quot;that's an orange&amp;quot;?</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="148" ref="145" time="24/12/2008 08:43:58">so that their probability parrameters are being better calibrated</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="149" ref="-1" time="24/12/2008 08:44:55">the training can be done very easy and the results are very good</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="150" ref="-1" time="24/12/2008 08:45:13">the naive Bayes classifiers often work much better in complex real-world situations</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="151" ref="-1" time="24/12/2008 08:45:29">than any of the other classification methods</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="152" ref="150" time="24/12/2008 08:46:00">hold on Dumitru. We were supposed to keep comments like this for the second part, right ?</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="153" ref="-1" time="24/12/2008 08:46:11">yes, yes, yes</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="154" ref="147" time="24/12/2008 08:46:35">yes, something like that</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="155" ref="-1" time="24/12/2008 08:47:12">each of the characteristics provide part of the final probability</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="156" ref="-1" time="24/12/2008 08:47:21">and do that in a independant method</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="157" ref="-1" time="24/12/2008 08:47:33">interesting</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="158" ref="154" time="24/12/2008 08:48:01">I think this is implemented in spam detection systems</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="159" ref="153" time="24/12/2008 08:48:06">no, no, no</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="160" ref="158" time="24/12/2008 08:48:06">right?</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="161" ref="159" time="24/12/2008 08:48:31">sory, sory, sory</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="162" ref="158" time="24/12/2008 08:48:48">yes, it is</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="163" ref="161" time="24/12/2008 08:48:56">ok, ok, ok</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="164" ref="162" time="24/12/2008 08:49:10">we might want to use this in our implementation</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="165" ref="164" time="24/12/2008 08:49:27">if it has proven to be working</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="166" ref="165" time="24/12/2008 08:49:56">ok...</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="167" ref="-1" time="24/12/2008 08:50:02">so, Iunut</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="168" ref="165" time="24/12/2008 08:50:05">I think we will discuss this later</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="169" ref="-1" time="24/12/2008 08:50:07">are you ready ?</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="170" ref="-1" time="24/12/2008 08:50:15">because we are</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="171" ref="-1" time="24/12/2008 08:50:17">:D</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="172" ref="168" time="24/12/2008 08:50:26">when we try to combine the best of our classifiers</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="173" ref="172" time="24/12/2008 08:50:42">and provide a good solution for analysing large corpuses of text</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="174" ref="169" time="24/12/2008 08:50:55">I am ready</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="175" ref="169" time="24/12/2008 08:50:56">Calm down George. Relax</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="176" ref="175" time="24/12/2008 08:51:11">yes, George... relax</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="177" ref="175" time="24/12/2008 08:51:34">do I seem stressed ?</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="178" ref="175" time="24/12/2008 08:51:38">Dumitru might be right... too much fun in this serious conversation</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="179" ref="177" time="24/12/2008 08:51:44">yes !</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="180" ref="178" time="24/12/2008 08:51:54">fun and stress</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="181" ref="174" time="24/12/2008 08:52:25">as I was saying...</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="182" ref="16" time="24/12/2008 08:53:11">in the introduction</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="183" ref="-1" time="24/12/2008 08:53:53">I am supporting ART Neural Networks</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="184" ref="-1" time="24/12/2008 08:54:05">as a possible classifier</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="185" ref="-1" time="24/12/2008 08:55:29">this type of classifier is very close to a neural network design</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="186" ref="-1" time="24/12/2008 08:56:01">a very basic ART implementation acts like an unsupervised learning model</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="187" ref="-1" time="24/12/2008 08:56:19">it has 2 fields of neurons...</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="188" ref="-1" time="24/12/2008 08:56:23">one for comparison</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="189" ref="-1" time="24/12/2008 08:56:28">and one for recognition</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="190" ref="187" time="24/12/2008 08:57:01">maybe it would be better if you draw something</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="191" ref="-1" time="24/12/2008 08:57:10">to present this in a better way</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="192" ref="190" time="24/12/2008 08:57:14">right</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="193" ref="-1" time="24/12/2008 08:57:39">these are the two fields of neurons</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="194" ref="-1" time="24/12/2008 08:59:26">in partea de jos</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="195" ref="-1" time="24/12/2008 08:59:29">avem intrarile</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="196" ref="-1" time="24/12/2008 08:59:41">sorry... wrong language</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="197" ref="-1" time="24/12/2008 08:59:49">in the lower part of the image</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="198" ref="-1" time="24/12/2008 09:00:03">we have the inputs of the comparison field</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="199" ref="-1" time="24/12/2008 09:00:40">each input goes to one neuron in the comparison field</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="200" ref="-1" time="24/12/2008 09:01:15">each neuron in the recognition field is connected</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="201" ref="-1" time="24/12/2008 09:01:21">to all neurons in the input field</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="202" ref="200" time="24/12/2008 09:01:49">(I didn't draw all connections in the graph)</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="203" ref="187" time="24/12/2008 09:02:07">I forgot to mention</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="204" ref="203" time="24/12/2008 09:02:34">that.. besides the two neuron fields</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="205" ref="-1" time="24/12/2008 09:03:09">the ART neural network has also a &amp;quot;vigilance&amp;quot; parameter.. and a reset module</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="206" ref="205" time="24/12/2008 09:03:33">what is this vigilance parameter used for?</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="207" ref="205" time="24/12/2008 09:03:51">yes, what is vigillence ?</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="208" ref="205" time="24/12/2008 09:03:53">and.. where does it apply?</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="209" ref="208" time="24/12/2008 09:05:00">the vigilance parameter is used for tuning the &amp;quot;memory&amp;quot; of the system</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="210" ref="-1" time="24/12/2008 09:05:15">the higher the influence... the more detailed the memories are</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="211" ref="-1" time="24/12/2008 09:05:30">if the vigilance is lower, the memories are more general</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="212" ref="210" time="24/12/2008 09:05:50">if we put this into the classifier discussion</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="213" ref="-1" time="24/12/2008 09:06:09">the higher the vigilance, the more classes (categories) we get</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="214" ref="-1" time="24/12/2008 09:06:24">the lower the vigilance, the less classes we get</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="215" ref="-1" time="24/12/2008 09:07:41">the comparison field takes all inputs</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="216" ref="215" time="24/12/2008 09:08:02">represented as a n-dimensional vector</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="217" ref="-1" time="24/12/2008 09:09:14">and transfers the input based on the best match to the recognition field</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="218" ref="217" time="24/12/2008 09:09:49">and what is best match ?</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="219" ref="218" time="24/12/2008 09:10:07">best match is achieved when a single neuron</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="220" ref="-1" time="24/12/2008 09:10:15">from the recognition field</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="221" ref="-1" time="24/12/2008 09:10:49">has its weights most closely matching the input vector</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="222" ref="-1" time="24/12/2008 09:11:34">each neuron in the recognition field outputs a signal</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="223" ref="-1" time="24/12/2008 09:11:35"/>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="224" ref="-1" time="24/12/2008 09:11:35"/>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="225" ref="-1" time="24/12/2008 09:12:22">whose value represents the match level of itself</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="226" ref="-1" time="24/12/2008 09:12:32">to the other neurons in the recognition field</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="227" ref="-1" time="24/12/2008 09:12:52">this signal is used to inhibit their outputs...</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="228" ref="-1" time="24/12/2008 09:13:09">very nice</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="229" ref="-1" time="24/12/2008 09:13:24">and so only the correct neuron fires at the end</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="230" ref="-1" time="24/12/2008 09:13:38">providing a correct classification</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="231" ref="-1" time="24/12/2008 09:13:57">after the input vector is classified... the reset module</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="232" ref="-1" time="24/12/2008 09:14:03">I've mentioned earlier</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="233" ref="-1" time="24/12/2008 09:14:23">comparest the strength of the recognition match to the vigilance parameter</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="234" ref="-1" time="24/12/2008 09:16:48">if the vigilance level is met.. training can begin</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="235" ref="-1" time="24/12/2008 09:17:48">otherwise, the neuron is inhibited untin a new input vector is applied to the network</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="236" ref="-1" time="24/12/2008 09:18:13">if no recognition neuron matches the vigilence level</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="237" ref="-1" time="24/12/2008 09:18:32">an uncommited neuron is commited and adjusted to match the input vector</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="238" ref="-1" time="24/12/2008 09:18:40">this is how a new class gets defined</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="239" ref="238" time="24/12/2008 09:19:08">interested way of defining classes</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="240" ref="239" time="24/12/2008 09:19:19">defining new classes</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="241" ref="-1" time="24/12/2008 09:20:08">yes, indeed</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="242" ref="-1" time="24/12/2008 09:20:11">ok than</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="243" ref="-1" time="24/12/2008 09:20:20">thank you Ionut for your presentation.</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="244" ref="-1" time="24/12/2008 09:20:31">in the second part we will try to find a few comparison methods for the four classifiers we presented</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="245" ref="-1" time="24/12/2008 09:21:04">i propose to use: convergence time, implementation issues (how easy it is to implement) and automated usage</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="246" ref="-1" time="24/12/2008 09:21:13">is's ok for me</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="247" ref="245" time="24/12/2008 09:21:24">I have a feeling all of them can be automated</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="248" ref="247" time="24/12/2008 09:21:41">but it would be better if each of us would comment on this</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="249" ref="244" time="24/12/2008 09:21:47">we could use the same order as before</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="250" ref="245" time="24/12/2008 09:21:55">I will start</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="251" ref="-1" time="24/12/2008 09:22:08">in terms of convergence...</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="252" ref="250" time="24/12/2008 09:22:31">ok, so we will use reverse order :D</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="253" ref="-1" time="24/12/2008 09:22:55">there are several implementations of ART</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="254" ref="-1" time="24/12/2008 09:23:03">neural networks</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="255" ref="-1" time="24/12/2008 09:23:28">each one has different designs</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="256" ref="-1" time="24/12/2008 09:24:04">but the basic design is similar with what I have drawn</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="257" ref="-1" time="24/12/2008 09:25:09">the network can be trained very easy</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="258" ref="237" time="24/12/2008 09:25:20">as I have described before</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="259" ref="-1" time="24/12/2008 09:25:37">what about implementation issues?</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="260" ref="-1" time="24/12/2008 09:25:54">yes. it seems very difficult to implement</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="261" ref="259" time="24/12/2008 09:26:14">indeed.. it might not be very easy to implement</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="262" ref="-1" time="24/12/2008 09:26:26">but it is very similar with a normal neural network</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="263" ref="-1" time="24/12/2008 09:26:29">so.. basically</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="264" ref="-1" time="24/12/2008 09:26:46">the implementation poses the same problems as in the case of a neural network</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="265" ref="-1" time="24/12/2008 09:26:50">once implemented...</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="266" ref="-1" time="24/12/2008 09:27:02">I believe it would be fairly easy to automate the process</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="267" ref="-1" time="24/12/2008 09:27:12">one thing must be mentioned though</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="268" ref="267" time="24/12/2008 09:27:25">I believe multiple vigilance levels must be tried</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="269" ref="-1" time="24/12/2008 09:27:41">and eventually choose one or more wich fit best our application</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="270" ref="-1" time="24/12/2008 09:27:50">that would be it</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="271" ref="-1" time="24/12/2008 09:27:54">George?</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="272" ref="-1" time="24/12/2008 09:28:09">what can you tell us about your classifier solution?</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="273" ref="-1" time="24/12/2008 09:28:28">I believe Dumitru is next</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="274" ref="-1" time="24/12/2008 09:28:43">yes</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="275" ref="-1" time="24/12/2008 09:28:45">indeed</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="276" ref="273" time="24/12/2008 09:29:02">Dumitru, please go ahead</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="277" ref="150" time="24/12/2008 09:30:44">so, as I said before, naive Bayes classifiers perform very well in real-world situations</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="278" ref="-1" time="24/12/2008 09:31:06">and do not need a lot of training</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="279" ref="-1" time="24/12/2008 09:31:56">from this point of view, probably naive Bayes classifiers are the best</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="280" ref="-1" time="24/12/2008 09:32:30">they are not as easy to implement, but probably easyer than ART</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="281" ref="-1" time="24/12/2008 09:34:56">as from the automated usage point of view, naive Bayes classifiers need to be trained first, and then their funtionality is automatic.</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="282" ref="-1" time="24/12/2008 09:35:23">i consider them to be the best option of all</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="283" ref="-1" time="24/12/2008 09:35:37">except fot k means, of course</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="284" ref="-1" time="24/12/2008 09:35:39">:)</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="285" ref="-1" time="24/12/2008 09:35:45">mircea ?</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="286" ref="-1" time="24/12/2008 09:35:49">you are next</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="287" ref="283" time="24/12/2008 09:36:14">George, you can't stop, right?</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="288" ref="245" time="24/12/2008 09:38:02">there is not much to talk about convergence time for SVM</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="289" ref="-1" time="24/12/2008 09:39:30">the algorithm provides a way of classifying data points without any training</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="290" ref="-1" time="24/12/2008 09:40:01">from the implementation point of view...</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="291" ref="-1" time="24/12/2008 09:40:23">it might be a little difficult to implement a multi-class clasifier</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="292" ref="-1" time="24/12/2008 09:41:02">but, there are several implementations already available</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="293" ref="-1" time="24/12/2008 09:41:07">both as libraries</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="294" ref="-1" time="24/12/2008 09:41:12">and as applications</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="295" ref="292" time="24/12/2008 09:41:51">lots of them are linked on the wikipedia page of SVM: http://en.wikipedia.org/wiki/Support_vector_machine#Software</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="296" ref="292" time="24/12/2008 09:42:04">so, if we need to start from something</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="297" ref="-1" time="24/12/2008 09:42:10">thois would be a good start</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="298" ref="-1" time="24/12/2008 09:42:33">since implementation is not very difficult</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="299" ref="-1" time="24/12/2008 09:42:42">once we have something to start from</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="300" ref="-1" time="24/12/2008 09:42:57">I believe automated usage will not pose any difficulties</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="301" ref="300" time="24/12/2008 09:43:14">getting this working should be very straightforward</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="302" ref="-1" time="24/12/2008 09:43:22">George...</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="303" ref="-1" time="24/12/2008 09:43:27">I know you are anxious...</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="304" ref="-1" time="24/12/2008 09:43:33">yes.. :D</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="305" ref="-1" time="24/12/2008 09:43:34">now it is really your turn</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="306" ref="303" time="24/12/2008 09:43:46">it's my turn now</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="307" ref="-1" time="24/12/2008 09:43:55">K means are one of the most simple clasifiers.</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="308" ref="-1" time="24/12/2008 09:44:12">and one of the most robust, versatile, as they can be apllied on almost any types of objects, by defining the proper distance</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="309" ref="-1" time="24/12/2008 09:44:23">in adition, the implementation is very easy</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="310" ref="-1" time="24/12/2008 09:44:44">the main dissadvantage is that, when running k means multiple times on the same sata set, the results will be different</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="311" ref="-1" time="24/12/2008 09:44:53">as the first k points chosem for the parttions are being chosen randomly</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="312" ref="-1" time="24/12/2008 09:45:18">but this can be solved by changing the algorithm a bit</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="313" ref="-1" time="24/12/2008 09:45:29">and makind the first part deterministic</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="314" ref="-1" time="24/12/2008 09:46:57">thank you George</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="315" ref="-1" time="24/12/2008 09:47:10">we can go to the third part</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="316" ref="-1" time="24/12/2008 09:47:14">of our discussion</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="317" ref="-1" time="24/12/2008 09:47:35">how can we combine the four methods</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="318" ref="317" time="24/12/2008 09:47:41">indeed</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="319" ref="-1" time="24/12/2008 09:47:46">this will be very challenging</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="320" ref="-1" time="24/12/2008 09:47:54">in such a way that we could benefit from the advantages of each of them</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="321" ref="-1" time="24/12/2008 09:47:55">but.. I don't think it can be done directly</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="322" ref="-1" time="24/12/2008 09:47:59">wel...</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="323" ref="-1" time="24/12/2008 09:48:06">we could do something like this</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="324" ref="321" time="24/12/2008 09:48:08">I agree</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="325" ref="320" time="24/12/2008 09:48:44">we could use the k means algorithm, and for calculating the distance</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="326" ref="-1" time="24/12/2008 09:49:01">we could use part of Dumitru's the algorithm</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="327" ref="-1" time="24/12/2008 09:49:20">an...</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="328" ref="-1" time="24/12/2008 09:49:21">and</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="329" ref="326" time="24/12/2008 09:49:47">and that would be Naive Bayes algoritm</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="330" ref="-1" time="24/12/2008 09:49:50">yes</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="331" ref="-1" time="24/12/2008 09:50:21">the probabilistic part could be used</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="332" ref="-1" time="24/12/2008 09:50:24">SVM also does classification</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="333" ref="-1" time="24/12/2008 09:50:28">based on distances</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="334" ref="-1" time="24/12/2008 09:50:29">you are right Georger</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="335" ref="-1" time="24/12/2008 09:50:31">George</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="336" ref="326" time="24/12/2008 09:50:41">this could work</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="337" ref="332" time="24/12/2008 09:50:51">we also have implementations available for SVM</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="338" ref="337" time="24/12/2008 09:51:13">and this might be a good start</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="339" ref="-1" time="24/12/2008 09:51:30">I believe ART neural networks have an interesting ability</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="340" ref="-1" time="24/12/2008 09:51:37">the one Ionut has told us about</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="341" ref="-1" time="24/12/2008 09:51:45">the one about memory</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="342" ref="341" time="24/12/2008 09:51:51">indeed</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="343" ref="-1" time="24/12/2008 09:51:59">depending on the vigilance level</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="344" ref="-1" time="24/12/2008 09:52:15">the system can adapt to retaining more general or more specific information</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="345" ref="344" time="24/12/2008 09:52:34">basically, we could have more specific or more general classes</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="346" ref="-1" time="24/12/2008 09:52:39">tuned by one parameter</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="347" ref="346" time="24/12/2008 09:52:48">the vigilance level</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="348" ref="-1" time="24/12/2008 09:52:52">hmmm</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="349" ref="-1" time="24/12/2008 09:52:58">starting from that</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="350" ref="345" time="24/12/2008 09:53:05">true, this would be nice</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="351" ref="-1" time="24/12/2008 09:53:12">you know that we could make a simple application</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="352" ref="-1" time="24/12/2008 09:53:23">that implelents all four classifiers</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="353" ref="351" time="24/12/2008 09:53:25">and test everything</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="354" ref="-1" time="24/12/2008 09:53:26">?</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="355" ref="-1" time="24/12/2008 09:53:33">and, based on the types of objects</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="356" ref="-1" time="24/12/2008 09:53:40">decides what classifier to use</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="357" ref="351" time="24/12/2008 09:53:48">the application would definitely provide us more information</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="358" ref="-1" time="24/12/2008 09:53:55">about where each classifier can be used</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="359" ref="357" time="24/12/2008 09:54:13">indeed</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="360" ref="-1" time="24/12/2008 09:54:20">we should try this first</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="361" ref="-1" time="24/12/2008 09:54:21">the only problem here would be to decide what classifier is best suited for each type of data</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="362" ref="361" time="24/12/2008 09:54:27">right</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="363" ref="361" time="24/12/2008 09:54:29">yes</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="364" ref="-1" time="24/12/2008 09:54:43">ok</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="365" ref="361" time="24/12/2008 09:54:44">this could work</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="366" ref="-1" time="24/12/2008 09:54:47">than... it is set</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="367" ref="-1" time="24/12/2008 09:55:26">yes</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="368" ref="-1" time="24/12/2008 09:55:27">it is</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="369" ref="-1" time="24/12/2008 09:55:29">:)</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="370" ref="366" time="24/12/2008 09:55:33">we should try this first</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="371" ref="-1" time="24/12/2008 09:55:36">noce work everyone</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="372" ref="371" time="24/12/2008 09:55:44">nice work indeed</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="373" ref="366" time="24/12/2008 09:55:46">true</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="374" ref="-1" time="24/12/2008 09:56:06">this chat was very fruitful</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="375" ref="-1" time="24/12/2008 09:56:07">i guess we could stop here</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="376" ref="-1" time="24/12/2008 09:56:31">Merry Christmas everyone</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="377" ref="-1" time="24/12/2008 09:56:33">Merry Christmas everyone</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="378" ref="-1" time="24/12/2008 09:56:39">thank you</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="379" ref="-1" time="24/12/2008 09:56:40">:)</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="380" ref="-1" time="24/12/2008 09:56:41">Merry Christmas</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="381" ref="-1" time="24/12/2008 09:56:51">bye bye</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="382" ref="-1" time="24/12/2008 09:56:56">and Happy New Year!</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="383" ref="-1" time="24/12/2008 09:57:09">A Happy New Year to you too, Mircea</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="384" ref="-1" time="24/12/2008 09:57:44">bye bye</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="385" ref="-1" time="24/12/2008 09:57:45">bye bye</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="386" ref="-1" time="24/12/2008 09:57:46">bye</Utterance>
+</Turn>
+<Turn nickname="Dumitru">
+<Utterance genid="387" ref="-1" time="24/12/2008 09:57:53">leaves the room</Utterance>
+</Turn>
+<Turn nickname="Ionut">
+<Utterance genid="388" ref="-1" time="24/12/2008 09:57:55">leaves the room</Utterance>
+</Turn>
+<Turn nickname="George">
+<Utterance genid="389" ref="-1" time="24/12/2008 09:57:59">leaves the room</Utterance>
+</Turn>
+<Turn nickname="Mircea">
+<Utterance genid="390" ref="-1" time="24/12/2008 09:58:02">leaves the room</Utterance>
+</Turn>
+</Body>
+</Dialog>

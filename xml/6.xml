@@ -1,0 +1,610 @@
+<Dialog team="t6">
+<Participants>
+<Person nickname="Andreea"/>
+<Person nickname="Diana"/>
+<Person nickname="mihai"/>
+</Participants>
+<Topics/>
+<Body>
+<Turn nickname="Andreea">
+<Utterance genid="1" ref="-1" time="22/12/2008 09:22:30">joins the room</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="2" ref="-1" time="22/12/2008 09:30:09">joins the room</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="3" ref="-1" time="22/12/2008 09:31:09">yupiiii</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="4" ref="-1" time="22/12/2008 09:31:39">hello</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="5" ref="-1" time="22/12/2008 09:31:47">hello, diana</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="6" ref="-1" time="22/12/2008 09:31:59">joins the room</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="7" ref="-1" time="22/12/2008 09:32:05">hello, Mihai</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="8" ref="-1" time="22/12/2008 09:32:21">cucubau</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="9" ref="-1" time="22/12/2008 09:32:24">:)</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="10" ref="-1" time="22/12/2008 09:32:38">we should start by introducing ourselves</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="11" ref="-1" time="22/12/2008 09:32:51">yes, good idea</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="12" ref="-1" time="22/12/2008 09:32:54">i am andreea vasile and i will talk about support vector machines</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="13" ref="-1" time="22/12/2008 09:33:49">I am Diana Barloiu (Necula) and I will talk about K-Means method</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="14" ref="-1" time="22/12/2008 09:34:59">and I am Mihai Angheluta and I will talk about Naive Bayes</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="15" ref="-1" time="22/12/2008 09:35:25">to start, why don't we give a brief overview about our topics?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="16" ref="15" time="22/12/2008 09:37:12">yes, we should start presenting some common knowledge for all methods</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="17" ref="-1" time="22/12/2008 09:38:02">I think the most important word is the &amp;quot;clustering&amp;quot;</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="18" ref="-1" time="22/12/2008 09:38:49">so your method groups the input data in several clusters?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="19" ref="-1" time="22/12/2008 09:39:51">K-means is one of the simplest unsupervised learning algorithms that solve the well known clustering problem</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="20" ref="-1" time="22/12/2008 09:40:40">I will present a little bit my method</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="21" ref="-1" time="22/12/2008 09:40:58">SVMs are tools that are also used for classification, but they divide the data into two classes</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="22" ref="20" time="22/12/2008 09:41:26">I used this method last year when we had an homework at faculty</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="23" ref="18" time="22/12/2008 09:43:06">so, in this homework we had to do something similar with the Google News</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="24" ref="19" time="22/12/2008 09:43:50">being simple is surely an advantage... could you explain in more detail?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="25" ref="24" time="22/12/2008 09:44:09">yes, of course.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="26" ref="-1" time="22/12/2008 09:44:24">and also I can design something on the board</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="27" ref="-1" time="22/12/2008 09:44:35">great</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="28" ref="-1" time="22/12/2008 09:46:14">while diana is drawing, i would like to say something more about svms... given data points each belong to one of two classes, and the goal is to decide which class a new data point will be in</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="29" ref="-1" time="22/12/2008 09:47:35">so if i understand well, the difference between k-means and svm is that k-means can group input data into more than two classes</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="30" ref="29" time="22/12/2008 09:48:14">yes, we can have k clusters</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="31" ref="-1" time="22/12/2008 09:48:45">but what about the dimensions of the input space?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="32" ref="-1" time="22/12/2008 09:48:52">I mean, we can cluster n objects bases on certain attributes into k partitions</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="33" ref="-1" time="22/12/2008 09:49:00">where k&amp;lt;n</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="34" ref="-1" time="22/12/2008 09:49:06">your drawing is in 2d, but i assume k-means works in a n-dimensional space, right?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="35" ref="-1" time="22/12/2008 09:49:50">Actually, I don't know how to design some points</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="36" ref="-1" time="22/12/2008 09:50:03">I think I will try with the elipse option</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="37" ref="-1" time="22/12/2008 09:50:14">i was just about to suggest that</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="38" ref="-1" time="22/12/2008 09:51:24">so, now let me explain a little bit about this method</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="39" ref="-1" time="22/12/2008 09:51:39">Suppose we want to devide all these points into k clusters</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="40" ref="-1" time="22/12/2008 09:52:02">Randomly guess the k cluster center locations</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="41" ref="-1" time="22/12/2008 09:53:40">and now, each datapoint finds out which center is it's closet to.</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="42" ref="-1" time="22/12/2008 09:54:47">so you don't use &amp;quot;training data&amp;quot;... i mean, you don't tell the machine that certain points belong to certain clusters before the execution starts, right?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="43" ref="42" time="22/12/2008 09:57:10">The main idea is to define k centroids, one for each cluster.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="44" ref="-1" time="22/12/2008 09:57:26">the better choice is to place them as much as possible far away from each other. The next step is to take each point belonging to a given data set and associate it to the nearest centroid.</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="45" ref="-1" time="22/12/2008 09:57:57">but the algorithm does that, not you, the human user?</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="46" ref="-1" time="22/12/2008 09:58:31">i ask because for svms, you need to provide a set of labelled training data</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="47" ref="-1" time="22/12/2008 09:59:31">a data that needs to be classified by someone (partitioned into 2 classes)</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="48" ref="-1" time="22/12/2008 09:59:34">Can you explain a little bit more about your method and if you can give us an example</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="49" ref="-1" time="22/12/2008 09:59:48">i cam draw something on the board :)</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="50" ref="47" time="22/12/2008 10:00:00">yes, we know that you are very talented</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="51" ref="-1" time="22/12/2008 10:00:02">not like me</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="52" ref="-1" time="22/12/2008 10:00:06">:))</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="53" ref="-1" time="22/12/2008 10:00:10">don't be so modest</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="54" ref="-1" time="22/12/2008 10:01:08">ok... let's say we have five points (the circles) that belong to one class</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="55" ref="-1" time="22/12/2008 10:01:31">and 4 points (the squares) that belong to a different class</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="56" ref="-1" time="22/12/2008 10:02:06">we know they belong to these two different classes so we construct the &amp;quot;training set&amp;quot; based on this knowledge</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="57" ref="55" time="22/12/2008 10:02:52">so, we have always just 2 classes, right?</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="58" ref="-1" time="22/12/2008 10:03:01">that is, we explicitly tell the svm that the circles belong to the first class by marking them with 1, and that the squares belong to the second class by marking them with -1</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="59" ref="-1" time="22/12/2008 10:03:08">yes</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="60" ref="-1" time="22/12/2008 10:03:51">now, the idea is that when we add a new point, about which we know nothing, the svm will be able to determine the right class for it</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="61" ref="60" time="22/12/2008 10:04:15">and how will do that?</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="62" ref="-1" time="22/12/2008 10:05:03">SVM creates hyperplane (in this case a line) that separated the two classes</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="63" ref="-1" time="22/12/2008 10:05:23">this hyperplane needs to be chosen such that it maximizes the margin between the two data sets</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="64" ref="-1" time="22/12/2008 10:05:58">two parallel hyperplanes are constructed, one on each side of the separating hyperplane</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="65" ref="-1" time="22/12/2008 10:06:41">then you push these planes against the data set until you can go no further</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="66" ref="65" time="22/12/2008 10:07:28">How are you going to choose the hyperplans?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="67" ref="-1" time="22/12/2008 10:07:40">is their any criteria?</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="68" ref="-1" time="22/12/2008 10:07:57">to achieve a good separation, you need to find the hyperplane that has the largest distance to the neighbouring planes of both datasets</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="69" ref="-1" time="22/12/2008 10:08:23">there is a mathematical demonstration for this</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="70" ref="-1" time="22/12/2008 10:08:46">basically, what you need to do is:</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="71" ref="-1" time="22/12/2008 10:09:10">minimize 1/2*||w||^2</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="72" ref="-1" time="22/12/2008 10:09:13">subject to:</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="73" ref="-1" time="22/12/2008 10:09:38">ci*(w*xi - b) &amp;gt;= 1</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="74" ref="-1" time="22/12/2008 10:09:40">where:</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="75" ref="-1" time="22/12/2008 10:09:57">ci = 1 if xi belongs to the first class</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="76" ref="-1" time="22/12/2008 10:10:10">ci = -1 if xi belongs to the second class</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="77" ref="75" time="22/12/2008 10:10:28">Can you provide us also a link where can we find the demonstration?</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="78" ref="-1" time="22/12/2008 10:10:38">w is the normal vector to the hyperplane</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="79" ref="-1" time="22/12/2008 10:10:50">sure... just a moment</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="80" ref="-1" time="22/12/2008 10:11:37">http://research.microsoft.com/~cburges/papers/SVMTutorial.pdf</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="81" ref="-1" time="22/12/2008 10:11:54">may I ask a question, I just hope not a silly one?</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="82" ref="-1" time="22/12/2008 10:12:01">go ahead :)</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="83" ref="-1" time="22/12/2008 10:12:09">and also</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="84" ref="-1" time="22/12/2008 10:12:18">may I ruin your drwaing a bit?</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="85" ref="-1" time="22/12/2008 10:12:25">sure</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="86" ref="-1" time="22/12/2008 10:12:26">just a bit</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="87" ref="-1" time="22/12/2008 10:12:28">ok</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="88" ref="-1" time="22/12/2008 10:12:41">i'm not very attatched to it</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="89" ref="-1" time="22/12/2008 10:12:43">:)</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="90" ref="-1" time="22/12/2008 10:13:26">let's suppose we get a circle like shape over here ( I don't know if it's even possible or given in the hypothesis )</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="91" ref="-1" time="22/12/2008 10:13:45">yes, i think it's possible</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="92" ref="-1" time="22/12/2008 10:14:06">how will that influence the choosing of the first hyperplane?</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="93" ref="-1" time="22/12/2008 10:14:13">the thing is that in my exemple we had a linear classifier</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="94" ref="-1" time="22/12/2008 10:14:30">but if we have something like you drew... it's a bit more complicated</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="95" ref="-1" time="22/12/2008 10:14:40">you would need a curve to separate the classes</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="96" ref="-1" time="22/12/2008 10:14:57">or a broken line</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="97" ref="-1" time="22/12/2008 10:15:26">or, you could add an extra dimension to the points</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="98" ref="-1" time="22/12/2008 10:15:35">and place them in 2 different planes</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="99" ref="-1" time="22/12/2008 10:15:42">but it's harder to draw</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="100" ref="-1" time="22/12/2008 10:15:53">imagine the circles floating above the squares</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="101" ref="-1" time="22/12/2008 10:16:05">got that</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="102" ref="-1" time="22/12/2008 10:16:34">Mihai, can you tell us something about your method?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="103" ref="-1" time="22/12/2008 10:20:53">Meanwhile, I want to present one more time the most important steps for the K-means algorithm.</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="104" ref="-1" time="22/12/2008 10:21:03">let's hear it</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="105" ref="-1" time="22/12/2008 10:21:11">1. Place K points into the space represented by the objects that are being clustered. These points represent initial group centroids.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="106" ref="-1" time="22/12/2008 10:21:24">2. Assign each object to the group that has the closest centroid.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="107" ref="-1" time="22/12/2008 10:21:33">3.When all objects have been assigned, recalculate the positions of the K centroids.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="108" ref="-1" time="22/12/2008 10:21:43">4. # Repeat Steps 2 and 3 until the centroids no longer move. This produces a separation of the objects into groups from which the metric to be minimized can be calculated.</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="109" ref="-1" time="22/12/2008 10:23:15">for a large set, doesn't this algorithm takes a lot of time?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="110" ref="109" time="22/12/2008 10:24:36">it depends on the</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="111" ref="-1" time="22/12/2008 10:25:24">it depends on the randomly selected cluster centres.</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="112" ref="-1" time="22/12/2008 10:25:31">i see</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="113" ref="109" time="22/12/2008 10:26:44">The algorithm is sensitive to the initial cluster center and to reduce this effect is indicated to run the algorithm many times</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="114" ref="-1" time="22/12/2008 10:27:47">i wonder if we could combine k-means with svms somehow to reduce the effort of finding the right centroids...</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="115" ref="-1" time="22/12/2008 10:28:02">After reading the descriptions of these two algorithms, I realise the Naive Bayes classifier method is a rather easy to use one</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="116" ref="113" time="22/12/2008 10:28:07">Because the algorithm is very fast so a goof method is to run the algorithm several time in order to find the best clustering</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="117" ref="-1" time="22/12/2008 10:28:33">why do you say that, mihai?</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="118" ref="-1" time="22/12/2008 10:29:45">well, first of all because it is based on Bayes' theorem</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="119" ref="-1" time="22/12/2008 10:30:12">which relates the conditional and marginal probabilities of two events A and B</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="120" ref="-1" time="22/12/2008 10:31:27">and secondly because it mainly means applying Bayes' theorem with naive independence assumptions</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="121" ref="-1" time="22/12/2008 10:32:11">this would mean the classifier assumes that the presence (or absence) of a particular feature of a class is unrelated to the presence (or absence) of any other feature</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="122" ref="-1" time="22/12/2008 10:32:44">but couldn't these assumptions cause problems?</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="123" ref="-1" time="22/12/2008 10:33:30">or unexpected results?</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="124" ref="-1" time="22/12/2008 10:33:42">from what I've understood, the method has proven very exact and recently some demonstrations have been given</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="125" ref="-1" time="22/12/2008 10:33:59">to support the experimental results</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="126" ref="-1" time="22/12/2008 10:34:19">There is an article related to that</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="127" ref="126" time="22/12/2008 10:34:43">which one?</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="128" ref="-1" time="22/12/2008 10:34:58">I'll post the link immediately</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="129" ref="-1" time="22/12/2008 10:35:48">and here it is</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="130" ref="-1" time="22/12/2008 10:35:49">http://www.cs.unb.ca/profs/hzhang/publications/FLAIRS04ZhangH.pdf</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="131" ref="-1" time="22/12/2008 10:35:52">thanks</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="132" ref="128" time="22/12/2008 10:36:23">I know that one of the most important part in the Naive Bayes algorithm is initializing the parameters.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="133" ref="-1" time="22/12/2008 10:36:36">thus the initial values of parameters have a very important role.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="134" ref="-1" time="22/12/2008 10:37:22">Do you you know a good method to initialize these parameters?</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="135" ref="134" time="22/12/2008 10:41:59">i find it interesting that each of the three methods we're discusing has different ways of starting the algorithm: k-means randomly generates centroids, svm uses a training set and naive bayes depends on a good initialisation of parameters</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="136" ref="135" time="22/12/2008 10:43:26">Of course, each algorithm has its strengths and weaknesses. .</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="137" ref="-1" time="22/12/2008 10:43:56">why don't we discuss those for a bit?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="138" ref="137" time="22/12/2008 10:44:34">Good idea</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="139" ref="-1" time="22/12/2008 10:44:40">i thinks svm has the advantage of being easy to model</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="140" ref="-1" time="22/12/2008 10:44:48">due to the fact that it is intuitive</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="141" ref="-1" time="22/12/2008 10:45:01">(at least in 2-dimensional space)</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="142" ref="-1" time="22/12/2008 10:45:43">and it has very clear decision boundaries, whether they are linear or non linear</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="143" ref="-1" time="22/12/2008 10:46:25">the most difficult part is to solve the optimization problem that i described earlier</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="144" ref="139" time="22/12/2008 10:47:07">K-means is also an easy model to implement</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="145" ref="-1" time="22/12/2008 10:47:44">Here are his weaknesses.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="146" ref="-1" time="22/12/2008 10:48:18">1. We have to choose &amp;quot;k&amp;quot; randomly.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="147" ref="-1" time="22/12/2008 10:49:12">So the results produced depend on the initial values and it frequently happens that suboptimal partitions are found.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="148" ref="-1" time="22/12/2008 10:49:22">The standard solution is to try a number of different starting points.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="149" ref="-1" time="22/12/2008 10:50:38">It can happen that the set of samples closest to mi is empty, so that mi cannot be updated.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="150" ref="-1" time="22/12/2008 10:50:59">In an implementation we shall ignore this.</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="151" ref="-1" time="22/12/2008 10:51:56">what is mi?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="152" ref="-1" time="22/12/2008 10:51:58">And last, there is no solution to find the optimal number of clusters for any given data set.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="153" ref="151" time="22/12/2008 10:52:36">&amp;quot;mi&amp;quot; is the mean of the vectors in cluster i.</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="154" ref="-1" time="22/12/2008 10:52:47">ok, thanks</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="155" ref="-1" time="22/12/2008 10:55:12">Now, let's try to take an example</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="156" ref="-1" time="22/12/2008 10:55:19">ok</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="157" ref="-1" time="22/12/2008 10:55:56">Earlier, I've told you about Google News</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="158" ref="-1" time="22/12/2008 10:56:53">The main idea is that we want to divide all the news in some categories.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="159" ref="-1" time="22/12/2008 10:57:12">We don't know from the beginning the number of categories</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="160" ref="-1" time="22/12/2008 10:57:27">like sports, movies etc?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="161" ref="160" time="22/12/2008 10:57:39">yes</Utterance>
+</Turn>
+<Turn nickname="mihai">
+<Utterance genid="162" ref="-1" time="22/12/2008 10:58:17">leaves the room</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="163" ref="-1" time="22/12/2008 11:00:35">We are going to take the news from different RSS</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="164" ref="-1" time="22/12/2008 11:01:51">Last year, when I used K-means I had a problem when I've choosed the &amp;quot;k&amp;quot; value.</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="165" ref="-1" time="22/12/2008 11:02:10">what kind of problem?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="166" ref="-1" time="22/12/2008 11:02:14">if this k has a big value, then some categories were empty</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="167" ref="-1" time="22/12/2008 11:02:38">i see</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="168" ref="-1" time="22/12/2008 11:03:14">Or, sometimes, the same news is on different RSS</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="169" ref="-1" time="22/12/2008 11:03:56">and using K-means I had a situation when the same news was in different cluster</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="170" ref="-1" time="22/12/2008 11:04:23">do you think that SVN can improve this?</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="171" ref="-1" time="22/12/2008 11:04:32">i'm thinking of a way to solve this problem...</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="172" ref="-1" time="22/12/2008 11:05:27">maybe we could use a svm that classifies news into 2 classes: news related to a given event (1) and unrelated news (-1)</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="173" ref="172" time="22/12/2008 11:05:57">and after that?</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="174" ref="-1" time="22/12/2008 11:06:29">Can we devide the 2 classes in subclasses?</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="175" ref="-1" time="22/12/2008 11:07:04">well, you train your svm giving it a few examples of related news and unrelated news, and then every time a new article appears in a rss feed, the sv machine is able to tell whether it is related to the original article or not</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="176" ref="-1" time="22/12/2008 11:07:21">and thus it can place it in the right category</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="177" ref="176" time="22/12/2008 11:07:43">good idea</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="178" ref="-1" time="22/12/2008 11:07:57">or we can combine the two methods</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="179" ref="-1" time="22/12/2008 11:08:09">but it's difficult because you need to have someone doing the training</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="180" ref="-1" time="22/12/2008 11:08:21">or maybe it could be automated, but i don't see how</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="181" ref="-1" time="22/12/2008 11:08:21">first, we can use your method to &amp;quot;train&amp;quot;</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="182" ref="-1" time="22/12/2008 11:10:01">Actually, we can have some vectors for each category with some specific words</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="183" ref="-1" time="22/12/2008 11:10:33">for example, for sport: football, ball, gymnistic, Gigi Becalli</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="184" ref="-1" time="22/12/2008 11:11:03">:))</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="185" ref="-1" time="22/12/2008 11:11:05">and after using your method, we can use K-Means</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="186" ref="-1" time="22/12/2008 11:11:28">where k is the number of predefined categories</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="187" ref="-1" time="22/12/2008 11:12:01">i think this is more appropriate for naive bayes... too bad mihai isn't here to help us</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="188" ref="-1" time="22/12/2008 11:12:40">Maybe tomorrow he will come with a solution.</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="189" ref="-1" time="22/12/2008 11:12:44">but from what i understood, these specific words are a set of independent features that could be used as initialisation parameters</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="190" ref="189" time="22/12/2008 11:13:57">Indeed.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="191" ref="-1" time="22/12/2008 11:14:34">It was an interesting discussion.</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="192" ref="-1" time="22/12/2008 11:14:46">time to go to bed now :P</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="193" ref="-1" time="22/12/2008 11:15:15">yes.</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="194" ref="-1" time="22/12/2008 11:15:33">It was nice to discuss with you and Mihai.</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="195" ref="-1" time="22/12/2008 11:15:41">same here</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="196" ref="-1" time="22/12/2008 11:15:54">Good night and sleep well!</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="197" ref="-1" time="22/12/2008 11:16:01">good night, diana!</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="198" ref="-1" time="22/12/2008 11:16:08">Bye</Utterance>
+</Turn>
+<Turn nickname="Diana">
+<Utterance genid="199" ref="-1" time="22/12/2008 11:16:44">leaves the room</Utterance>
+</Turn>
+<Turn nickname="Andreea">
+<Utterance genid="200" ref="-1" time="22/12/2008 11:17:26">leaves the room</Utterance>
+</Turn>
+</Body>
+</Dialog>
