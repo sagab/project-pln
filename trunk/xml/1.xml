@@ -1,0 +1,1586 @@
+<Dialog team="t1">
+<Participants>
+<Person nickname="klimberu"/>
+<Person nickname="Iceman"/>
+<Person nickname="iceman"/>
+<Person nickname="ireal"/>
+<Person nickname="spider"/>
+<Person nickname="_ireal"/>
+<Person nickname="Spider"/>
+</Participants>
+<Topics/>
+<Body>
+<Turn nickname="klimberu">
+<Utterance genid="1" ref="-1" time="16/12/2008 11:36:01">joins the room</Utterance>
+</Turn>
+<Turn nickname="Iceman">
+<Utterance genid="2" ref="-1" time="16/12/2008 11:36:38">joins the room</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="3" ref="-1" time="16/12/2008 11:39:58">joins the room</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="4" ref="-1" time="16/12/2008 11:41:31">joins the room</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="5" ref="-1" time="16/12/2008 11:42:30">joins the room</Utterance>
+</Turn>
+<Turn nickname="Iceman">
+<Utterance genid="6" ref="-1" time="16/12/2008 11:42:41">leaves the room</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="7" ref="-1" time="16/12/2008 11:42:43">hello</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="8" ref="-1" time="16/12/2008 11:42:54">hi</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="9" ref="-1" time="16/12/2008 11:43:12">shall we start with presentations?</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="10" ref="-1" time="16/12/2008 11:43:34">yes</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="11" ref="-1" time="16/12/2008 11:43:43">i will start first</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="12" ref="-1" time="16/12/2008 11:43:47">yes , let's start</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="13" ref="-1" time="16/12/2008 11:45:09">My name is Adrian Airinei from SPBA and I represent my company XBayes which promotes the algorithm Naive Bayes</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="14" ref="-1" time="16/12/2008 11:45:30">hi, klimberu. my name is Gabriel Sandu, from SPBA and I will represent my company's views on the K-Means algorithms</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="15" ref="-1" time="16/12/2008 11:46:35">Hello, I'm Daniel Baluta , SPBA section , and i will advertise for Support Vector Machine algorithm</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="16" ref="-1" time="16/12/2008 11:46:49">hello, my name is Smaranda Dorin, i am taking the SPBA master, and today i will present and support the ART - Adaptive Resonance Theory neural architecture, for usage in my company - NeuronDevelopment</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="17" ref="-1" time="16/12/2008 11:47:10">nice to meet all of you :).</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="18" ref="-1" time="16/12/2008 11:47:21">the same here</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="19" ref="-1" time="16/12/2008 11:47:29">nice to meet tou too</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="20" ref="-1" time="16/12/2008 11:47:41">i propose all of us to present their field of expertise :)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="21" ref="-1" time="16/12/2008 11:47:54">i agree</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="22" ref="-1" time="16/12/2008 11:47:59">in the order we presented ourselves</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="23" ref="-1" time="16/12/2008 11:48:36">so, klimberu, please tell us about Naive Bayes</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="24" ref="-1" time="16/12/2008 11:48:42">Na&amp;iuml;ve Bayes is a classifier technique based on conditional probabilities.</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="25" ref="-1" time="16/12/2008 11:49:11">It uses Bayes' Theorem</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="26" ref="-1" time="16/12/2008 11:49:43">This theorem involves a formula that calculates a probability by counting the frequency of values and combinations of values in the historical data.</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="27" ref="-1" time="16/12/2008 11:50:46">The probability of an event occurring is given by the probability of another event that has already occurred.</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="28" ref="-1" time="16/12/2008 11:52:20">The theorem says that if B represents the dependent event and A represents the prior event then Prob(B given A) = Prob(A and B)/Prob(A)</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="29" ref="-1" time="16/12/2008 11:53:23">So, in order to calculate the the probability of B given A, the algorithm counts the number of cases where A and B occur together and divides it by the number of cases where only A occurs</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="30" ref="-1" time="16/12/2008 11:55:29">sorry to intervene, but i would like to ask about how Naive Bayes uses these formulas for classification</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="31" ref="-1" time="16/12/2008 11:56:11">the time required for the algorithm to make the classification is linear, and this results in a fast processing</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="32" ref="-1" time="16/12/2008 11:56:19">i think we should get an overview of all algorithms and then proceed with detailed questions</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="33" ref="-1" time="16/12/2008 11:57:11">I will outline another one- or two idea and I will let you ask the questions or continue with your preszentations</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="34" ref="-1" time="16/12/2008 11:57:39">please proceed</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="35" ref="-1" time="16/12/2008 11:58:06">you can go on , i am very interested</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="36" ref="-1" time="16/12/2008 11:58:33">Another advantage of the algorithm si that is simple to implement, as being a linear algorithm</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="37" ref="-1" time="16/12/2008 11:59:06">Despite this it can often outperform more sophisticated classification methods.</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="38" ref="-1" time="16/12/2008 11:59:51">of course, we are talking about specific cases, right?</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="39" ref="-1" time="17/12/2008 12:00:23">yes</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="40" ref="38" time="17/12/2008 12:00:31"/>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="41" ref="-1" time="17/12/2008 12:00:32"/>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="42" ref="-1" time="17/12/2008 12:00:34"/>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="43" ref="-1" time="17/12/2008 12:01:00">sorry , :)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="44" ref="-1" time="17/12/2008 12:01:43">i think spider , can share its presentation</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="45" ref="-1" time="17/12/2008 12:02:00">The last but not the least remarque is that its independence allows parameters to be estimated on different data sets</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="46" ref="-1" time="17/12/2008 12:02:18">i think klimberu still have important things to say</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="47" ref="-1" time="17/12/2008 12:02:44">ok</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="48" ref="-1" time="17/12/2008 12:02:51">For example: estimate content features from messages with headers omitted or estimate header features from messages with content missing</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="49" ref="-1" time="17/12/2008 12:03:20">for example, Naive Bayes is one of the best techniques for complex real world situations, such as he just described</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="50" ref="-1" time="17/12/2008 12:03:32">Furthermore it requires a small amount of training data to estimate the parameters (means and variances of the variables) necessary for classification.</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="51" ref="-1" time="17/12/2008 12:03:54">yes, that IS an important aspect</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="52" ref="47" time="17/12/2008 12:03:55">can you estimate how many units of data are required for a good training</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="53" ref="-1" time="17/12/2008 12:04:19">for now these are the main ideas I wanted to outline</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="54" ref="-1" time="17/12/2008 12:04:51">ok. then i shall start my presentation</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="55" ref="-1" time="17/12/2008 12:04:54">is that ok?</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="56" ref="-1" time="17/12/2008 12:05:02">yes</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="57" ref="-1" time="17/12/2008 12:05:12">i agree</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="58" ref="-1" time="17/12/2008 12:05:29">K-means is a technique inspired by R^n vectorial spaces</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="59" ref="-1" time="17/12/2008 12:05:54">it involves classifying a set of points into k clusters of points (therefore the name )</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="60" ref="-1" time="17/12/2008 12:06:03">each cluster having a center called centroid</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="61" ref="-1" time="17/12/2008 12:06:50">k and n are independent?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="62" ref="-1" time="17/12/2008 12:07:01">the clusters are picked such as the points in them minimize a formula of variance from the center: V= sum from i =1 to k of sum for each point in cluster Si of (xi - miu i) squared</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="63" ref="-1" time="17/12/2008 12:07:06">yes</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="64" ref="-1" time="17/12/2008 12:07:23">k is actually picked as an input parameter</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="65" ref="-1" time="17/12/2008 12:07:35">is there any restriction to them?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="66" ref="-1" time="17/12/2008 12:07:37">and best heuristic is somewhere around the square root of n</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="67" ref="-1" time="17/12/2008 12:07:39"/>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="68" ref="-1" time="17/12/2008 12:08:14">no restriction whatsoever. problem is that if we pick k in a bad way, the algorithm will take a long time to converge</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="69" ref="-1" time="17/12/2008 12:08:22">i see , so you can choose any values for k , but if you correlate it with n you get better results?</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="70" ref="-1" time="17/12/2008 12:08:31">i see</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="71" ref="-1" time="17/12/2008 12:08:46">it is convergent in any case?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="72" ref="-1" time="17/12/2008 12:09:17">the algorithm is iterative: we pick random center points (can be outside the set of initial points) and we repeat an iteration of moving these centroids to the new calculated cluster center</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="73" ref="-1" time="17/12/2008 12:09:44">yes, it is convergent in any case, but it doesn't have a guaranteed global minimum</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="74" ref="-1" time="17/12/2008 12:10:20">which means, the algorithm is not entirely safe. It was observed though that in real data simulations, it's always convergent</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="75" ref="-1" time="17/12/2008 12:10:35">Different initial partitions can result in different final clusters. ?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="76" ref="-1" time="17/12/2008 12:10:41">and, very fast, almost log(n) steps</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="77" ref="75" time="17/12/2008 12:11:09">yes, that's the weak part of this algorithm: choosing the initial &amp;quot;random&amp;quot; clusters and k will affect it.</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="78" ref="-1" time="17/12/2008 12:11:49">the algorithm was discovered in 1956, but a recent paper from 2006 proved that there's a technique for choosing these parameters in a way that is always convergent and 2...10 times faster</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="79" ref="-1" time="17/12/2008 12:12:23">the initial &amp;quot;seeding&amp;quot; process will take some time, but it will actually cut down on computations.</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="80" ref="-1" time="17/12/2008 12:12:36">what practical applications does it have?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="81" ref="-1" time="17/12/2008 12:12:37">the variant is called k-means++ :)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="82" ref="-1" time="17/12/2008 12:12:44">:)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="83" ref="80" time="17/12/2008 12:12:45">i'm glad you asked</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="84" ref="-1" time="17/12/2008 12:13:11">common applications include border detection and object recognition in image processing</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="85" ref="-1" time="17/12/2008 12:13:50">nice</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="86" ref="-1" time="17/12/2008 12:14:02">very useful</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="87" ref="-1" time="17/12/2008 12:14:08">there is a small assumption to the algorithm though: it assumes that using that formula for V is enough to characterise a cluster. Some data are different though</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="88" ref="-1" time="17/12/2008 12:14:18">it is used too in data mining application</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="89" ref="88" time="17/12/2008 12:14:35">I think the algorithm is called Lloyd's</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="90" ref="-1" time="17/12/2008 12:14:57">that's about all there is to know about K-means. it's simple to understand and easy to implement.</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="91" ref="-1" time="17/12/2008 12:15:35">ok, spider very clear</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="92" ref="-1" time="17/12/2008 12:16:19">now i'll start the presentation for my algorithm</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="93" ref="-1" time="17/12/2008 12:16:26">feel free to interrupt me</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="94" ref="-1" time="17/12/2008 12:16:41">whenever you find that a thing is not clear</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="95" ref="-1" time="17/12/2008 12:16:49">ok, we will</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="96" ref="-1" time="17/12/2008 12:17:12">so are you with me ?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="97" ref="96" time="17/12/2008 12:17:22">yes :). please continue</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="98" ref="-1" time="17/12/2008 12:17:31">ok</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="99" ref="-1" time="17/12/2008 12:17:37">yes, please begin</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="100" ref="-1" time="17/12/2008 12:17:41">The Support Vector Machine algorithm , abbreviated from now on SVM , it's a supervised learning method used for classification.</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="101" ref="-1" time="17/12/2008 12:17:43">yes, please</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="102" ref="-1" time="17/12/2008 12:17:57">what it classifies ?</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="103" ref="-1" time="17/12/2008 12:18:06">objects</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="104" ref="-1" time="17/12/2008 12:18:14">how it classifies ?</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="105" ref="-1" time="17/12/2008 12:18:44">using a separating hyperplan</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="106" ref="-1" time="17/12/2008 12:19:00">the input data is viewed as two sets of vectors</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="107" ref="-1" time="17/12/2008 12:19:04">in n-dimensional space</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="108" ref="107" time="17/12/2008 12:19:11">i think you need to explain what representation we're using for objects :)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="109" ref="-1" time="17/12/2008 12:19:29">but it seems you finished before i had the chance to ask</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="110" ref="-1" time="17/12/2008 12:19:30">this is a generic representation</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="111" ref="-1" time="17/12/2008 12:19:44">you can classify all sort of objects</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="112" ref="-1" time="17/12/2008 12:20:01">from fruits to shoes :)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="113" ref="-1" time="17/12/2008 12:20:09">is there any restriction whatsoever?</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="114" ref="-1" time="17/12/2008 12:20:12">if you succed in representing them in an n-dimensional space</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="115" ref="-1" time="17/12/2008 12:20:20">for a practic example I believe an abstractization is needed, in order to set the dimensions</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="116" ref="113" time="17/12/2008 12:20:40">the only restriction is to find a representation for them in n-dimensional space , as i was saying</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="117" ref="-1" time="17/12/2008 12:20:49">yes, we can just set some attributes that are measurable and give them a dimension</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="118" ref="-1" time="17/12/2008 12:21:03">exactly , spider , you are right</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="119" ref="-1" time="17/12/2008 12:21:49">so , after you have the n-dimensional represantations as two sets fof vectors</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="120" ref="-1" time="17/12/2008 12:22:24">you will construct the separating hyperplan in that space, that minimize the margin between the two data sets</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="121" ref="-1" time="17/12/2008 12:22:48">what is a margin?</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="122" ref="-1" time="17/12/2008 12:23:32">intuitively , the margin is a curve</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="123" ref="-1" time="17/12/2008 12:23:49">So, you can classify online two sets of objects. How can you classify a goup of objects in 5 sets for example?</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="124" ref="-1" time="17/12/2008 12:24:07">iteratively :)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="125" ref="123" time="17/12/2008 12:24:14">for example ,</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="126" ref="-1" time="17/12/2008 12:24:18">yeah, but in this case, the margin is more like this: imagine set A of points, set B of points, and the plane beeing a line |</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="127" ref="-1" time="17/12/2008 12:24:23">you start with the most generic ones</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="128" ref="-1" time="17/12/2008 12:24:25">A | B</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="129" ref="-1" time="17/12/2008 12:24:35">and split into 2 sets</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="130" ref="-1" time="17/12/2008 12:24:47">then every set you'll split again in 4 sets</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="131" ref="-1" time="17/12/2008 12:24:53">the distance from the closest point in A to the bar + the distance from the closest point in B to the bar is the margin.</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="132" ref="-1" time="17/12/2008 12:25:01">weren't the sets n-spaced?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="133" ref="-1" time="17/12/2008 12:25:30">we're talking about representing a hiperplane in ... 2D :P so you can see it</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="134" ref="-1" time="17/12/2008 12:25:33">klimberu , now you understand</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="135" ref="-1" time="17/12/2008 12:25:43">how you can clasify 5 sets?</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="136" ref="-1" time="17/12/2008 12:25:47">oh, i understand</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="137" ref="-1" time="17/12/2008 12:26:29">we can't draw n-dimensional, but we can understand the concept by drawing 2D and having the plane as a line</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="138" ref="-1" time="17/12/2008 12:26:46">thank-you for support , spider</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="139" ref="-1" time="17/12/2008 12:27:00">yes, i understood that :)</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="140" ref="-1" time="17/12/2008 12:27:10">yes, just that maybe in order to get a complete classification of the objects (for 3 sets for example), you will have to combine two of the four sets resulted</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="141" ref="-1" time="17/12/2008 12:27:14">the &amp;quot;line&amp;quot; wasn't clear to me right away</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="142" ref="-1" time="17/12/2008 12:27:21">:)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="143" ref="-1" time="17/12/2008 12:27:47">now , i will tell you what is this algorithm used for</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="144" ref="-1" time="17/12/2008 12:28:45">have any clues , about where you can use this algorithm at its maximum strength?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="145" ref="144" time="17/12/2008 12:29:23">i'd say it's used to put an object into category A or B once you have the starting sets</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="146" ref="-1" time="17/12/2008 12:29:48">i was asking for a practical usage</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="147" ref="-1" time="17/12/2008 12:30:00">collision detection? :D</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="148" ref="-1" time="17/12/2008 12:30:02">in a case where the classification may be represented as a binary tree</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="149" ref="-1" time="17/12/2008 12:30:16">let me tell you , that it is used with success by Reuters</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="150" ref="-1" time="17/12/2008 12:30:21">i haven't really thought about that</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="151" ref="-1" time="17/12/2008 12:30:24">to clasify articles by subject</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="152" ref="149" time="17/12/2008 12:30:46">that's amazing, really.</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="153" ref="-1" time="17/12/2008 12:31:04">they have a large data base with articles</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="154" ref="-1" time="17/12/2008 12:31:10">what can you tell us about the speed of the algorithm?</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="155" ref="-1" time="17/12/2008 12:31:15">and they use this algorithm to easy find old articles</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="156" ref="-1" time="17/12/2008 12:31:26">but what about the underlying complicated mathematical model? i seem to recall it's very complicated to implement. can you tell us more, ireal?</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="157" ref="-1" time="17/12/2008 12:31:35">what if the article fits more than one category?</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="158" ref="-1" time="17/12/2008 12:32:00">depending on some parameters</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="159" ref="-1" time="17/12/2008 12:32:18">you can enforce an article to fit in a given category.</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="160" ref="-1" time="17/12/2008 12:32:27">for example you define some keywords</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="161" ref="-1" time="17/12/2008 12:32:48">for a given category</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="162" ref="-1" time="17/12/2008 12:32:49">and</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="163" ref="-1" time="17/12/2008 12:32:54">i see, so in the end you must split manually the multi-fitting items</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="164" ref="-1" time="17/12/2008 12:32:58">if the article fits into more categories you add</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="165" ref="-1" time="17/12/2008 12:33:00">we can always choose one of the n categories or less</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="166" ref="-1" time="17/12/2008 12:33:11">more keywords to a category</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="167" ref="-1" time="17/12/2008 12:33:27">you can do this</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="168" ref="-1" time="17/12/2008 12:33:34">depending what you want</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="169" ref="-1" time="17/12/2008 12:34:00">if you want to have a better splitting you should define more keywords that match a certain category</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="170" ref="-1" time="17/12/2008 12:34:11">so not n, n+k :)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="171" ref="-1" time="17/12/2008 12:34:14"/>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="172" ref="-1" time="17/12/2008 12:34:17">:)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="173" ref="-1" time="17/12/2008 12:34:28">still. we haven't talked about the speed of the algorithm :)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="174" ref="-1" time="17/12/2008 12:34:36">which in the end is noted as N :)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="175" ref="-1" time="17/12/2008 12:34:37">regarding speed</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="176" ref="-1" time="17/12/2008 12:34:44">it involves quadratic programming</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="177" ref="-1" time="17/12/2008 12:34:48">there where too many questions at one time :)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="178" ref="-1" time="17/12/2008 12:34:56">since it has a very clear and simple idea</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="179" ref="-1" time="17/12/2008 12:35:17">it is very easy to have an optimized</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="180" ref="-1" time="17/12/2008 12:35:26">solution</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="181" ref="-1" time="17/12/2008 12:35:40">it have running time in O(logN)</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="182" ref="-1" time="17/12/2008 12:35:48">yes, but its complexity may add some speed limitation</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="183" ref="-1" time="17/12/2008 12:36:37">yes , spider</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="184" ref="-1" time="17/12/2008 12:36:45">you are &amp;quot;very&amp;quot; right</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="185" ref="-1" time="17/12/2008 12:36:53">it involves quadratic programming</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="186" ref="-1" time="17/12/2008 12:37:25">so the limitations are in fact the limitations brought by the quadratic programming</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="187" ref="-1" time="17/12/2008 12:37:39">exactly</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="188" ref="-1" time="17/12/2008 12:38:12">but , quadratic programming reached impressive results</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="189" ref="-1" time="17/12/2008 12:38:14">during last years</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="190" ref="-1" time="17/12/2008 12:38:24">obviosly the methods of solving that are very well documented, since it's a major field of maths, but it seems to imply that one can't implement such an algorithm in under 2h</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="191" ref="-1" time="17/12/2008 12:38:47">with some initial assumptions</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="192" ref="191" time="17/12/2008 12:38:59">we need to rely on existing math packages</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="193" ref="-1" time="17/12/2008 12:39:04">and within a predefined set of input data you can go below this limit</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="194" ref="-1" time="17/12/2008 12:39:19">I know that quadratic programming involves polinomial time</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="195" ref="-1" time="17/12/2008 12:39:26">i think i'll do some final conclusion</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="196" ref="-1" time="17/12/2008 12:39:41">ok. i think we got the ideas behind SVM. we should also remember we have yet to learn about ART Neural Networks</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="197" ref="-1" time="17/12/2008 12:39:51">of course</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="198" ref="-1" time="17/12/2008 12:40:06">what i want you to remember</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="199" ref="-1" time="17/12/2008 12:40:44">is that this algorithm can be theoretically analized using concepts</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="200" ref="-1" time="17/12/2008 12:40:57">from computational learning theory</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="201" ref="-1" time="17/12/2008 12:41:21">and in the same thime it can achieve good performance when applied to real problems</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="202" ref="201" time="17/12/2008 12:41:39">we will return on that later on with a comparison between them, i'm sure :). iceman?</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="203" ref="-1" time="17/12/2008 12:41:50">of , course</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="204" ref="-1" time="17/12/2008 12:41:54">:D</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="205" ref="-1" time="17/12/2008 12:43:39">ok, i guess it is my turn</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="206" ref="205" time="17/12/2008 12:43:52">the ball is in your field, iceman :)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="207" ref="-1" time="17/12/2008 12:44:05">what i am about to present to you is ART</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="208" ref="-1" time="17/12/2008 12:44:15">which of course stand for a name</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="209" ref="-1" time="17/12/2008 12:44:24">Adaptive Resonance Theory</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="210" ref="-1" time="17/12/2008 12:44:49">waw!</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="211" ref="-1" time="17/12/2008 12:45:23">in essence the ART is a neural network architecture</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="212" ref="-1" time="17/12/2008 12:45:25">but</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="213" ref="-1" time="17/12/2008 12:45:52">the basic ART system is in fact an unsupervised learning model</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="214" ref="-1" time="17/12/2008 12:46:03">i assume the way the neurons are interconnected makes it special</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="215" ref="-1" time="17/12/2008 12:46:34">not so much as the underlying actions taken</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="216" ref="-1" time="17/12/2008 12:46:50">i will present the basic structure of a classic ART</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="217" ref="-1" time="17/12/2008 12:47:13">if you have any problems understanding any of the terms please interrupt me</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="218" ref="-1" time="17/12/2008 12:47:19">and i will explain</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="219" ref="217" time="17/12/2008 12:47:31">ok</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="220" ref="-1" time="17/12/2008 12:47:37">ok</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="221" ref="-1" time="17/12/2008 12:48:32">the structure of an ART is composed of 4 pieces</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="222" ref="-1" time="17/12/2008 12:48:42">the comparison field</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="223" ref="-1" time="17/12/2008 12:48:47">the recognition field</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="224" ref="-1" time="17/12/2008 12:48:56">reset module</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="225" ref="-1" time="17/12/2008 12:49:05">and the vigilante parameter</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="226" ref="-1" time="17/12/2008 12:49:27">the usual training is simple</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="227" ref="-1" time="17/12/2008 12:49:44">the user provides the training set and the vigilante parameter</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="228" ref="-1" time="17/12/2008 12:49:45">Can you describe them a little?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="229" ref="228" time="17/12/2008 12:49:58">or just their functions</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="230" ref="-1" time="17/12/2008 12:50:13">of course, i was about to do so</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="231" ref="-1" time="17/12/2008 12:50:48">the comparison filed is a string of neurons which receive the input data</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="232" ref="-1" time="17/12/2008 12:51:39">each of them receives his part of the array and computes the probability of matching the item that gave all that data</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="233" ref="-1" time="17/12/2008 12:52:35">after this computation is done they send their results to all the neurons in the comparison field</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="234" ref="-1" time="17/12/2008 12:53:04">every neuron in the recognition filed is connected to every neuron in the comparison field</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="235" ref="-1" time="17/12/2008 12:53:27">therefore the recognition field is as expected another string of neurons :)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="236" ref="-1" time="17/12/2008 12:53:40">how many neurons are on each level?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="237" ref="236" time="17/12/2008 12:53:58">basically, it seems to be formed out of classic 2 neuron strings.</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="238" ref="237" time="17/12/2008 12:54:21">1 neuron get the input, sends signal to next neuron, which sends output</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="239" ref="-1" time="17/12/2008 12:54:32">there is no standard number for the neurons, it depends on the complexity of the problem you want to solve with it</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="240" ref="-1" time="17/12/2008 12:54:46">ok</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="241" ref="-1" time="17/12/2008 12:55:21">the neurons in the comparison select their best match and send it to that neuron</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="242" ref="-1" time="17/12/2008 12:55:34">yeah, you can add more neurons in the first field, or the 2nd field, or both, and increase the number of links that way</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="243" ref="-1" time="17/12/2008 12:56:04">yes</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="244" ref="-1" time="17/12/2008 12:56:24">so, after comparison follows recognition</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="245" ref="-1" time="17/12/2008 12:57:22">the recognition neurons that were activated by receiving the information , use the Weight to compute the information for the next step</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="246" ref="-1" time="17/12/2008 12:57:59">the weight is predefined or it may be adjusted by the neurons themselves?</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="247" ref="-1" time="17/12/2008 12:58:53">it is changed in the training period and locked when using the network for recognition</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="248" ref="-1" time="17/12/2008 12:58:54">(just background information: if a neuron gets 2 inputs from R x and y, it can compute the result r = x * weightx + y * weight y or some similar formula)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="249" ref="-1" time="17/12/2008 12:59:41">yes, it calculates the chance that the item inputed is in the category that that neuron represents</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="250" ref="-1" time="17/12/2008 01:00:02">since is an unsupervised learning , the weight mustbe constant</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="251" ref="-1" time="17/12/2008 01:00:04">well, every recognition neuron does that</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="252" ref="-1" time="17/12/2008 01:00:25">of course, after the training :)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="253" ref="250" time="17/12/2008 01:00:42">not really. it always changes, but after the training set, it will change with less amounts</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="254" ref="-1" time="17/12/2008 01:00:53">after the computation, there takes place the lateral inhibition</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="255" ref="225" time="17/12/2008 01:01:37">ok. what about the vigilance parameter?</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="256" ref="-1" time="17/12/2008 01:02:24">it is some sort of threshold</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="257" ref="-1" time="17/12/2008 01:02:26">?</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="258" ref="-1" time="17/12/2008 01:02:39">well, each neuron diminishes the other's results, and after that step the remaining values are compared to the vigilante parameter</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="259" ref="-1" time="17/12/2008 01:02:50">that is exactly correct</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="260" ref="-1" time="17/12/2008 01:03:35">how does it influence the categorisation process? because in the end, that's what the whole network must do.</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="261" ref="-1" time="17/12/2008 01:03:40">in the end, the neurons compute the chance that the received information about the item puts the item in one of the categories already represented by one of the recognition neurons</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="262" ref="-1" time="17/12/2008 01:03:42">ok , so now i know what it does</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="263" ref="-1" time="17/12/2008 01:04:19">well, if the value returned by the recognition neurons isn't greater or equal than the vigilante parameter</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="264" ref="-1" time="17/12/2008 01:04:31">then the match was not successful</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="265" ref="264" time="17/12/2008 01:04:57">i was thinking more on the lines of beeing able to have finer grained categories or not</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="266" ref="-1" time="17/12/2008 01:05:15">and the process is restarted, while one of the uncommited recognition neurons is commited to recognise that type of item</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="267" ref="-1" time="17/12/2008 01:05:40">well, if the threshold is higher then the matching is higher in grain</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="268" ref="-1" time="17/12/2008 01:05:57">that is inherent to the process as all the neurons try to match the item</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="269" ref="-1" time="17/12/2008 01:06:18">oooh, so that must mean that having a small vigilance, we get less categories but more general ones, while having a big value will yield more finer categories</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="270" ref="-1" time="17/12/2008 01:06:31">exactly</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="271" ref="-1" time="17/12/2008 01:06:58">how about the training method? the sets are very important for neural networks.</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="272" ref="-1" time="17/12/2008 01:07:02">each neuron gets a higher score when its values approximate the items data better</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="273" ref="-1" time="17/12/2008 01:07:22">well, that was the basic training</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="274" ref="269" time="17/12/2008 01:07:38">very nice explanations , can you tell us more about its practical applications</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="275" ref="-1" time="17/12/2008 01:07:47">when matching, the Weight does not change and the recognition neurons don not get commited</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="276" ref="-1" time="17/12/2008 01:07:54">yes, please :)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="277" ref="-1" time="17/12/2008 01:07:55">sure</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="278" ref="-1" time="17/12/2008 01:08:02">yes, I am curios about the part</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="279" ref="-1" time="17/12/2008 01:08:14">as you can guess it has alot of applications</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="280" ref="-1" time="17/12/2008 01:08:25">but one i remember the best</Utterance>
+</Turn>
+<Turn nickname="_ireal">
+<Utterance genid="281" ref="-1" time="17/12/2008 01:13:32">joins the room</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="282" ref="-1" time="17/12/2008 01:13:39">joins the room</Utterance>
+</Turn>
+<Turn nickname="_ireal">
+<Utterance genid="283" ref="-1" time="17/12/2008 01:13:41">leaves the room</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="284" ref="-1" time="17/12/2008 01:13:56">joins the room</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="285" ref="-1" time="17/12/2008 01:14:11">leaves the room</Utterance>
+</Turn>
+<Turn nickname="Spider">
+<Utterance genid="286" ref="-1" time="17/12/2008 01:14:36">joins the room</Utterance>
+</Turn>
+<Turn nickname="Spider">
+<Utterance genid="287" ref="-1" time="17/12/2008 01:14:43">leaves the room</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="288" ref="-1" time="17/12/2008 01:14:58">joins the room</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="289" ref="-1" time="17/12/2008 01:15:25">joins the room</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="290" ref="-1" time="17/12/2008 01:17:03">joins the room</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="291" ref="-1" time="17/12/2008 01:19:11">leaves the room</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="292" ref="-1" time="17/12/2008 01:20:07">joins the room</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="293" ref="-1" time="17/12/2008 01:21:10">joins the room</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="294" ref="-1" time="17/12/2008 01:21:26">leaves the room</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="295" ref="-1" time="17/12/2008 01:21:59">we had a little interruption. everything ok?</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="296" ref="-1" time="17/12/2008 01:22:11">so, after a coffee creak we can get back to our disscusion :)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="297" ref="-1" time="17/12/2008 01:22:12">yes, i guess we got over it :)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="298" ref="-1" time="17/12/2008 01:22:22">yes , we can go on</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="299" ref="-1" time="17/12/2008 01:22:30">break</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="300" ref="-1" time="17/12/2008 01:22:44">ok, i was telling you that i remember one application that i personally liked</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="301" ref="280" time="17/12/2008 01:22:46">we were talking about a few applications of Neural Networks.</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="302" ref="-1" time="17/12/2008 01:22:58">tha ART was used in the detection of bottlenecks</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="303" ref="300" time="17/12/2008 01:22:59">yeah</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="304" ref="-1" time="17/12/2008 01:23:18">bottlenecks in heterogenous network environments</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="305" ref="-1" time="17/12/2008 01:23:30">and it does a very good job</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="306" ref="-1" time="17/12/2008 01:23:34">bottlenecks ?</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="307" ref="-1" time="17/12/2008 01:23:40">yes</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="308" ref="304" time="17/12/2008 01:23:48">yes, i did hear it performs very well in real life and real time data environments</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="309" ref="-1" time="17/12/2008 01:24:08">even in a high speed network you can have bottlenecks :)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="310" ref="-1" time="17/12/2008 01:24:20">well, having heard all presentation, i think we should take a bit of time to compare them :)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="311" ref="-1" time="17/12/2008 01:24:34">ok, i will stop here then</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="312" ref="-1" time="17/12/2008 01:24:41">thank you all for your time :)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="313" ref="312" time="17/12/2008 01:24:50">you're welcome</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="314" ref="-1" time="17/12/2008 01:25:14">but it's not finished, now we will try to compare them</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="315" ref="-1" time="17/12/2008 01:25:23">the algorithms</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="316" ref="-1" time="17/12/2008 01:25:28">my presentation is :)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="317" ref="-1" time="17/12/2008 01:25:30">i think a good criteria is whether the algorithm is trainable and supervised or unsupervised</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="318" ref="-1" time="17/12/2008 01:25:31">ok, so lets have a short recap of the algorithms</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="319" ref="-1" time="17/12/2008 01:26:00">obviously, K-Means doesn't need training, which is a plus</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="320" ref="-1" time="17/12/2008 01:26:23">SVM it is unsupervised and it can be trained or not</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="321" ref="-1" time="17/12/2008 01:26:42">Naive Bayes is trainable</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="322" ref="-1" time="17/12/2008 01:26:56">based on the probabilities the attributes appear</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="323" ref="-1" time="17/12/2008 01:26:58">ART can be trained attended or unattended</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="324" ref="-1" time="17/12/2008 01:27:18">another criteria i had in mind is the computations involved</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="325" ref="-1" time="17/12/2008 01:27:31">and the user gets to set the standard he wants by selecting the vigilance variable</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="326" ref="-1" time="17/12/2008 01:27:44">i think Bayes is the least computational one, right?</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="327" ref="-1" time="17/12/2008 01:27:52">from this point of view, the Naive Bayes is in top</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="328" ref="-1" time="17/12/2008 01:28:02">i believe its the ART</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="329" ref="-1" time="17/12/2008 01:28:05">yes, it only uses some tables</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="330" ref="-1" time="17/12/2008 01:28:18">No numerical optimization, matrix algebra needed</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="331" ref="328" time="17/12/2008 01:28:20">Bayes has a linear formula that computes a sum :P</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="332" ref="-1" time="17/12/2008 01:28:26">if im not mistaken it has a finite number of steps</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="333" ref="-1" time="17/12/2008 01:28:28"/>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="334" ref="-1" time="17/12/2008 01:28:41">from my point of view SVM it envolves a lot of computations</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="335" ref="332" time="17/12/2008 01:28:50">the next in line would be K-Means, because it has a finite number of steps, and just simple distance computations</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="336" ref="-1" time="17/12/2008 01:29:00">having a finite number of steps doesn't involve it is simple</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="337" ref="334" time="17/12/2008 01:29:12">then comes ART, and last is SVM</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="338" ref="-1" time="17/12/2008 01:29:36">didn't imply it was simple</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="339" ref="-1" time="17/12/2008 01:29:48">just that it is linear</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="340" ref="336" time="17/12/2008 01:29:52">yes, but at each step we just iterate through points, and get the center of a sphere.</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="341" ref="-1" time="17/12/2008 01:30:13">all the computations are sums and differences directly linked to the number of neurons</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="342" ref="-1" time="17/12/2008 01:30:37">hmmm, that might be a good point. i might have been wrong</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="343" ref="-1" time="17/12/2008 01:30:43">i agree with iceman</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="344" ref="343" time="17/12/2008 01:30:53">it seems ART is simpler</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="345" ref="-1" time="17/12/2008 01:31:08">spider , computing the center of a sphere might require some divisions , which are very costly operations</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="346" ref="-1" time="17/12/2008 01:31:09">about, the K-means, doesn't it have to make all the computations for every addition?</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="347" ref="-1" time="17/12/2008 01:31:17">simpler than Bayes? :D</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="348" ref="346" time="17/12/2008 01:31:19">ok, so we got Bayes, ART, K-Means, SVM. agree?</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="349" ref="-1" time="17/12/2008 01:31:39">yes</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="350" ref="-1" time="17/12/2008 01:31:47">yes,</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="351" ref="346" time="17/12/2008 01:32:01">no, but it does have to redo them every iteration, and it involves square power</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="352" ref="-1" time="17/12/2008 01:32:22">so that's why I believe neural network is simpler</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="353" ref="-1" time="17/12/2008 01:32:25">i see</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="354" ref="-1" time="17/12/2008 01:33:05">though the training part is perhaps longer, i think its faster in usage</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="355" ref="352" time="17/12/2008 01:33:10">also, i think the ART has a O(1) time? fixed number of neurons.</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="356" ref="-1" time="17/12/2008 01:33:36">O(1) , i don't really think so</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="357" ref="-1" time="17/12/2008 01:34:03">i think O(finite number) thats what he meant</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="358" ref="-1" time="17/12/2008 01:34:19">so the input data doesnt affect the computation time</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="359" ref="-1" time="17/12/2008 01:34:22">there are cases when the whole process through the neurons is restarted</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="360" ref="-1" time="17/12/2008 01:34:23">when used</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="361" ref="-1" time="17/12/2008 01:34:27">it can have a lot of iterations , and the training also involves consuming time</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="362" ref="-1" time="17/12/2008 01:34:34">only when training</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="363" ref="362" time="17/12/2008 01:34:48">yeah, but what if it's CONSTANTLY training?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="364" ref="363" time="17/12/2008 01:34:55">:)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="365" ref="-1" time="17/12/2008 01:34:56">as i stated before, it is true that the training takes alot of time</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="366" ref="-1" time="17/12/2008 01:35:00">its not</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="367" ref="-1" time="17/12/2008 01:35:03">:))</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="368" ref="-1" time="17/12/2008 01:35:14">you train it once and then use it</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="369" ref="-1" time="17/12/2008 01:35:44">can you use a library of trained neurons :D?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="370" ref="-1" time="17/12/2008 01:35:47">ok. we would have to know the specifics of implementation and using it, but for now let's say it's simpler than K-Means :) for purpose of working with +/-</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="371" ref="-1" time="17/12/2008 01:35:54">i guess</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="372" ref="-1" time="17/12/2008 01:35:56">yes, but for different types of objects it may be needed to be differently trained</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="373" ref="-1" time="17/12/2008 01:36:06">although we can make a case out of it</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="374" ref="-1" time="17/12/2008 01:36:18">next criteria... how about the complexity of implementation?</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="375" ref="-1" time="17/12/2008 01:36:19">well, i agree then, i don't have the specifics of the implementation</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="376" ref="-1" time="17/12/2008 01:36:44">K-means is the simplest :D</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="377" ref="-1" time="17/12/2008 01:36:53">Bayes is easiest. I know K-Means is next.</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="378" ref="-1" time="17/12/2008 01:36:57">regarding the complexity Bayes is again in top</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="379" ref="-1" time="17/12/2008 01:37:00">:)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="380" ref="-1" time="17/12/2008 01:37:13">for Bayes, you only have to use lookup tables for number crunching</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="381" ref="380" time="17/12/2008 01:37:17">but.</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="382" ref="381" time="17/12/2008 01:37:24">and it's a big but :)</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="383" ref="-1" time="17/12/2008 01:37:39">it has a linear complexity, so it is easier to apply</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="384" ref="-1" time="17/12/2008 01:37:46">i agree that Bayes it is very fast but it is not very performant in terms of results</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="385" ref="-1" time="17/12/2008 01:37:55">ART is kind of complex, but not very</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="386" ref="383" time="17/12/2008 01:38:03">if you use a 0 filled table, you'll multiply some probabilities with 0 and erase their influence. which leads to next thing -&amp;gt; very big tables</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="387" ref="-1" time="17/12/2008 01:38:19">SVM deliver state of the art performance</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="388" ref="386" time="17/12/2008 01:38:20">especially if an attribute can have lots of values</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="389" ref="-1" time="17/12/2008 01:38:22">i agree, alot of spce used</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="390" ref="-1" time="17/12/2008 01:38:40">Despite its simplicity, Naive Bayes can often outperform more sophisticated classification methods</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="391" ref="-1" time="17/12/2008 01:38:59">yes but this on special cases</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="392" ref="-1" time="17/12/2008 01:39:03">yes, but the result isn't guaranteed, is it?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="393" ref="390" time="17/12/2008 01:39:10">yeah. in the end, it's easiest to implement. next is K-Means, for the simplicity of algorithm</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="394" ref="-1" time="17/12/2008 01:39:13">Even few train sets lead to a good result</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="395" ref="393" time="17/12/2008 01:39:39">and the next two i don't need to specify the order for them :)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="396" ref="-1" time="17/12/2008 01:39:51">i think for an algorithm it's important to be performant and less easy to implement</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="397" ref="-1" time="17/12/2008 01:39:58">for small training sets there is no guarantee, but the chances are high L)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="398" ref="-1" time="17/12/2008 01:40:16">but now that gave me a new idea! a criteria of how good the classification really is and if there are certain data sets for which it doesn't work well</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="399" ref="-1" time="17/12/2008 01:40:22">depends on the user</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="400" ref="-1" time="17/12/2008 01:40:44">K-Means has no guarantees, so it's going to be last</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="401" ref="-1" time="17/12/2008 01:40:50">in this case SVM it's the best</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="402" ref="-1" time="17/12/2008 01:41:02">ART comes after SVM i think</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="403" ref="-1" time="17/12/2008 01:41:12">I agree</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="404" ref="-1" time="17/12/2008 01:41:46">for Bayes I believe there may be only particular cases when the results may not be good</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="405" ref="-1" time="17/12/2008 01:42:00">so for the efficiency the order is : SVM, ART, Bayes, K-means</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="406" ref="405" time="17/12/2008 01:42:09">yeah</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="407" ref="-1" time="17/12/2008 01:42:16">any other criterias?</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="408" ref="-1" time="17/12/2008 01:42:32">how about number of adjustable parameters?</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="409" ref="-1" time="17/12/2008 01:42:47">a case when the probability factor may be overcome</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="410" ref="-1" time="17/12/2008 01:42:59">i think ART is on the top</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="411" ref="-1" time="17/12/2008 01:43:00">oh, another plus for the ART is that in different implementations it can use Fuzzy logic :)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="412" ref="-1" time="17/12/2008 01:43:09">K-means only got 2, I would say: size of k and initial sets</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="413" ref="-1" time="17/12/2008 01:43:16">but this doesnt mean that is the most flexible algorithm</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="414" ref="-1" time="17/12/2008 01:43:21">yes, you can easily add a new cathegory</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="415" ref="411" time="17/12/2008 01:43:26">yes, ART has LOTS of implementations</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="416" ref="415" time="17/12/2008 01:43:45">i'm serious :). there are about 10 variants of ART</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="417" ref="-1" time="17/12/2008 01:43:51">for Bayes you can adjust the number of attributes you may take into account</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="418" ref="-1" time="17/12/2008 01:43:56">yes, i know</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="419" ref="-1" time="17/12/2008 01:44:15">not sure about SVM. ireal?</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="420" ref="-1" time="17/12/2008 01:44:26">i think its difficult to change the implementation if you want more characteristics</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="421" ref="-1" time="17/12/2008 01:44:30">SVM doesnt have any adjustable parameters :)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="422" ref="-1" time="17/12/2008 01:44:45">:)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="423" ref="-1" time="17/12/2008 01:44:47">ok. so the order is ART, Bayes, K-Means, SVM</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="424" ref="-1" time="17/12/2008 01:44:59">i agree</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="425" ref="-1" time="17/12/2008 01:45:06">me too</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="426" ref="-1" time="17/12/2008 01:45:47">to take advantage of these algorithms i think we should an application that would integrate them</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="427" ref="-1" time="17/12/2008 01:45:58">i think there's one more criteria, but not really sure: the number of classes in clustering, for the given method. K-Means has k. SVM has 2, basically</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="428" ref="-1" time="17/12/2008 01:46:02">*create ;)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="429" ref="-1" time="17/12/2008 01:46:21">yes</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="430" ref="-1" time="17/12/2008 01:46:38">ART has as N ,the number of neuron on the recognition field</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="431" ref="-1" time="17/12/2008 01:46:39">ART has a configurable number, but stable: you need to link the neurons when you change it</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="432" ref="-1" time="17/12/2008 01:46:43"/>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="433" ref="-1" time="17/12/2008 01:46:45">yes</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="434" ref="-1" time="17/12/2008 01:46:52">for Bayes too, the number of classes is configurable</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="435" ref="-1" time="17/12/2008 01:46:57">and can be increased easily :)</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="436" ref="-1" time="17/12/2008 01:47:21">another criteria could be the memory requirements</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="437" ref="-1" time="17/12/2008 01:47:22">ok, so besides K-means all the others can use multiple and high number of classes</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="438" ref="427" time="17/12/2008 01:47:28">well, this is not such an important criteria, since any method can be generalised or has been.</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="439" ref="-1" time="17/12/2008 01:47:36">so what do you say about an application that integrates all of this algorithms ?</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="440" ref="-1" time="17/12/2008 01:47:52">sounds great!</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="441" ref="437" time="17/12/2008 01:48:05">you seem to forget that you can't choose a larger number of classes than how many inputs you get :P so K can vary between 1 and all</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="442" ref="-1" time="17/12/2008 01:48:14">for SVM I believe there is are extensive memory requirements</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="443" ref="-1" time="17/12/2008 01:48:31">:)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="444" ref="-1" time="17/12/2008 01:48:46">true :)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="445" ref="-1" time="17/12/2008 01:48:54">you would be surprised but not</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="446" ref="-1" time="17/12/2008 01:49:10">memory requirements should be the smallest for K-Means :). only the input set is needed and k points for the centroids</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="447" ref="-1" time="17/12/2008 01:49:20">it is computational extensiv but it doesnt use a great amount of memory</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="448" ref="-1" time="17/12/2008 01:49:29">probably the application should apply one of thse 4 algorithms depending on that certain case</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="449" ref="439" time="17/12/2008 01:49:32">ok. we should think of integrating them. i agree</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="450" ref="-1" time="17/12/2008 01:49:39">exactly</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="451" ref="-1" time="17/12/2008 01:49:46">we should create a generic algorithm</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="452" ref="-1" time="17/12/2008 01:50:14">that does some analysis on input data</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="453" ref="-1" time="17/12/2008 01:50:21">and decides what algorithm to apply</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="454" ref="-1" time="17/12/2008 01:50:26">how about an application for classifying stars?</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="455" ref="-1" time="17/12/2008 01:50:55">great :)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="456" ref="-1" time="17/12/2008 01:50:55">or grouping areas in weather prediction maps?</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="457" ref="-1" time="17/12/2008 01:51:13">you have good ideas at this hour :)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="458" ref="-1" time="17/12/2008 01:51:18">i think the second one is more useful</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="459" ref="457" time="17/12/2008 01:51:24">:) thank you</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="460" ref="-1" time="17/12/2008 01:51:36">the first one is intereseting too</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="461" ref="456" time="17/12/2008 01:51:42">yes, and also allows for better integration</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="462" ref="-1" time="17/12/2008 01:52:00">i agree</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="463" ref="-1" time="17/12/2008 01:52:11">we could use a faster algorithm when we want the prediction for next day, and a more complex one when we want a monthly prediction</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="464" ref="-1" time="17/12/2008 01:52:26">exactly</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="465" ref="-1" time="17/12/2008 01:52:33">or use the results from the daily predictions?</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="466" ref="-1" time="17/12/2008 01:52:45">i think we could do the opposite</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="467" ref="-1" time="17/12/2008 01:52:50">maybe we could make an algorithm to help another develop faster</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="468" ref="-1" time="17/12/2008 01:52:56">the complex algorithm can run in the background for 1 week, but we wouldn't care about the memory consumption or the time spent because we're predicting what will happen after 1 month, not straight away</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="469" ref="-1" time="17/12/2008 01:53:10">if we get the predictions right for short period of time</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="470" ref="-1" time="17/12/2008 01:53:15">especially the faster ones to help the slower ones to provide more accurate results</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="471" ref="470" time="17/12/2008 01:53:22">true</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="472" ref="-1" time="17/12/2008 01:53:28">we have a greater chance to get it right for a longer one</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="473" ref="-1" time="17/12/2008 01:53:36">we also cand integrate the results from one algorithm as trained input</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="474" ref="-1" time="17/12/2008 01:53:38">for another</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="475" ref="-1" time="17/12/2008 01:53:40">so i can definetely see SVM working as the most complex one</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="476" ref="-1" time="17/12/2008 01:53:46">Bayes as the fastest</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="477" ref="-1" time="17/12/2008 01:53:57">yes , SVM should be the last in this chain :)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="478" ref="-1" time="17/12/2008 01:54:09">we could break down to hourly steps of prediction</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="479" ref="476" time="17/12/2008 01:54:12">using K-Map to verify Bayes :)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="480" ref="-1" time="17/12/2008 01:54:20">hehe</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="481" ref="480" time="17/12/2008 01:54:30">and ART for speeding up SVM initial vector sets</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="482" ref="-1" time="17/12/2008 01:54:35">nice one :)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="483" ref="-1" time="17/12/2008 01:54:43">thats a great idea, we should verify the results</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="484" ref="-1" time="17/12/2008 01:55:13">i think should start working on this idea</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="485" ref="-1" time="17/12/2008 01:55:29">taking into consideration we're working with predictions (which usually fail) having more variants to choose from allows for better approximation of the real weather</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="486" ref="-1" time="17/12/2008 01:55:32">we also need a name for the application</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="487" ref="-1" time="17/12/2008 01:55:35">but more documention would be needed</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="488" ref="-1" time="17/12/2008 01:55:54">so in the end we will use a collaboration of the applications</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="489" ref="-1" time="17/12/2008 01:56:03">anyway, the weather cannot always be 100 % predicted</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="490" ref="-1" time="17/12/2008 01:56:05">not create a brand new one :P</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="491" ref="486" time="17/12/2008 01:56:11">i leave the name up to you :). i'm not very good with picking them</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="492" ref="-1" time="17/12/2008 01:56:14">yes</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="493" ref="-1" time="17/12/2008 01:56:39">ok so the pilot name will be IIKS :)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="494" ref="-1" time="17/12/2008 01:56:45">i believe part of that is because they don't have time to run complex simulations</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="495" ref="-1" time="17/12/2008 01:56:49">after that if you have better ideas</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="496" ref="-1" time="17/12/2008 01:56:53">we will change it</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="497" ref="-1" time="17/12/2008 01:57:03">standing for?</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="498" ref="-1" time="17/12/2008 01:57:04">anyway, i think we should use : Bayes for hours/days, backed-up by K-means, and SVM and ART for weeks/moths</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="499" ref="-1" time="17/12/2008 01:57:11">that sounds good and misterious :)</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="500" ref="-1" time="17/12/2008 01:57:22">right now it does :P</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="501" ref="-1" time="17/12/2008 01:57:34">i think i saw that acronym somewhere</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="502" ref="-1" time="17/12/2008 01:57:43">:))</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="503" ref="-1" time="17/12/2008 01:57:55">yes , you see it in this room</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="504" ref="-1" time="17/12/2008 01:58:00">well then, this seems to have been a very successful meeting. :) any more points on the agenda before leaving ?</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="505" ref="-1" time="17/12/2008 01:58:02">Ireal Iceman ..:)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="506" ref="-1" time="17/12/2008 01:58:19">nothing from me</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="507" ref="-1" time="17/12/2008 01:58:19">Issue-In-Kind System, but it wasn't this</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="508" ref="-1" time="17/12/2008 01:58:35">i think we have hit all the hot spots</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="509" ref="-1" time="17/12/2008 01:58:36">good idea</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="510" ref="-1" time="17/12/2008 01:58:49">sounds OK!</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="511" ref="-1" time="17/12/2008 01:58:52">I believe too that we have targeted our points</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="512" ref="-1" time="17/12/2008 01:58:55">we need a paper for these results</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="513" ref="512" time="17/12/2008 01:59:17">and I will send you an email with the points we talked about tonight.</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="514" ref="-1" time="17/12/2008 01:59:33">ok</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="515" ref="-1" time="17/12/2008 01:59:50">ok , spider , thank-you</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="516" ref="-1" time="17/12/2008 02:00:06">thank you all</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="517" ref="-1" time="17/12/2008 02:00:13">that would be nice, and hope that the next step of the project will have a good paper to start with</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="518" ref="-1" time="17/12/2008 02:00:20">thank you all and good night :)</Utterance>
+</Turn>
+<Turn nickname="klimberu">
+<Utterance genid="519" ref="-1" time="17/12/2008 02:00:33">good night to you too :)</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="520" ref="-1" time="17/12/2008 02:00:34">good night</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="521" ref="-1" time="17/12/2008 02:00:35">good night :)</Utterance>
+</Turn>
+<Turn nickname="spider">
+<Utterance genid="522" ref="-1" time="17/12/2008 02:00:50">leaves the room</Utterance>
+</Turn>
+<Turn nickname="iceman">
+<Utterance genid="523" ref="-1" time="17/12/2008 02:00:51">leaves the room</Utterance>
+</Turn>
+<Turn nickname="ireal">
+<Utterance genid="524" ref="-1" time="17/12/2008 02:00:56">leaves the room</Utterance>
+</Turn>
+</Body>
+</Dialog>
