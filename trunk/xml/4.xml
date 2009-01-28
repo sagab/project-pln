@@ -1,0 +1,1884 @@
+<Dialog team="t4">
+<Participants>
+<Person nickname="stefan"/>
+<Person nickname="claudiu"/>
+<Person nickname="ana"/>
+<Person nickname="andrei"/>
+<Person nickname="Andrei"/>
+</Participants>
+<Topics/>
+<Body>
+<Turn nickname="stefan">
+<Utterance genid="1" ref="-1" time="18/12/2008 11:20:08">joins the room</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="2" ref="-1" time="18/12/2008 11:21:03">joins the room</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="3" ref="-1" time="18/12/2008 11:37:22">joins the room</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="4" ref="-1" time="18/12/2008 11:38:42">hello, I'm Ana Gainaru from SPBA</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="5" ref="-1" time="18/12/2008 11:38:48">joins the room</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="6" ref="-1" time="18/12/2008 11:38:53">hello, I'm Ana Gainaru from SPBA</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="7" ref="-1" time="18/12/2008 11:39:44">Hello, i am Claudiu Musat</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="8" ref="-1" time="18/12/2008 11:40:12">i am Serea Andrei</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="9" ref="-1" time="18/12/2008 11:40:40">hi, i'm Stefan Dumitrescu, nick stefan</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="10" ref="-1" time="18/12/2008 11:41:57">ok how should we start?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="11" ref="-1" time="18/12/2008 11:42:03">we've all gathered to see how four classification technologies are suited for practical examples and how they are superior to each other</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="12" ref="-1" time="18/12/2008 11:42:13">I would like to talk to you about SVM which stands for Support vector machines</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="13" ref="-1" time="18/12/2008 11:42:29">well...we should first say who will be presenting what</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="14" ref="-1" time="18/12/2008 11:42:36">i'm a fan of agglomerative clustering and i'll present the benefits of the K-means clustering method</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="15" ref="9" time="18/12/2008 11:42:49">i have the honor to defend naive bayes</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="16" ref="15" time="18/12/2008 11:43:14">and to prove it is a good choice anytime</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="17" ref="-1" time="18/12/2008 11:43:29">and defend you will because i will surely be attacking it</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="18" ref="-1" time="18/12/2008 11:43:33">being such an inaccurate method</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="19" ref="-1" time="18/12/2008 11:43:39">nd I will be the one telling about Art</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="20" ref="-1" time="18/12/2008 11:43:46">Adaptive Resonance Theory</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="21" ref="-1" time="18/12/2008 11:44:11">ell Claudiu, you seem to be willing to go to war first. Why is Naive Bayes classifier that bad?</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="22" ref="21" time="18/12/2008 11:44:37">I consider SVM is the best classification technology in most of the cases</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="23" ref="22" time="18/12/2008 11:45:15">honestly i agree with ana, SVM is a great classification method</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="24" ref="22" time="18/12/2008 11:45:25">too bad it is so slow that it is highly unattractive for real time applications</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="25" ref="-1" time="18/12/2008 11:45:46">we should present in turn our product</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="26" ref="-1" time="18/12/2008 11:45:54">and then debate over performances i think</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="27" ref="22" time="18/12/2008 11:46:01">ey...don't let me out of the circle here, Art is good too Extremely fast</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="28" ref="24" time="18/12/2008 11:46:19">true iti is slower then other methods but the result are accurate</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="29" ref="25" time="18/12/2008 11:46:38">well kmeans is a principially simple solution to an equally sinple task - classifying examples with regarg to their likelihood</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="30" ref="29" time="18/12/2008 11:46:50">a simple task excuse me</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="31" ref="-1" time="18/12/2008 11:47:51">then we will in turn present our method</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="32" ref="-1" time="18/12/2008 11:47:54">agree?</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="33" ref="-1" time="18/12/2008 11:48:10">what is it's working principle?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="34" ref="33" time="18/12/2008 11:48:33">it takes in a corpus of examples, chooses a set of k clases and then gradually evolves them into the &amp;quot;real&amp;quot; arrangement</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="35" ref="32" time="18/12/2008 11:48:40">agree</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="36" ref="-1" time="18/12/2008 11:48:55">to get more into details - let M be the set of examples to classify</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="37" ref="34" time="18/12/2008 11:49:15">and by gradually you mean...? how many itterations does it take to get to the result?</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="38" ref="-1" time="18/12/2008 11:49:35">so it is iterative in nature</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="39" ref="38" time="18/12/2008 11:50:05">yes it is iterative</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="40" ref="-1" time="18/12/2008 11:50:14">leaves the room</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="41" ref="38" time="18/12/2008 11:50:34">so for example how does it work in a text classification problem?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="42" ref="-1" time="18/12/2008 11:50:37">i believe andrei had a technical problem</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="43" ref="-1" time="18/12/2008 11:50:45">let us wait a minute until he can re-enter</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="44" ref="-1" time="18/12/2008 11:51:01">given N words in the text</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="45" ref="-1" time="18/12/2008 11:52:49">joins the room</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="46" ref="-1" time="18/12/2008 11:53:32">welcome back andrei</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="47" ref="-1" time="18/12/2008 11:54:39">as we were saying, e number of necessary iterations to converge is not known a priori</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="48" ref="-1" time="18/12/2008 11:54:57">that is one of the original k-means method's weaknesses</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="49" ref="34" time="18/12/2008 11:55:51">How long does it take to have a result?</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="50" ref="-1" time="18/12/2008 11:57:01">joins the room</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="51" ref="-1" time="18/12/2008 11:57:36">ok but...comparing to the input, say,...an extremely large set?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="52" ref="41" time="18/12/2008 11:57:54">one at a time please - i will start with stefan's question</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="53" ref="-1" time="18/12/2008 11:58:18">as previously said - let M be the set of examples, from which we extract a subset of K centers</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="54" ref="-1" time="18/12/2008 11:58:32">those k centers or centroids</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="55" ref="-1" time="18/12/2008 11:58:37">are the starting point of the k classes of examples we are after</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="56" ref="-1" time="18/12/2008 11:58:43">after this preprocessing stage</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="57" ref="-1" time="18/12/2008 11:58:53">a main iteration follows, that ends when the results have converged</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="58" ref="-1" time="18/12/2008 11:59:02">meaning that the k sought classes do not change from one iteration to the next</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="59" ref="-1" time="18/12/2008 11:59:19">in the main loop we have two main operations</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="60" ref="-1" time="18/12/2008 11:59:43">a first one where points are assigned to centroids</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="61" ref="-1" time="18/12/2008 11:59:44">leaves the room</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="62" ref="-1" time="19/12/2008 12:00:12">and a second where centroids are rearranged</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="63" ref="-1" time="19/12/2008 12:00:22">ok, how about performance, time of convergence?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="64" ref="-1" time="19/12/2008 12:00:43">The assignment of points to centroids is done aiming to assign each point to its nearest centroid</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="65" ref="63" time="19/12/2008 12:00:53">one second please to finish displaying the algorithm</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="66" ref="65" time="19/12/2008 12:01:00">sorry, go on</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="67" ref="-1" time="19/12/2008 12:01:27">the latter part of the main loop takes in the clusters of points assigned to each centroid</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="68" ref="67" time="19/12/2008 12:01:36">and creates a new centroid to replace the old one as the mean of the cluster</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="69" ref="68" time="19/12/2008 12:02:08">with the initial conditions of the loop are met and the next iteration can start</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="70" ref="63" time="19/12/2008 12:02:19">andrei, about your question</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="71" ref="-1" time="19/12/2008 12:02:39">performance can be measured as accuracy</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="72" ref="-1" time="19/12/2008 12:02:50">and how accurate are the results obtained?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="73" ref="71" time="19/12/2008 12:03:02">or as speed. Both are k-means strong points</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="74" ref="-1" time="19/12/2008 12:03:18">one cannot assess the accuracy of a story or a pseudocode algorithm</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="75" ref="-1" time="19/12/2008 12:03:23">results in real world problems vary</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="76" ref="75" time="19/12/2008 12:03:33">and problems vary as well</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="77" ref="75" time="19/12/2008 12:03:45">in spam detection for instance</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="78" ref="77" time="19/12/2008 12:03:50">accuracy is anywhere from 80 to 100 per cent</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="79" ref="-1" time="19/12/2008 12:03:56">how do you select the starting points? That definitley influences performance, right?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="80" ref="78" time="19/12/2008 12:04:01">it all depends on how different the spam is</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="81" ref="-1" time="19/12/2008 12:04:20">that is the tricky part</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="82" ref="-1" time="19/12/2008 12:04:32">the fact that in the initial algorithm you have to know a priori a value for k</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="83" ref="-1" time="19/12/2008 12:04:44">the number of points</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="84" ref="-1" time="19/12/2008 12:04:58">you don't always know and can't always know</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="85" ref="-1" time="19/12/2008 12:05:23">the selection of the points can be random or by a farthes-possible criterion</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="86" ref="-1" time="19/12/2008 12:05:47">ok but given different 'seeds' the algorithm will produce quite different results in my opinion</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="87" ref="-1" time="19/12/2008 12:05:48">farthest</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="88" ref="63" time="19/12/2008 12:06:08">to answer andrei's initial question</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="89" ref="88" time="19/12/2008 12:06:31">speed varies with the number of iterations. One can limit that number to guarantee a constant minimum speed</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="90" ref="-1" time="19/12/2008 12:06:45">yes the results may differ from one run to another</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="91" ref="90" time="19/12/2008 12:06:58">as the original k-means is prone to local minima</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="92" ref="-1" time="19/12/2008 12:07:05">so it is not the most 'reliable' algorithm if i can say that</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="93" ref="92" time="19/12/2008 12:07:23">if always determining the exact optimum is what the problem needs</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="94" ref="93" time="19/12/2008 12:07:38">than k-means is not the best choice</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="95" ref="-1" time="19/12/2008 12:07:47">ok got it</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="96" ref="-1" time="19/12/2008 12:07:54">any other questions about k-means?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="97" ref="94" time="19/12/2008 12:08:31">but in the real world usually a good-enough approximation of the best solution is sufficient</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="98" ref="89" time="19/12/2008 12:08:46">so the main advantaje of your method is speed right?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="99" ref="97" time="19/12/2008 12:09:01">in those 90-something percent of time</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="100" ref="99" time="19/12/2008 12:09:20">k-means is optimal</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="101" ref="-1" time="19/12/2008 12:09:29">yes... what happens with the number of itterations as the set for which you want to create a partition groes larger and larger?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="102" ref="100" time="19/12/2008 12:09:48">in terms of speed and accuracy</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="103" ref="98" time="19/12/2008 12:10:03">yes ana, speed is a crucial factor</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="104" ref="102" time="19/12/2008 12:10:25">the training phase may take some time</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="105" ref="102" time="19/12/2008 12:10:32">but the analysis phase is instantaneous</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="106" ref="105" time="19/12/2008 12:11:24">and that means it is well suited for real time systems</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="107" ref="-1" time="19/12/2008 12:12:19">that's a good point</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="108" ref="101" time="19/12/2008 12:12:46">for andrei's question - i do not understand</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="109" ref="-1" time="19/12/2008 12:13:19">do you mean a growing test set?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="110" ref="-1" time="19/12/2008 12:13:35">the original algorithm is not designed to run online</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="111" ref="-1" time="19/12/2008 12:14:08">it is an offline method</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="112" ref="-1" time="19/12/2008 12:14:16">but it can be modified to run online - see the wokm methd</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="113" ref="-1" time="19/12/2008 12:14:21">well if there are no more questions</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="114" ref="-1" time="19/12/2008 12:14:28">Thanks claudiu</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="115" ref="-1" time="19/12/2008 12:14:33">i would like to hear more about a related method</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="116" ref="-1" time="19/12/2008 12:14:45">i'll present now SVM method</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="117" ref="101" time="19/12/2008 12:15:00">i mean...is there e dependency between the number of itterations and the set</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="118" ref="-1" time="19/12/2008 12:15:06">but later</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="119" ref="116" time="19/12/2008 12:15:32">SVMs are a type of learning machines applied to a wide range of applications</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="120" ref="119" time="19/12/2008 12:16:13">machine learning, optimization, statistics, neural networks, functional analysis to pattern recognition problems</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="121" ref="-1" time="19/12/2008 12:16:35">But for now I will present only the use of SVM for text classification problems</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="122" ref="-1" time="19/12/2008 12:17:09">In this method training and test examples are represented as d-dimensional real vectors</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="123" ref="122" time="19/12/2008 12:18:09">in the space of features describing the data.</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="124" ref="-1" time="19/12/2008 12:18:48">Given a category, each example belongs to one of two classes referred to as positive and negative</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="125" ref="-1" time="19/12/2008 12:19:37">so it is only a two class classifier?</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="126" ref="125" time="19/12/2008 12:20:21">one example can belong to more classes</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="127" ref="-1" time="19/12/2008 12:20:30">but for one class an example can be in it (reffered as possitive) or can not (reffered as negative)</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="128" ref="-1" time="19/12/2008 12:23:43">leaves the room</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="129" ref="-1" time="19/12/2008 12:24:19">leaves the room</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="130" ref="-1" time="19/12/2008 12:25:56">leaves the room</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="131" ref="-1" time="19/12/2008 12:25:59">leaves the room</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="132" ref="-1" time="19/12/2008 12:28:13">joins the room</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="133" ref="-1" time="22/12/2008 10:47:50">joins the room</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="134" ref="-1" time="22/12/2008 10:49:51">joins the room</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="135" ref="-1" time="22/12/2008 10:52:11">joins the room</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="136" ref="-1" time="22/12/2008 10:52:48">joins the room</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="137" ref="127" time="22/12/2008 10:55:08">so ana before the break you were talking about the SVM classes</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="138" ref="-1" time="22/12/2008 10:55:18">yes claudiu</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="139" ref="-1" time="22/12/2008 10:55:33">i will continue..in mathematical way we can say the training set consists of pairs (xi, yi), i = 1..n</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="140" ref="139" time="22/12/2008 10:55:56">where xi is a d-dimensional vector and represents the i-th training vector</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="141" ref="139" time="22/12/2008 10:56:07">and yi is +1 or -1 and represents the class label of this instance.</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="142" ref="-1" time="22/12/2008 10:56:17">The SVM algorithm treats learning as an optimization problem</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="143" ref="140" time="22/12/2008 10:56:22">that is identical to the way data is represented in the k-means algorithm</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="144" ref="143" time="22/12/2008 10:56:47">yes, they are very similar in that matter</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="145" ref="143" time="22/12/2008 10:57:16">yes iti is true</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="146" ref="143" time="22/12/2008 10:57:38">the different part is in the separation algorithm</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="147" ref="-1" time="22/12/2008 10:57:47">The learner attempts to separate positive from negative instances</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="148" ref="147" time="22/12/2008 10:57:59">using a hyperplane of the form wT x = b where w and b are variables defining the hiperplane</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="149" ref="148" time="22/12/2008 10:58:23">To choose w and b, SVM minimizes the a given criterion function.</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="150" ref="149" time="22/12/2008 10:58:39">Once w and b are calculated, the classifier uses a criterion to predict class labels of new documents</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="151" ref="-1" time="22/12/2008 10:58:45">what about training SVM?</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="152" ref="151" time="22/12/2008 10:59:02">SVM has two phases</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="153" ref="151" time="22/12/2008 10:59:14">In the training stage, the correspondence between every input vector and given output is internally discovered and learnt</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="154" ref="153" time="22/12/2008 10:59:25">The input for my model are the d-dimensional vectors and the label</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="155" ref="153" time="22/12/2008 10:59:40">discovered?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="156" ref="-1" time="22/12/2008 11:00:02">insn't it told what the correspondence is? a priori i mean?</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="157" ref="153" time="22/12/2008 11:00:08">so in the training stage the method calculates w and b</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="158" ref="156" time="22/12/2008 11:00:32">yes claudiu..the label tels the algorith the correspondence</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="159" ref="-1" time="22/12/2008 11:00:41">i understand, but you said that it evolves, that it is an optimisation problem</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="160" ref="-1" time="22/12/2008 11:01:02">The algoritm takes a lot of d-dimensional vectors and their labels for each document</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="161" ref="160" time="22/12/2008 11:01:06">how is that?</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="162" ref="160" time="22/12/2008 11:01:11">and finds b and w described above claudium_ro: how is that</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="163" ref="159" time="22/12/2008 11:01:24">yes</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="164" ref="161" time="22/12/2008 11:01:33">i will explain</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="165" ref="-1" time="22/12/2008 11:01:43">The optimisation problem is represented by the minimization of a given criterion function.</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="166" ref="-1" time="22/12/2008 11:01:57">The space between the planes wT x = b &amp;plusmn; 1 is called the margin</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="167" ref="-1" time="22/12/2008 11:02:21">its width can be expressed as a function of w: 2/||w||</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="168" ref="167" time="22/12/2008 11:02:36">The criterion function that is minimized by SVM causes the learner</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="169" ref="-1" time="22/12/2008 11:02:45">to look for a trade-off between minimizing the term ||w||2</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="170" ref="169" time="22/12/2008 11:02:56">which is equivalent to maximizing the width of the margin, on one hand, and minimizing the classification errors over the training data</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="171" ref="-1" time="22/12/2008 11:03:12">This is the trainig stage</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="172" ref="-1" time="22/12/2008 11:03:24">Afterwords the classifier uses the following criterion to predict class labels of new documents</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="173" ref="-1" time="22/12/2008 11:03:32">prediction(x) := sgn(wT x - b)</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="174" ref="-1" time="22/12/2008 11:03:39">This is basicly the SVM method</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="175" ref="-1" time="22/12/2008 11:03:47">ok thanks for the detailed presentation</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="176" ref="173" time="22/12/2008 11:03:55">and that must be the analysis stage?</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="177" ref="175" time="22/12/2008 11:04:02">if there aren't any more question, i will start presenting the art neural networks</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="178" ref="-1" time="22/12/2008 11:04:10">one more question, what about training data that has a lot of negative examples?</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="179" ref="-1" time="22/12/2008 11:04:28">how well does it fare?</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="180" ref="176" time="22/12/2008 11:04:40">yes claudiu..the method must have the first stage in order to act acurate</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="181" ref="179" time="22/12/2008 11:04:57">learning algorithm is adversely affected by imbalance in the training data</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="182" ref="-1" time="22/12/2008 11:05:06">While the resulting hyperplane has a reasonable orientation, the proposed</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="183" ref="182" time="22/12/2008 11:05:17">score threshold (parameter b) is too conservative</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="184" ref="-1" time="22/12/2008 11:05:58">so that is a potential minus of SVM</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="185" ref="184" time="22/12/2008 11:06:06">yes</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="186" ref="-1" time="22/12/2008 11:06:19">However there is a method based on the conditional class distributions for SVM scores</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="187" ref="186" time="22/12/2008 11:06:28">that works well when very few training examples is available to the learner</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="188" ref="184" time="22/12/2008 11:06:38">but stil the results are better if the examples are balanced</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="189" ref="-1" time="22/12/2008 11:06:44">ok got it</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="190" ref="-1" time="22/12/2008 11:06:54">if there are no more questions...</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="191" ref="-1" time="22/12/2008 11:07:31">indeed - if there are no more questions, as i previously said i would like to present ART networks.</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="192" ref="191" time="22/12/2008 11:07:37">perfect, finallly - the most difficult to comprehend and implement method of all</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="193" ref="191" time="22/12/2008 11:08:05"/>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="194" ref="191" time="22/12/2008 11:08:08">The ART (Adaptive Resonance Theory) neural networks are known for their self-organizing pattern</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="195" ref="-1" time="22/12/2008 11:08:32">pattern recognition and hypothesis testing properties i mean</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="196" ref="-1" time="22/12/2008 11:08:46">basically, ART system is an unsupervised learning model, consisting of a comparison field and a recognition field composed of neurons, a vigilance parameter, and a reset module</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="197" ref="-1" time="22/12/2008 11:09:00">the vigilance parameter is very important on the system since higher vigilance produces highly detailed memories</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="198" ref="-1" time="22/12/2008 11:09:11">while lower vigilance results in more general memories</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="199" ref="-1" time="22/12/2008 11:09:17">this means that in the first case we get many fine-grained categories and in the second one fwer more-general categories</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="200" ref="-1" time="22/12/2008 11:09:27">and who choses the vigilance parameter? the algorith or the user?</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="201" ref="-1" time="22/12/2008 11:10:00">the vigilance parameter is a tuning variable for the algorithm. the user chooses it to suite its needs</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="202" ref="201" time="22/12/2008 11:10:30">ok</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="203" ref="-1" time="22/12/2008 11:10:40">back to where i was</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="204" ref="-1" time="22/12/2008 11:10:58">The comparison field takes an input vector and transfers it to its best match in the recognition field</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="205" ref="203" time="22/12/2008 11:11:09">but how does it learn actually ?</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="206" ref="-1" time="22/12/2008 11:11:20">Its best match is the single neuron whose wieght vector matches the input vector</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="207" ref="-1" time="22/12/2008 11:11:37">how are those parameters tuned?</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="208" ref="207" time="22/12/2008 11:11:45">i'll get to that claudiu..patience..</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="209" ref="205" time="22/12/2008 11:11:59">Each recognition field neuron outputs a negative signal to each of the other recognition field neurons and inhibits their output accordingly</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="210" ref="-1" time="22/12/2008 11:12:11">the next step after the input vector is classified is for the reset module to compare the strength of the recognition match to the vigilance parameter</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="211" ref="-1" time="22/12/2008 11:12:19">If the vigilance threshold is met, training starts</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="212" ref="195" time="22/12/2008 11:12:39">also you said that ART networks are known for their self-organizing pattern recognition and hypothesis testing properties. what do you mean by hypothesis testing properties ? andreiserea: Otherw</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="213" ref="211" time="22/12/2008 11:13:39">Otherwise, if the match level does not meet the vigilance parameter, the input is discarded, the firing recognition neuron is inhibited until a new input vector is applid</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="214" ref="212" time="22/12/2008 11:13:48">i'll get back to your question as soon as i finish the entire presentation</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="215" ref="-1" time="22/12/2008 11:13:54">to continue...</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="216" ref="213" time="22/12/2008 11:14:06">training commences only upon completion of a search procedure</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="217" ref="-1" time="22/12/2008 11:14:18">In the search procedure, recognition neurons are disabled one by one by the reset function until the vigilance parameter is satisfied by a recognition match</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="218" ref="217" time="22/12/2008 11:14:40">i supose ART uses a lot of resources</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="219" ref="-1" time="22/12/2008 11:14:47">if no committed recognition neuron&amp;rsquo;s match meets the vigilance threshold, then an uncommitted neuron is committed and adjusted towards matching the input vector</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="220" ref="218" time="22/12/2008 11:15:07">that depends on the quantity of data to be learnt</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="221" ref="219" time="22/12/2008 11:15:18">this way, the network learns about new inputs.</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="222" ref="212" time="22/12/2008 11:15:31">now..about your first question claudiu...about training the ART neural network</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="223" ref="-1" time="22/12/2008 11:15:42">There are two basic methods of training ART-based neural networks: slow and fast</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="224" ref="223" time="22/12/2008 11:15:51">In the slow learning method, the degree of training of the recognition neuron&amp;rsquo;s weights towards the input vector is calculated to continuous values with differential equations and is thus dependent on the length of time the input vector is presented</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="225" ref="-1" time="22/12/2008 11:16:05">now, on fast learning, things are different</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="226" ref="-1" time="22/12/2008 11:16:15">the equations used are algebraic</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="227" ref="-1" time="22/12/2008 11:16:24">that is quite a different architecture from the methods presented so far, so i want to ask you what is the complexity of the algorithm? I mean when trained, is it faster to produce a result than SVM for example?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="228" ref="-1" time="22/12/2008 11:16:37">excuse my interruption - by how fast is the fast method and how slow the slow one?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="229" ref="228" time="22/12/2008 11:16:49">exactly - can you compare the methods?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="230" ref="229" time="22/12/2008 11:16:57">both in the fast train case and in the slow one</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="231" ref="-1" time="22/12/2008 11:16:59">ok and then my question :)</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="232" ref="231" time="22/12/2008 11:17:07">ok, stefan first: the ART neural networks used can learn preety fast</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="233" ref="-1" time="22/12/2008 11:17:18">ana what do you think, is ART faster than SVM?</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="234" ref="233" time="22/12/2008 11:17:40">The training stage of the SVM method is slower then the ART training method</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="235" ref="-1" time="22/12/2008 11:17:49">but what about after learning?</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="236" ref="235" time="22/12/2008 11:17:58">the ART network is capable of very fast learning for new inputs but is not faster that k-means.</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="237" ref="234" time="22/12/2008 11:17:59">SVM takes it's time in the learning stage</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="238" ref="237" time="22/12/2008 11:18:08">It has almost the same performance as SVM</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="239" ref="-1" time="22/12/2008 11:18:10">aha, ok</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="240" ref="-1" time="22/12/2008 11:18:17">any art applications will use fast learning though...</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="241" ref="240" time="22/12/2008 11:18:27">even if the slow learning method is more biologically plausible</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="242" ref="235" time="22/12/2008 11:18:29">after learning SVM is faster but even so the total execution time is not faster then k-means</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="243" ref="242" time="22/12/2008 11:18:42">exactly</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="244" ref="-1" time="22/12/2008 11:18:48">ok - let's hear from stefan</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="245" ref="-1" time="22/12/2008 11:18:57">great, my turn</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="246" ref="-1" time="22/12/2008 11:19:00">and afterwards we cam compare the methods fully informed</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="247" ref="244" time="22/12/2008 11:19:07">yes..go stefan</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="248" ref="-1" time="22/12/2008 11:19:15">i will present Naive Bayes</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="249" ref="-1" time="22/12/2008 11:19:24">Naive Bayes is another technique that is used in data classification.</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="250" ref="-1" time="22/12/2008 11:19:34">It derives from Bayes's theorem but involves specific independence conditions.</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="251" ref="-1" time="22/12/2008 11:19:46">Bayes's theorem proposes a formula that relates the probability of event A given the marginal probability of event B.</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="252" ref="-1" time="22/12/2008 11:19:56">It is a simple but powerful formula in itself, however it is rather complicated to implement in it's original form.</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="253" ref="-1" time="22/12/2008 11:20:05">Naive Bayes simplifies the formula by adding the assumption that events are independent of each-other.</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="254" ref="-1" time="22/12/2008 11:20:16">That means much simpler and faster calculations as the whole formula reduces to computing a multiplication of independent smaller fractions.</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="255" ref="-1" time="22/12/2008 11:20:20">why is it hard to implement if it is quite simple?</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="256" ref="-1" time="22/12/2008 11:21:04">ok i will answer, but first let me finish presenting it</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="257" ref="-1" time="22/12/2008 11:21:12">just a couple more words</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="258" ref="257" time="22/12/2008 11:21:30">please stefan - questions afterwards !</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="259" ref="-1" time="22/12/2008 11:21:55">Overall Naive Bayes may make oversimplified assumptions but it does produce quite unexpectedly good results.</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="260" ref="-1" time="22/12/2008 11:22:07">There are a few variations over the implementations, but the most wide spread are the Bernoulli form and the multinomial form.</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="261" ref="-1" time="22/12/2008 11:22:18">leaves the room</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="262" ref="-1" time="22/12/2008 11:22:30">As a quick overview, given an N dimensional space ( like a N words in a text ), a vector in the Bernoulli form will be composed of ones and zeroes if the keywords appear or not in the text.</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="263" ref="-1" time="22/12/2008 11:22:47">The multinomial form actually counts the number of appearances, so it will give a more realistic estimation.</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="264" ref="-1" time="22/12/2008 11:22:47">joins the room</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="265" ref="-1" time="22/12/2008 11:23:05">Between the two, the multinomial form is only marginally slower but almost always gives better results that the Bernoulli form.</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="266" ref="-1" time="22/12/2008 11:23:11">OK going back to the general discussion about Naive Bayes</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="267" ref="-1" time="22/12/2008 11:23:17">the tehnique does have some advantages</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="268" ref="267" time="22/12/2008 11:23:26">mainly it requires a small amount of training data to estimate the parameters</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="269" ref="267" time="22/12/2008 11:23:35">it is very efficient when dealing with many variables.</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="270" ref="-1" time="22/12/2008 11:23:44">so, actually, the algorithms used are pretty simple, right? how come they are so efficient, as you say</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="271" ref="267" time="22/12/2008 11:23:55">and very important is if computer programmer and processor friendly, the formula is simple and the execution can be parallelized</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="272" ref="-1" time="22/12/2008 11:24:04">in simplicity lies efficiency</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="273" ref="272" time="22/12/2008 11:24:08">yes that does seem a bit odd</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="274" ref="273" time="22/12/2008 11:24:17">but it actually handles real life situations quite well</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="275" ref="271" time="22/12/2008 11:24:29">my problem with naive bayes is that i believe classes of examples must be defined a priori</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="276" ref="274" time="22/12/2008 11:24:32">first and foremost it's efficiency has been proved</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="277" ref="276" time="22/12/2008 11:24:39">time and time again</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="278" ref="275" time="22/12/2008 11:24:41">meaning that if you have a basket of fruit</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="279" ref="277" time="22/12/2008 11:24:48">just one example: mail filters</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="280" ref="278" time="22/12/2008 11:24:50">and you have previously learned that on that planet there are apples and plumes</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="281" ref="280" time="22/12/2008 11:25:32">even if there are some oranges in there</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="282" ref="-1" time="22/12/2008 11:25:35">so for the learning stage you count the number of appearances of en element...what if the number is 0...what happends in the prediction phase?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="283" ref="281" time="22/12/2008 11:25:49">it is very rigid in my opinion</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="284" ref="-1" time="22/12/2008 11:25:52">yes claudiu that's the assumption of naive bayes</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="285" ref="284" time="22/12/2008 11:26:24">the other three methods learn to adapt to the environment</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="286" ref="284" time="22/12/2008 11:26:31">naive bayes is static</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="287" ref="285" time="22/12/2008 11:26:42">well....that is the downside of the naive bayes classifier</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="288" ref="283" time="22/12/2008 11:26:46">but take into consideration that you usually apply this tehnique to many variables</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="289" ref="287" time="22/12/2008 11:26:50">comparing to the other 3 methods presented so far</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="290" ref="280" time="22/12/2008 11:27:01">plus given your example</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="291" ref="290" time="22/12/2008 11:27:09">k means would do the same</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="292" ref="291" time="22/12/2008 11:27:13">not exactly</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="293" ref="291" time="22/12/2008 11:27:20">it cannot model correlation between inputs, right?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="294" ref="-1" time="22/12/2008 11:27:26">k-means would be told that there are two classes of fruit</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="295" ref="-1" time="22/12/2008 11:27:36">if there are more oranges than plumes</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="296" ref="-1" time="22/12/2008 11:27:45">it would correctly classify the oranges</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="297" ref="296" time="22/12/2008 11:27:55">which are more important because they are more numerous</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="298" ref="297" time="22/12/2008 11:28:01">so k-means is more adaptive than naive bayes</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="299" ref="298" time="22/12/2008 11:28:07">in that situation at least</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="300" ref="-1" time="22/12/2008 11:28:11">yes but you picked the condition</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="301" ref="300" time="22/12/2008 11:28:17">that is not discriminative: all are fruits</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="302" ref="-1" time="22/12/2008 11:28:22">give naive bayes another difference</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="303" ref="-1" time="22/12/2008 11:28:31">like colour</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="304" ref="-1" time="22/12/2008 11:28:37">or number of fruits</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="305" ref="302" time="22/12/2008 11:28:47">and it will calculate the probabilty just as good</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="306" ref="300" time="22/12/2008 11:28:48">that condition - that all are fruit - does not diminish the generality of the example</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="307" ref="-1" time="22/12/2008 11:28:57">i could have said blue and black beads</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="308" ref="307" time="22/12/2008 11:29:04">exactly claudiu...bayes assumes the the observable variables are independent...given the classes</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="309" ref="-1" time="22/12/2008 11:29:09">it's the same problem</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="310" ref="307" time="22/12/2008 11:29:17">your classes are ambigous for bayes...in the fruits example above</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="311" ref="310" time="22/12/2008 11:29:36">that is usually an overly simplificative assumption</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="312" ref="-1" time="22/12/2008 11:29:48">it's a matter of perspective</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="313" ref="-1" time="22/12/2008 11:29:51">i believe that the bayes classifier can only be accurately used as a pre-train filtering method for the other three</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="314" ref="313" time="22/12/2008 11:30:02">i doubt there is something that cannot be classified with bayes unless you give an unreasonable classification</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="315" ref="-1" time="22/12/2008 11:30:06">t correctly (hopefully) classifies the examples into smaller subsets</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="316" ref="283" time="22/12/2008 11:30:18">i agree with claudiu ...all other 3 methods are more addaptive</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="317" ref="313" time="22/12/2008 11:30:22">that way it helps a neural network get around the stability-plasticity dilemma</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="318" ref="313" time="22/12/2008 11:30:35">true, but combining these methods is a very tricky task</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="319" ref="318" time="22/12/2008 11:30:41">indeed it is tricky</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="320" ref="319" time="22/12/2008 11:30:49">that is why i believe that naive bayes shouldn;t be used at all</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="321" ref="-1" time="22/12/2008 11:30:53">you will receive lots of spam then</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="322" ref="320" time="22/12/2008 11:31:00">it's simply too rigid and hard to combine with other methods</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="323" ref="-1" time="22/12/2008 11:31:13">yet it has been proved to be very efficient in real-world applications</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="324" ref="-1" time="22/12/2008 11:31:24">actually the antispam community gave up on naive bayes three t0 four years ago</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="325" ref="322" time="22/12/2008 11:31:33">i disagree, it's to simple not to combine</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="326" ref="322" time="22/12/2008 11:31:36">naive bayes gives very good result in many cases so i don't thing we have to eliminate it</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="327" ref="324" time="22/12/2008 11:31:41">now more complex classifiers are used</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="328" ref="-1" time="22/12/2008 11:31:56">please mention a case in which a naive bayes classifier would be more accurate and faster than the other three methods</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="329" ref="-1" time="22/12/2008 11:32:01">Naive Bayes is one of the most efficient and effective inductive learning algorithms for machine learning and data mining.</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="330" ref="328" time="22/12/2008 11:32:28">they can be used for solving spam filtering problems</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="331" ref="330" time="22/12/2008 11:32:38">microsoft uses naive bayes in a data mining application and it performes very well</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="332" ref="329" time="22/12/2008 11:32:44">it does not want to be faster or more efficient that the other</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="333" ref="332" time="22/12/2008 11:32:54">there are fields where it outperforms kmeans for example but not svm</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="334" ref="332" time="22/12/2008 11:33:00">and the other way around</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="335" ref="-1" time="22/12/2008 11:33:08">the problem with the svm is that although it is a genuinely good method</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="336" ref="335" time="22/12/2008 11:33:14">it performs poorly when it comes to analysis time</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="337" ref="332" time="22/12/2008 11:33:25">it is at it's basis a tehniques that relyies on a known imposibility- that all events are independent</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="338" ref="337" time="22/12/2008 11:33:31">so it does not aim to be perfect</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="339" ref="336" time="22/12/2008 11:33:34">it simply takes a lot to analyse even a single test sample</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="340" ref="339" time="22/12/2008 11:33:40">because you have to construct the whole hyperspace</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="341" ref="336" time="22/12/2008 11:33:46">it is true ...the analysis time of SMV is a little big but the method is addaptive and the results are acuarate</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="342" ref="-1" time="22/12/2008 11:34:04">the method behaves very well even if document vectors are sparse</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="343" ref="338" time="22/12/2008 11:34:06">anyway, bayes is know to work, and work good in multiple applications, especially because it is fast and simple to implement and use, and last but not least it gives very good results</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="344" ref="342" time="22/12/2008 11:34:26">even if is a little slower i belive the classification is the best</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="345" ref="342" time="22/12/2008 11:34:27">i believe that is true regarding all four of the methods</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="346" ref="343" time="22/12/2008 11:34:38">yes - stefan has a point</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="347" ref="344" time="22/12/2008 11:34:45">and because is a mathematic method is easy to parallelise</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="348" ref="346" time="22/12/2008 11:34:53">sometimes it is best to choose the simplest method to implement</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="349" ref="348" time="22/12/2008 11:35:00">and that is an area that nayve bayes excells at</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="350" ref="347" time="22/12/2008 11:35:09">as this been done ana? the parallelization of bayes</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="351" ref="349" time="22/12/2008 11:35:21">or excells in, sorry</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="352" ref="350" time="22/12/2008 11:35:34">of SVM, excuse me</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="353" ref="340" time="22/12/2008 11:35:34">To increase SVM analyse speed it is better to increase the number of analyzed elements at once</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="354" ref="-1" time="22/12/2008 11:35:43">ok i propose to analise the 4 methods given the computational time</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="355" ref="354" time="22/12/2008 11:35:48">we already started to do that</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="356" ref="350" time="22/12/2008 11:36:00">The parallelization of SVM has been first achieved in 2008 with good results</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="357" ref="-1" time="22/12/2008 11:36:09">(how fast the algorithms are)</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="358" ref="356" time="22/12/2008 11:36:16">yes, given that SVM is rather new</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="359" ref="354" time="22/12/2008 11:36:17">i believe such an analysis is not enough.</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="360" ref="359" time="22/12/2008 11:36:25">There are two computational times we are after - the training time and the analysis time</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="361" ref="360" time="22/12/2008 11:36:29">ok let's talk about traing later</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="362" ref="360" time="22/12/2008 11:36:33">if everyone is ok with it</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="363" ref="361" time="22/12/2008 11:36:36">i meant talk about run time, and complexity</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="364" ref="362" time="22/12/2008 11:36:46">i would like to start with the training time.</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="365" ref="363" time="22/12/2008 11:36:49">that relates direclty to features like paralelisation</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="366" ref="-1" time="22/12/2008 11:36:53">ok..le't talk about training time</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="367" ref="366" time="22/12/2008 11:36:55">this could be a point for bayes...</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="368" ref="-1" time="22/12/2008 11:37:02">i thought what we discussed was the original method designs</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="369" ref="368" time="22/12/2008 11:37:15">not extensions that all four could suffer</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="370" ref="-1" time="22/12/2008 11:37:26">paralelization is not an extension</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="371" ref="-1" time="22/12/2008 11:37:36">true, but let us stick to the standard form of the 4 methods for starters, ok?</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="372" ref="-1" time="22/12/2008 11:37:39">The original method of SVM has a big training time</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="373" ref="370" time="22/12/2008 11:38:16">it's a feature</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="374" ref="-1" time="22/12/2008 11:38:27">that is a big plus to a method over another</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="375" ref="372" time="22/12/2008 11:38:45">but this time can be decreased by parallelization</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="376" ref="-1" time="22/12/2008 11:38:59">exactly</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="377" ref="373" time="22/12/2008 11:39:01">all methods could be parallelised !</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="378" ref="371" time="22/12/2008 11:39:11">yes..we will talk about the original methods</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="379" ref="377" time="22/12/2008 11:40:23">so i hardly believe that parallel programming could be considered a feature of any method</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="380" ref="377" time="22/12/2008 11:40:27">there are algorithms that cannot be parallelized</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="381" ref="380" time="22/12/2008 11:40:35">or at least portions of them</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="382" ref="-1" time="22/12/2008 11:40:42">not as well you mean stefan</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="383" ref="-1" time="22/12/2008 11:40:53">do any of us believe that a programmer that can parallelise ART cannot parallelise SVM ?</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="384" ref="383" time="22/12/2008 11:41:01">it depends on the algorithm how well it can be parameterezided</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="385" ref="384" time="22/12/2008 11:41:12">parallelized</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="386" ref="385" time="22/12/2008 11:41:16">excuse me</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="387" ref="-1" time="22/12/2008 11:41:17">take bayes</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="388" ref="-1" time="22/12/2008 11:41:29">it is in itself a multiplication of small fractions</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="389" ref="-1" time="22/12/2008 11:41:41">that are independent of eachother</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="390" ref="387" time="22/12/2008 11:41:42">ok, take kmeans</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="391" ref="387" time="22/12/2008 11:41:54">it is the PERFECT candidate for parallelization</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="392" ref="390" time="22/12/2008 11:41:55">it is a loop in which eack cluster is treated sepparately</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="393" ref="380" time="22/12/2008 11:42:16">i think any method that is based on a mathematical algorithm can be easy parallelized</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="394" ref="391" time="22/12/2008 11:42:18">if given enough processors it can run in O(1)</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="395" ref="392" time="22/12/2008 11:42:23">it is paralelisable by nature</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="396" ref="395" time="22/12/2008 11:42:31">the same goes for ART networks - each perceptron can be taken sepparately.</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="397" ref="395" time="22/12/2008 11:42:38">And i believe ana can certify that svm's are easily paralelisable as well</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="398" ref="-1" time="22/12/2008 11:42:46">so... where does that leave us ?</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="399" ref="-1" time="22/12/2008 11:42:48">ok what are the times for each method?</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="400" ref="397" time="22/12/2008 11:42:53">yes..it's a fact</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="401" ref="-1" time="22/12/2008 11:43:07">ART networks are extremely fast in training stage</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="402" ref="399" time="22/12/2008 11:43:09">polynomial, exponential?</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="403" ref="402" time="22/12/2008 11:43:16">SVM's training time is polynomial</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="404" ref="-1" time="22/12/2008 11:43:18">the ART neural networrks are polynomial also!</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="405" ref="403" time="22/12/2008 11:43:30">SVMs has training time O(sn)</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="406" ref="402" time="22/12/2008 11:43:36">Bayes has polynomial time</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="407" ref="405" time="22/12/2008 11:43:45">SVMs has training time O(sn)</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="408" ref="407" time="22/12/2008 11:43:55">where s are the number of features</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="409" ref="403" time="22/12/2008 11:44:03">in the training phase kmeans are o(n2)</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="410" ref="-1" time="22/12/2008 11:44:07">polynomial sounds nice</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="411" ref="408" time="22/12/2008 11:44:15">and n the number of examples</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="412" ref="410" time="22/12/2008 11:44:16">believe we wouldn't be discussing methods of exponential time</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="413" ref="412" time="22/12/2008 11:44:23">right:)</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="414" ref="412" time="22/12/2008 11:44:30">yes, but for example methods can be done in log(n) which is even faster than o(n)</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="415" ref="412" time="22/12/2008 11:44:31">that is true, but this is not our case. all methods have polynomial complexities</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="416" ref="409" time="22/12/2008 11:44:58">As previously said</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="417" ref="-1" time="22/12/2008 11:45:00">ok what about trainig time?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="418" ref="416" time="22/12/2008 11:45:06">k-means has a o(n^n) complexity for the training phase</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="419" ref="-1" time="22/12/2008 11:45:15">SVM has training time O(sn) for classification problems</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="420" ref="419" time="22/12/2008 11:45:22">and O(sn log(n)) for ordinal regression problems.</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="421" ref="417" time="22/12/2008 11:45:26">this is where the naive bayes has its opponents beat</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="422" ref="418" time="22/12/2008 11:45:40">ART's complexity for the training time is O(n^2)</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="423" ref="421" time="22/12/2008 11:45:50">naive bayes is probably the fastest method from this point of view</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="424" ref="423" time="22/12/2008 11:45:55">yes it is</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="425" ref="-1" time="22/12/2008 11:45:56">and also as a side note, bayes requires a small amount of training data to estimate its parameters.</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="426" ref="422" time="22/12/2008 11:45:58">also, there is a derivation of the ART neural networks original implementation</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="427" ref="425" time="22/12/2008 11:46:09">it does not take long for bayes to get up and running</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="428" ref="426" time="22/12/2008 11:46:10">called fuzzy artmap</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="429" ref="-1" time="22/12/2008 11:46:21">that is even faster than its other variations</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="430" ref="425" time="22/12/2008 11:46:33">SVM also require a small input space to give good results</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="431" ref="-1" time="22/12/2008 11:46:35">here we have two simple methods</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="432" ref="-1" time="22/12/2008 11:46:46">ok</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="433" ref="-1" time="22/12/2008 11:46:49">what about the complexity of implementation?</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="434" ref="433" time="22/12/2008 11:46:54">in what order should we rank the 4 methods?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="435" ref="431" time="22/12/2008 11:46:59">the bayes and kmeans</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="436" ref="435" time="22/12/2008 11:47:06">i think the kmeans is the most simple one to implement</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="437" ref="435" time="22/12/2008 11:47:12">and two complex ones - art and svm</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="438" ref="435" time="22/12/2008 11:47:19">next should be bayes</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="439" ref="438" time="22/12/2008 11:47:30">i disagree</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="440" ref="439" time="22/12/2008 11:47:38">bayes is a simple fraction</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="441" ref="437" time="22/12/2008 11:47:39">SVM and last ART networks are the hardest to implement</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="442" ref="441" time="22/12/2008 11:47:51">SVM is hard to implement as well because it has complicated mathematical algorithms</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="443" ref="-1" time="22/12/2008 11:47:56">i believe that you are mistaken</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="444" ref="443" time="22/12/2008 11:48:02">the bayes classifier is the easiest to implement</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="445" ref="444" time="22/12/2008 11:48:04">bayes is the simplest</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="446" ref="-1" time="22/12/2008 11:48:08">then k-means</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="447" ref="445" time="22/12/2008 11:48:44">I agree with stefan..bayes and k-means are the easiest</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="448" ref="-1" time="22/12/2008 11:48:49">indeed - stefan is correct</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="449" ref="448" time="22/12/2008 11:48:57">thank you thank you :)</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="450" ref="449" time="22/12/2008 11:49:02">so between svm and art?</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="451" ref="-1" time="22/12/2008 11:49:03">i am outnumbered</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="452" ref="445" time="22/12/2008 11:49:10">i thing bayes is the simplest</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="453" ref="450" time="22/12/2008 11:49:55">SVM's triaining stage is the difficult part</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="454" ref="-1" time="22/12/2008 11:50:07">but the good thing about the implementations</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="455" ref="453" time="22/12/2008 11:50:13">the second stage is very simple</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="456" ref="-1" time="22/12/2008 11:50:30">art and SVM are indeed very hard to implement but gain in efficacy and adaptation to real large data bases</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="457" ref="454" time="22/12/2008 11:50:32">is that for each one there is certainly already an implementation available</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="458" ref="-1" time="22/12/2008 11:50:37">ok so Bayes, Kmeans, ART and SVM?</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="459" ref="-1" time="22/12/2008 11:50:42">do we all agree?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="460" ref="459" time="22/12/2008 11:50:51">indeed, that is the order</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="461" ref="458" time="22/12/2008 11:50:55">the hardest is svm then art</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="462" ref="461" time="22/12/2008 11:51:01">i agree with this, although SVM seams simpler to implement than art</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="463" ref="458" time="22/12/2008 11:51:05">yes..i agree with stefan</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="464" ref="459" time="22/12/2008 11:51:08">ok</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="465" ref="463" time="22/12/2008 11:51:14">for the first two i agree too</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="466" ref="-1" time="22/12/2008 11:51:22">next topic is customization</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="467" ref="466" time="22/12/2008 11:51:26">how configurable is each algorithm?</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="468" ref="465" time="22/12/2008 11:51:32">but if we take in count the ART1 variant of the neural networks...art is simple to implement too</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="469" ref="-1" time="22/12/2008 11:51:39">next in line, already discussed but highly important - accuracy</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="470" ref="466" time="22/12/2008 11:51:43">how many parameters can it take?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="471" ref="467" time="22/12/2008 11:51:50">'m sorry, you go first</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="472" ref="470" time="22/12/2008 11:51:59">is a high number of parameters considered a good thing?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="473" ref="470" time="22/12/2008 11:52:08">or would a plug and play method be more appreciated?</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="474" ref="470" time="22/12/2008 11:52:10">ok for bayes you can adjust the number of attributes you take into consideration</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="475" ref="473" time="22/12/2008 11:52:19">I think in this situation the more configurable the better</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="476" ref="474" time="22/12/2008 11:52:26">to make it faster or give it better accuracy</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="477" ref="476" time="22/12/2008 11:52:31">depending on your requirements</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="478" ref="472" time="22/12/2008 11:52:36">I thing is not a very good ideea to let the user set to many parameters</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="479" ref="478" time="22/12/2008 11:52:48">after all, this is not a final product shown to the user, like bayes to anti-spam software</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="480" ref="-1" time="22/12/2008 11:52:54">i am talking in general</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="481" ref="475" time="22/12/2008 11:53:05">My opinion is that is batter is most of the parameters are generated by the algrithm</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="482" ref="480" time="22/12/2008 11:53:08">not user related</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="483" ref="-1" time="22/12/2008 11:53:10">ctually the user doesn't see anything</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="484" ref="479" time="22/12/2008 11:53:23">these are tuned first, configured with the best parameters and the shipped</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="485" ref="483" time="22/12/2008 11:53:30">the user usually doesn't directly interact with the classifiers</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="486" ref="482" time="22/12/2008 11:53:32">ppl, think in general not product related</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="487" ref="485" time="22/12/2008 11:53:39">In the SVM method most parameters are generated</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="488" ref="487" time="22/12/2008 11:53:52">yes but...only an user would care about how hard it is to configure.</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="489" ref="488" time="22/12/2008 11:54:14">for us, we should only consider how flexible the method is due to its configurable parameters</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="490" ref="489" time="22/12/2008 11:54:23">o I think the more the merrier</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="491" ref="-1" time="22/12/2008 11:54:26">how many adjustables does kmeans have?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="492" ref="490" time="22/12/2008 11:54:35">i favour a researcher-friendly method</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="493" ref="492" time="22/12/2008 11:54:41">that correctly classifies on its own</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="494" ref="492" time="22/12/2008 11:54:52">here, ART's vigilance parameter is a crucial factor...controlling the number of categories it gives</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="495" ref="491" time="22/12/2008 11:54:54">claudiu correct me, but for k-means you have only k and n to set, right?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="496" ref="495" time="22/12/2008 11:55:04">correct</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="497" ref="495" time="22/12/2008 11:55:06">so that's only 2parameters</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="498" ref="497" time="22/12/2008 11:55:09">SVM method has only 3 parameters to set</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="499" ref="498" time="22/12/2008 11:55:15">w is the &amp;ldquo;normal&amp;rdquo; of the hyperplane</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="500" ref="498" time="22/12/2008 11:55:22">b defines the position of the plane in space.</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="501" ref="-1" time="22/12/2008 11:55:25">ok so the order would be something like ART, Bayes, K-Means, SVM ?</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="502" ref="-1" time="22/12/2008 11:55:29">and a constant</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="503" ref="-1" time="22/12/2008 11:55:30">ART being the most configurable?</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="504" ref="501" time="22/12/2008 11:55:42">true</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="505" ref="-1" time="22/12/2008 11:55:52">i think ART's only reallly important parameter is the vigilence</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="506" ref="505" time="22/12/2008 11:55:58">yes but art is a neural network</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="507" ref="506" time="22/12/2008 11:56:04">you have a lot of parameters that you can preset</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="508" ref="507" time="22/12/2008 11:56:12">ranging from neuron count to function and so on</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="509" ref="506" time="22/12/2008 11:56:14">actually art is easier tu design than most neuralnetworks</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="510" ref="509" time="22/12/2008 11:56:22">ART1 is easy to design</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="511" ref="509" time="22/12/2008 11:56:29">precisely because it does not have a rigid structure</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="512" ref="-1" time="22/12/2008 11:56:36">that has to be preseted</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="513" ref="-1" time="22/12/2008 11:56:37">ok</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="514" ref="-1" time="22/12/2008 11:56:46">let's talk now about accuracy</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="515" ref="510" time="22/12/2008 11:56:58">ARTMAP and fuzzy Art , or fuzzy ARTmap are not so easy</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="516" ref="515" time="22/12/2008 11:57:09">indeed, because of its character</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="517" ref="516" time="22/12/2008 11:57:16">of a neural network, it has all of the specific neural network configurable parameters</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="518" ref="514" time="22/12/2008 11:57:26">bayes has preety good accuracy, especially when dealing with lots of attributes</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="519" ref="518" time="22/12/2008 11:57:28">and given a good training set</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="520" ref="-1" time="22/12/2008 11:57:33">kmeans is perfect for situations when you don't know just about anything about the data you're classifying</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="521" ref="-1" time="22/12/2008 11:57:44">almost anything because it's important to know the number of classes</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="522" ref="520" time="22/12/2008 11:57:55">ART is excelent on large data sets, very adaptable to un-matching inputs</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="523" ref="522" time="22/12/2008 11:58:00">SVM is the good with any dimension for the input space</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="524" ref="523" time="22/12/2008 11:58:09">SVMs uses overfitting protection with does not necessarily depend on the number of features</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="525" ref="-1" time="22/12/2008 11:58:12">ok</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="526" ref="-1" time="22/12/2008 11:58:22">a conclusion please</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="527" ref="526" time="22/12/2008 11:58:28">well...we decided that kmeans is the fastest but bayes is the easiest to implement</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="528" ref="527" time="22/12/2008 11:58:34">that svm is the most accurate</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="529" ref="528" time="22/12/2008 11:58:38">and art the most configurable</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="530" ref="527" time="22/12/2008 11:58:51">as a conclusion I belive k-means is the optimal method...has a good execution time and good results</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="531" ref="-1" time="22/12/2008 11:59:00">exactly</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="532" ref="531" time="22/12/2008 11:59:03">perfect</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="533" ref="530" time="22/12/2008 11:59:10">so each of these methods share one of the 4 advantages we have debated</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="534" ref="-1" time="22/12/2008 11:59:13">Now let's figure out a way to combine the 4 methods</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="535" ref="533" time="22/12/2008 11:59:24">but ART is more often used due to its varriant forms, designed for multiple uses</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="536" ref="534" time="22/12/2008 11:59:25">is there a way to combine them? aren't they too different in structure?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="537" ref="-1" time="22/12/2008 11:59:32">that is precisely why i believe that these methods can be put to better use combined</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="538" ref="-1" time="22/12/2008 11:59:38">they serve different tasks so probabilly they should be combined to perform then sequentially</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="539" ref="538" time="22/12/2008 11:59:40">exactly what i wanted to say</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="540" ref="539" time="22/12/2008 11:59:47">maybe we could use them to verify each other?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="541" ref="540" time="22/12/2008 11:59:51">that would be difficult</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="542" ref="540" time="22/12/2008 11:59:56">for example in text classification</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="543" ref="-1" time="23/12/2008 12:00:02">let's say we use K-means</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="544" ref="541" time="23/12/2008 12:00:06">ecause the naive bayes would split a text corpus in N classes</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="545" ref="538" time="23/12/2008 12:00:10">we could use the accurate method as an input for naive bayes</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="546" ref="544" time="23/12/2008 12:00:21">then k-means woud split them in other k classes</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="547" ref="546" time="23/12/2008 12:00:28">they both could be right</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="548" ref="547" time="23/12/2008 12:00:30">dosen't matter</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="549" ref="547" time="23/12/2008 12:00:34">but the classes different</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="550" ref="549" time="23/12/2008 12:00:40">because there are other features they classified by</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="551" ref="549" time="23/12/2008 12:00:43">no, you give the same classes</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="552" ref="551" time="23/12/2008 12:00:48">and are only interested in the final result</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="553" ref="-1" time="23/12/2008 12:01:02">I think is very hart to compare the results of all 4 methods</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="554" ref="552" time="23/12/2008 12:01:05">like: is this text more a literary text or a scientific text</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="555" ref="-1" time="23/12/2008 12:01:19">bayes would say something like 30% and 60%</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="556" ref="-1" time="23/12/2008 12:01:24">kmeans would go for 40% and 50%</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="557" ref="-1" time="23/12/2008 12:01:33">no - k-means would place each text in the literary or scientific classes</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="558" ref="555" time="23/12/2008 12:01:45">And in the end we'll make arithmetic mean between the results?</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="559" ref="557" time="23/12/2008 12:01:46">i'd like to know that kmeans also says that the text if more scientific than literary</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="560" ref="559" time="23/12/2008 12:01:51">not &amp;quot;more literary&amp;quot; - just literary</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="561" ref="559" time="23/12/2008 12:01:52">for example..</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="562" ref="560" time="23/12/2008 12:01:58">black and white</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="563" ref="560" time="23/12/2008 12:02:04">obviously</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="564" ref="563" time="23/12/2008 12:02:08">i meant that if the text was close to both</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="565" ref="562" time="23/12/2008 12:02:25">SVM the same</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="566" ref="564" time="23/12/2008 12:02:26">i'd like both to tell me scientific</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="567" ref="-1" time="23/12/2008 12:02:28">please give me a few minutes to devise a combination of the methods</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="568" ref="566" time="23/12/2008 12:02:38">i'd feel fuzzy and warm if both agree</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="569" ref="567" time="23/12/2008 12:02:39">believe that the naive bayes should be the first classifier</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="570" ref="569" time="23/12/2008 12:02:49">prefiltering the data for the more sophisticated methods that follow</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="571" ref="569" time="23/12/2008 12:02:51">i agree, it's very fast for that purpose</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="572" ref="-1" time="23/12/2008 12:03:02">then the other three methods are rather exclusive</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="573" ref="-1" time="23/12/2008 12:03:10">nd they could be used to test each other</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="574" ref="570" time="23/12/2008 12:03:15">i agree, for the filtering part naive bayes is a good choice</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="575" ref="-1" time="23/12/2008 12:03:43">so i'm for a bayes first, then the others - and thus we alsohave a way to check the results</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="576" ref="-1" time="23/12/2008 12:03:45">do we need both art and svm?</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="577" ref="576" time="23/12/2008 12:04:14">so after bayes all methods will execute on the same data but in parallel and in the end we compare the results</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="578" ref="-1" time="23/12/2008 12:04:26">the problem with such an approach would be that the other three methods are quite different in complexity</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="579" ref="576" time="23/12/2008 12:04:29">i'm more inclined to go for svm at the final step</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="580" ref="578" time="23/12/2008 12:04:34">and the total time would be the worst time</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="581" ref="580" time="23/12/2008 12:04:36">yes but consider the processor usage</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="582" ref="580" time="23/12/2008 12:04:50">i preffer svm because it is more accurate</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="583" ref="580" time="23/12/2008 12:04:53">so i would rule out the slowest</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="584" ref="583" time="23/12/2008 12:05:02">artmap is also accurate</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="585" ref="581" time="23/12/2008 12:05:04">that is not indefinite, you do not have unlimited number of processors so you cannot do all in parallel</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="586" ref="584" time="23/12/2008 12:05:16">and it is quite fast too in the analysis phase</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="587" ref="-1" time="23/12/2008 12:05:23">i believe it all comes down to the necessary task</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="588" ref="587" time="23/12/2008 12:05:25">what would you use for text classification?</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="589" ref="-1" time="23/12/2008 12:05:33">if you have to have real time responses in the analysis phase</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="590" ref="589" time="23/12/2008 12:05:38">such as question answering</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="591" ref="590" time="23/12/2008 12:05:52">i would choose art versus svm</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="592" ref="588" time="23/12/2008 12:05:57">I propose to use svm if there is not enough input data for art</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="593" ref="591" time="23/12/2008 12:06:00">i would go for svm also with bayes for backup</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="594" ref="592" time="23/12/2008 12:06:11">but in qa systems there is</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="595" ref="-1" time="23/12/2008 12:06:19">but for text classification where the training time is more important</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="596" ref="595" time="23/12/2008 12:06:25">i would go for svm+k-means</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="597" ref="596" time="23/12/2008 12:06:31">preceded by naive bayes</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="598" ref="-1" time="23/12/2008 12:06:34">it's very tricky</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="599" ref="598" time="23/12/2008 12:06:39">you have to really pick them for each task</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="600" ref="599" time="23/12/2008 12:06:43">that's true</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="601" ref="599" time="23/12/2008 12:06:49">true</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="602" ref="601" time="23/12/2008 12:06:55">believe that is also the conclusion of this talk</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="603" ref="599" time="23/12/2008 12:07:04">at least we all agree that bayes should be around, at least in the first part of the task</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="604" ref="602" time="23/12/2008 12:07:10">each method performes better for a specific task</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="605" ref="603" time="23/12/2008 12:07:18">and then use svm/art for the final decision</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="606" ref="605" time="23/12/2008 12:07:20">mbined with k-means of course</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="607" ref="606" time="23/12/2008 12:07:27">combined</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="608" ref="607" time="23/12/2008 12:07:33">to double check the result</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="609" ref="608" time="23/12/2008 12:07:36">obviously :)</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="610" ref="607" time="23/12/2008 12:07:41">yes bayes first and then art or svm with k-means</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="611" ref="608" time="23/12/2008 12:07:50">yes</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="612" ref="-1" time="23/12/2008 12:07:52">thank you lady and gentlemen</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="613" ref="-1" time="23/12/2008 12:07:55">ok that's a wrap for tonight</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="614" ref="612" time="23/12/2008 12:08:00">it's been a pleasurable evening</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="615" ref="-1" time="23/12/2008 12:08:08">thanks everybody</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="616" ref="-1" time="23/12/2008 12:08:10">so long everybody</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="617" ref="-1" time="23/12/2008 12:08:12">indeed</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="618" ref="615" time="23/12/2008 12:08:19">it's been rewarding</Utterance>
+</Turn>
+<Turn nickname="claudiu">
+<Utterance genid="619" ref="-1" time="23/12/2008 12:08:26">leaves the room</Utterance>
+</Turn>
+<Turn nickname="andrei">
+<Utterance genid="620" ref="-1" time="23/12/2008 12:08:28">leaves the room</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="621" ref="-1" time="23/12/2008 12:08:33">bye</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="622" ref="616" time="23/12/2008 12:08:34">thanks...good bye</Utterance>
+</Turn>
+<Turn nickname="stefan">
+<Utterance genid="623" ref="-1" time="23/12/2008 12:08:40">leaves the room</Utterance>
+</Turn>
+<Turn nickname="ana">
+<Utterance genid="624" ref="-1" time="23/12/2008 12:08:47">leaves the room</Utterance>
+</Turn>
+</Body>
+</Dialog>

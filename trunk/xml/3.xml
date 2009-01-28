@@ -1,0 +1,1033 @@
+<Dialog team="t3">
+<Participants>
+<Person nickname="Claudia"/>
+<Person nickname="csrazvan"/>
+<Person nickname="Razvan"/>
+<Person nickname="AndreeaL"/>
+<Person nickname="StefanToma"/>
+<Person nickname="claudia"/>
+<Person nickname="AndreeaL2"/>
+<Person nickname="StefanT"/>
+<Person nickname="Andreea.L"/>
+</Participants>
+<Topics/>
+<Body>
+<Turn nickname="Claudia">
+<Utterance genid="1" ref="-1" time="18/12/2008 02:37:44">joins the room</Utterance>
+</Turn>
+<Turn nickname="Claudia">
+<Utterance genid="2" ref="-1" time="18/12/2008 02:40:03">test</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="3" ref="-1" time="18/12/2008 04:46:10">joins the room</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="4" ref="-1" time="18/12/2008 04:48:38">we meet again</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="5" ref="-1" time="18/12/2008 11:18:59">joins the room</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="6" ref="-1" time="18/12/2008 11:19:39">joins the room</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="7" ref="-1" time="18/12/2008 11:19:42">joins the room</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="8" ref="-1" time="18/12/2008 11:20:09">everybody there?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="9" ref="-1" time="18/12/2008 11:20:25">nope</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="10" ref="-1" time="18/12/2008 11:20:28">hello</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="11" ref="-1" time="18/12/2008 11:20:53">claudia ?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="12" ref="-1" time="18/12/2008 11:21:05">cred ca trebuie sa apara si ea :D</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="13" ref="8" time="18/12/2008 11:21:23">vorbim in romana sau engleza?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="14" ref="-1" time="18/12/2008 11:21:30">engleza</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="15" ref="-1" time="18/12/2008 11:21:34">sa stiti ca eu in general dupa ora 11 nu mai gandesc:))</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="16" ref="-1" time="18/12/2008 11:21:45">eu nici inainte de 11</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="17" ref="-1" time="18/12/2008 11:21:54">in fine lett's keep it english :D</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="18" ref="-1" time="18/12/2008 11:21:56">ce e ora 11? :D</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="19" ref="-1" time="18/12/2008 11:23:09">how long do you think this will take ? i'm hungry :D</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="20" ref="-1" time="18/12/2008 11:23:41">30 min?:D</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="21" ref="-1" time="18/12/2008 11:25:19">it's ok with me</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="22" ref="-1" time="18/12/2008 11:26:27">joins the room</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="23" ref="-1" time="18/12/2008 11:27:06">claudia is hungry and sleepy</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="24" ref="21" time="18/12/2008 11:27:10">everybody's here</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="25" ref="-1" time="18/12/2008 11:27:25">pancackes?</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="26" ref="-1" time="18/12/2008 11:27:29">let's make a plan</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="27" ref="-1" time="18/12/2008 11:27:43">ok</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="28" ref="-1" time="18/12/2008 11:27:50">good evening dear CEO of your own company</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="29" ref="-1" time="18/12/2008 11:27:51">first all of us shoul present their product ?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="30" ref="26" time="18/12/2008 11:28:00">we should start by everybody talking a bit about his method.</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="31" ref="-1" time="18/12/2008 11:28:03">and then we find pro's and cons ?</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="32" ref="-1" time="18/12/2008 11:28:05"/>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="33" ref="-1" time="18/12/2008 11:28:06"/>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="34" ref="-1" time="18/12/2008 11:28:15">and then we find a way to integrate them</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="35" ref="-1" time="18/12/2008 11:28:18">???</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="36" ref="-1" time="18/12/2008 11:28:25">it's ok with you ?</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="37" ref="26" time="18/12/2008 11:28:34"/>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="38" ref="36" time="18/12/2008 11:28:37">sounds good to me</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="39" ref="36" time="18/12/2008 11:28:47">it's ok for me</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="40" ref="-1" time="18/12/2008 11:28:54">1. K-Means 2. Support Vector Machines (SVM) 3. Naive Bayes 4. ART Neural Networks</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="41" ref="-1" time="18/12/2008 11:29:05">in this order ?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="42" ref="40" time="18/12/2008 11:29:11">So i guess i'm first.</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="43" ref="-1" time="18/12/2008 11:29:14">who is talking about K-means?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="44" ref="43" time="18/12/2008 11:29:24">Moi.</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="45" ref="-1" time="18/12/2008 11:29:30">what is K-means razvan?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="46" ref="45" time="18/12/2008 11:30:03">K-means is one of many clustering algorithms</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="47" ref="-1" time="18/12/2008 11:30:14">first I should tell you what clustering is :</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="48" ref="-1" time="18/12/2008 11:30:36">the classification of objects into different groups</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="49" ref="-1" time="18/12/2008 11:30:38">yes, you should</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="50" ref="-1" time="18/12/2008 11:31:03">partitioning the data into subsets so that data in each subset shares some common trait.</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="51" ref="-1" time="18/12/2008 11:31:31">There are a lot of useful applications for clustering: machine learning, data mining, pattern recognition, image analysis etc.</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="52" ref="-1" time="18/12/2008 11:32:19">can you tell us an example from a real world applcation?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="53" ref="51" time="18/12/2008 11:32:21">K means is a partitional algorithm .</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="54" ref="52" time="18/12/2008 11:32:42">Yeah ... so you could use clustering algorithms to find borders of objects in a picture</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="55" ref="-1" time="18/12/2008 11:33:02">that would help you in object recognition.</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="56" ref="-1" time="18/12/2008 11:33:48">do you know a comparison to other methods of detecting objects?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="57" ref="53" time="18/12/2008 11:33:59">what makes K-means a partitional algorithm is the fact that it determines all clusters at once.</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="58" ref="56" time="18/12/2008 11:35:09">nothing comes to mind. how about you ?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="59" ref="-1" time="18/12/2008 11:36:00">untill you think of an answer i'll continue speaking about K-Means.</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="60" ref="-1" time="18/12/2008 11:36:53">tell us more</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="61" ref="-1" time="18/12/2008 11:36:57">The algorithm is pretty straight-forward. The idea is to assign each point to the cluster whose center is nearest.</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="62" ref="59" time="18/12/2008 11:37:10">tell us more</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="63" ref="59" time="18/12/2008 11:37:12">please razvan, i'm interested to find more about this method</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="64" ref="59" time="18/12/2008 11:37:49">The center being the average of all points in the cluster</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="65" ref="-1" time="18/12/2008 11:38:18">Therea are a couple of steps in the algorithm</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="66" ref="-1" time="18/12/2008 11:38:27">1) You choose the number of clusters ( K )</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="67" ref="-1" time="18/12/2008 11:39:08">2) you randomly generate K cluster centers or you pick K random points as cluster centers</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="68" ref="-1" time="18/12/2008 11:39:16">3) you assign each point to the nearest cluster center</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="69" ref="-1" time="18/12/2008 11:39:24">4) you recompute the new cluster centers</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="70" ref="-1" time="18/12/2008 11:39:48">5) you repeat steps 3 and 4 untill you get some sort of convergence criterion.</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="71" ref="-1" time="18/12/2008 11:40:08">any questions so far ?</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="72" ref="-1" time="18/12/2008 11:40:36">no. it's perfect</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="73" ref="72" time="18/12/2008 11:40:54">i always am</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="74" ref="-1" time="18/12/2008 11:41:23">now there are some advantages to this approach</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="75" ref="-1" time="18/12/2008 11:41:42">speed and simplicity being 2 of them.</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="76" ref="-1" time="18/12/2008 11:42:00">there aren't a lot of complex operations being performed so this makes the clustering algorithm pretty fast.</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="77" ref="71" time="18/12/2008 11:42:40">are there any libraries that can be used to perform such calculations?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="78" ref="-1" time="18/12/2008 11:43:05">you don't really need libraries. you just need to be able to compute a distance between 2 points</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="79" ref="-1" time="18/12/2008 11:43:35">by points i don't mean only pixels in an image. it can be anything. nodes in a graph, representation of concepts.</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="80" ref="-1" time="18/12/2008 11:44:02">and by distance i don't mean necessarly an euclidean distance</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="81" ref="-1" time="18/12/2008 11:44:16">for example in the case of object recognition</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="82" ref="78" time="18/12/2008 11:44:28">so you just use the classic formula with the coordinates</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="83" ref="-1" time="18/12/2008 11:44:30">the distance is more of a weight function that takes into account other factors like : color, pixel intenisty and so forth.</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="84" ref="-1" time="18/12/2008 11:46:04">and any disadvantages of this method?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="85" ref="82" time="18/12/2008 11:46:10">depends on the type of information you're clustering. sometimes it makes sense to use the classic formula , sometimes you need a more complex formula.</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="86" ref="84" time="18/12/2008 11:46:34">The main disadvantage is represented by the first and second step of the algorithm.</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="87" ref="-1" time="18/12/2008 11:46:55">you pick a K number randomly and you select the centers of the K groups at random.</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="88" ref="-1" time="18/12/2008 11:47:07">this means that if you run the algorithm 100 times you'll get 100 different results.</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="89" ref="-1" time="18/12/2008 11:47:27">And if you select a wrong K value you can get wrong results.</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="90" ref="-1" time="18/12/2008 11:47:32">a, ok</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="91" ref="-1" time="18/12/2008 11:47:43">But as the algorithm is pretty fast</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="92" ref="-1" time="18/12/2008 11:48:07">the common practice is to run it several times</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="93" ref="86" time="18/12/2008 11:48:15">how about how fast it converges ?</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="94" ref="-1" time="18/12/2008 11:48:17"/>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="95" ref="-1" time="18/12/2008 11:48:27">I got some big delay</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="96" ref="93" time="18/12/2008 11:49:09">that depends on the convergence criterion. but usually it converges very fast.</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="97" ref="-1" time="18/12/2008 11:49:23">let me share with you 2 links that i found extremly interesting :</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="98" ref="-1" time="18/12/2008 11:49:31">1) http://www.leet.it/home/lale/joomla/component/option,com_wrapper/Itemid,50/</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="99" ref="-1" time="18/12/2008 11:49:42">2) http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/AppletKM.html</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="100" ref="-1" time="18/12/2008 11:50:16">just wanted to ask you to send us an example</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="101" ref="-1" time="18/12/2008 11:50:17">if you were to put into balance the accuracy of the algorithm with the time it takes to converge, would you still use k-means ?</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="102" ref="-1" time="18/12/2008 11:50:52">no, he will use naive bayes :P</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="103" ref="-1" time="18/12/2008 11:51:03">:)</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="104" ref="101" time="18/12/2008 11:51:09">of course i would</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="105" ref="-1" time="18/12/2008 11:51:20">but i'd use the improved verson</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="106" ref="-1" time="18/12/2008 11:51:25">called</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="107" ref="-1" time="18/12/2008 11:51:28">k-means ++</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="108" ref="-1" time="18/12/2008 11:51:38">do you have a better algorithm andreea ?</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="109" ref="-1" time="18/12/2008 11:51:47">:))</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="110" ref="-1" time="18/12/2008 11:52:04">which selects the initial center using an algorithm that places them near large groups of points.</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="111" ref="-1" time="18/12/2008 11:52:14">i'll rest my case for now :D</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="112" ref="108" time="18/12/2008 11:52:43">i have a classification algorithm</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="113" ref="-1" time="18/12/2008 11:53:03">stefan? what about your algorithm ?</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="114" ref="108" time="18/12/2008 11:53:19">if you want to find out about another method of classification i can tel you a little more about Support Vector Machines</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="115" ref="-1" time="18/12/2008 11:53:21">thank you, razvan</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="116" ref="-1" time="18/12/2008 11:53:48">you just need to be patient because i have a considerable delay</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="117" ref="111" time="18/12/2008 11:53:58">thanks , Razvan</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="118" ref="116" time="18/12/2008 11:54:43">don't worry ..we have all night :)</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="119" ref="118" time="18/12/2008 11:55:28">... to sleep :D</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="120" ref="118" time="18/12/2008 11:55:32">no, we don't :D</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="121" ref="116" time="18/12/2008 11:55:40">and tomorrow also :P</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="122" ref="-1" time="18/12/2008 11:55:45"/>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="123" ref="114" time="18/12/2008 11:55:57">i will use the SVM acronym for my method</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="124" ref="114" time="18/12/2008 11:57:20">SVMs are a set of supervised learning methods used for classification and regression. Viewing input data as two sets of vectors in an n-dimensional space, an SVM will construct a separating hyperplane in that space, one which maximizes the margin between the two data sets.</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="125" ref="124" time="18/12/2008 11:58:42">SVM models are closely related to neural networks. In fact, a SVM model using a sigmoid kernel function is equivalent to a two-layer, perceptron neural network.</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="126" ref="-1" time="19/12/2008 12:01:02">SVM can be succesfully apllied in domains like bioinformatics, text, handwriting recognition</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="127" ref="-1" time="19/12/2008 12:02:06">Can you give us an example ?</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="128" ref="126" time="19/12/2008 12:02:09">do you have an example ?</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="129" ref="-1" time="19/12/2008 12:02:15">:))</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="130" ref="-1" time="19/12/2008 12:02:35">lag</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="131" ref="128" time="19/12/2008 12:04:27">one of the most interesting examples can be the appliance of SVM in automatic EEG detection of drowsiness during car driving</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="132" ref="-1" time="19/12/2008 12:04:52">EEG stands for electroencephalographic</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="133" ref="131" time="19/12/2008 12:05:56">this means that a computer analyses electrical impulses of the driver's brain</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="134" ref="133" time="19/12/2008 12:08:43">can you offer us some more details about how the SVM is used in this particular case ?</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="135" ref="-1" time="19/12/2008 12:10:37">Twenty human subjects underwent driving simulations with EEG monitoring. Alert EEG was marked by dominant beta activity, while drowsy EEG was marked by alpha dropouts. The duration of eye blinks corresponded well with alertness levels associated with fast and slow eye blinks</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="136" ref="134" time="19/12/2008 12:13:45">the whole idea is to train the computer to recognize if a point(in this case data captured from the driver) is in a set or in another</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="137" ref="-1" time="19/12/2008 12:15:22">at the addres below you can find examples and images on how SVM is used</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="138" ref="-1" time="19/12/2008 12:15:50">http://www.dtreg.com/svm.htm</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="139" ref="137" time="19/12/2008 12:16:54">you cand use SVM even to separate two areas of a 2D plan</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="140" ref="138" time="19/12/2008 12:17:03">that was very interesting</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="141" ref="140" time="19/12/2008 12:18:34">thank you, claudia, i look forward to listen to your method</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="142" ref="138" time="19/12/2008 12:18:37">what about you, Andreea ?</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="143" ref="-1" time="19/12/2008 12:18:50">what is your product ?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="144" ref="136" time="19/12/2008 12:18:54">well i think that this application would be a real life saviour if implemented in real life.</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="145" ref="-1" time="19/12/2008 12:20:04">i will tel you abot Naive Bayes algorithm</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="146" ref="-1" time="19/12/2008 12:20:41">NB ( Naive Bayes) algorthm makes predictions using Bayes Theorem</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="147" ref="144" time="19/12/2008 12:21:02">actually the classification accuracy reached 99.3%. The SVM program was also able to predict the transition from alertness to drowsiness reliably in over 90% of data samples</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="148" ref="-1" time="19/12/2008 12:21:30">Let me tell you about Bayes Theorem</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="149" ref="147" time="19/12/2008 12:22:22">but just let Andreea to present her algorithm</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="150" ref="148" time="19/12/2008 12:22:59">what can you tell us about Bayes Theorem?</Utterance>
+</Turn>
+<Turn nickname="Razvan">
+<Utterance genid="151" ref="148" time="19/12/2008 12:24:28">Tell us about the Bayes Theorem please.</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="152" ref="-1" time="19/12/2008 12:25:17">Bayes Theorem is a formula that calculates a probability by counting the frequency of values and combinations of values in the historical data</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="153" ref="-1" time="19/12/2008 12:26:20">Bayes' Theorem is a formula that calculates a probability by counting the frequency of values and combinations of values in the historical data</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="154" ref="153" time="19/12/2008 12:27:39">NB can be user for both binary and multiclass classification problems to answer questions such as &amp;quot; Which customer will switch to a competitor ? Which transactions patterns suggets fraud ? &amp;quot; etc.</Utterance>
+</Turn>
+<Turn nickname="Claudia">
+<Utterance genid="155" ref="-1" time="19/12/2008 12:34:09">joins the room</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="156" ref="-1" time="19/12/2008 12:34:11">joins the room</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="157" ref="-1" time="19/12/2008 12:34:18">joins the room</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="158" ref="-1" time="19/12/2008 12:34:26">joins the room</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="159" ref="-1" time="19/12/2008 12:34:47">conn test</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="160" ref="-1" time="19/12/2008 12:35:12">please continue Andreea</Utterance>
+</Turn>
+<Turn nickname="AndreeaL2">
+<Utterance genid="161" ref="-1" time="19/12/2008 12:36:21">joins the room</Utterance>
+</Turn>
+<Turn nickname="AndreeaL2">
+<Utterance genid="162" ref="-1" time="19/12/2008 12:36:57">so, i should continue, no ?</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="163" ref="162" time="19/12/2008 12:37:44">Please do</Utterance>
+</Turn>
+<Turn nickname="Claudia">
+<Utterance genid="164" ref="-1" time="19/12/2008 12:37:48">yes please</Utterance>
+</Turn>
+<Turn nickname="AndreeaL2">
+<Utterance genid="165" ref="-1" time="19/12/2008 12:38:02">i will give you some examples of NB usage</Utterance>
+</Turn>
+<Turn nickname="AndreeaL2">
+<Utterance genid="166" ref="-1" time="19/12/2008 12:39:28">suppose a bank wants to promote its a new service offering to its current customers and that to reduce costs it wants to target the most likely prospects. The bank has historical data for its customers. Using NB the bank can predict if a customer will respond positively to the new service.</Utterance>
+</Turn>
+<Turn nickname="StefanT">
+<Utterance genid="167" ref="-1" time="23/12/2008 07:53:34">joins the room</Utterance>
+</Turn>
+<Turn nickname="StefanT">
+<Utterance genid="168" ref="-1" time="23/12/2008 07:54:02">leaves the room</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="169" ref="-1" time="23/12/2008 08:37:45">joins the room</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="170" ref="-1" time="23/12/2008 08:37:53">leaves the room</Utterance>
+</Turn>
+<Turn nickname="Claudia">
+<Utterance genid="171" ref="-1" time="23/12/2008 08:51:23">joins the room</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="172" ref="-1" time="23/12/2008 09:03:57">joins the room</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="173" ref="-1" time="23/12/2008 09:04:50">joins the room</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="174" ref="-1" time="23/12/2008 09:07:01">joins the room</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="175" ref="-1" time="23/12/2008 09:07:07">joins the room</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="176" ref="-1" time="23/12/2008 09:07:28">hello again</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="177" ref="-1" time="23/12/2008 09:07:32">Hello ppl and welcome to our 2nd group chat :d</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="178" ref="-1" time="23/12/2008 09:07:33">good evening everyone</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="179" ref="-1" time="23/12/2008 09:07:51">let's hope today it will go better</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="180" ref="179" time="23/12/2008 09:08:14">it seems the server is performing better today</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="181" ref="180" time="23/12/2008 09:08:30">yes, it seems so</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="182" ref="-1" time="23/12/2008 09:08:46">so ? let;s make a plan again</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="183" ref="182" time="23/12/2008 09:08:57">sure</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="184" ref="-1" time="23/12/2008 09:09:10">Andreea was telling us about her products</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="185" ref="-1" time="23/12/2008 09:09:15">joins the room</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="186" ref="182" time="23/12/2008 09:09:16">well andreea was telling us about her method than it's your turn and then we should wrap things up talking about a way to mix all of our stuff togheter</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="187" ref="-1" time="23/12/2008 09:09:23">should we continue with that ?</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="188" ref="-1" time="23/12/2008 09:09:32">hello again</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="189" ref="-1" time="23/12/2008 09:10:00">yes, i will continue to tell you abou Naive Bayes</Utterance>
+</Turn>
+<Turn nickname="Claudia">
+<Utterance genid="190" ref="-1" time="23/12/2008 09:10:05">leaves the room</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="191" ref="189" time="23/12/2008 09:10:18">please continue Andreea</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="192" ref="189" time="23/12/2008 09:11:13">can you reapeat the Bayes Theorem?</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="193" ref="-1" time="23/12/2008 09:11:21">yes, sure</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="194" ref="-1" time="23/12/2008 09:13:04">Naive Bayes uses Bayes' Theorem, which derives the probability of a prediction from the underlying evidence. NB can be used for both binary and multiclass classification problems to answer questions such as</Utterance>
+</Turn>
+<Turn nickname="AndreeaL">
+<Utterance genid="195" ref="-1" time="23/12/2008 09:13:09">leaves the room</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="196" ref="-1" time="23/12/2008 09:13:58">&amp;quot;&amp;quot;Which customes will switch to a competitor? What prospects will respond to an advertising campaign? ..etc</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="197" ref="-1" time="23/12/2008 09:14:51">Let me give you an example of NB usage</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="198" ref="197" time="23/12/2008 09:15:27">please do.</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="199" ref="-1" time="23/12/2008 09:17:04">suppose a bank wants to promote its services offering to its customers and to reduce promotion costs it wants to target the most likely prospects ?</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="200" ref="-1" time="23/12/2008 09:18:11">How? THe bank has data for its customers. Using NB the bank can predict how likely a customes is to respond positively to that service</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="201" ref="200" time="23/12/2008 09:18:50">So the bank can tell if somebody is interested in a particular offer before actually asking him/her?</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="202" ref="200" time="23/12/2008 09:19:12">with this information the bank cand reduce its promotion costs by restricting the promotion to the most likely candidates</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="203" ref="201" time="23/12/2008 09:19:36">yes, that's true razvan</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="204" ref="202" time="23/12/2008 09:20:17">and how does it work in a few words</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="205" ref="-1" time="23/12/2008 09:20:18">?</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="206" ref="200" time="23/12/2008 09:20:30">are the customer data colected some how before the prediction?</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="207" ref="204" time="23/12/2008 09:23:17">Naive Bayes classifier applies to learning tasks whwere istance X is described by a conjunction of attribute values and where the target function f(x) can take any value from some finit set V. First is provided a set of training examples of the target function.</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="208" ref="206" time="23/12/2008 09:23:42">I guess customer data is always recorde. the choices they made to previous offers, the banking services the client requested/used more frequenlty and so forth.</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="209" ref="-1" time="23/12/2008 09:24:58">Depending on the precise nature of the probability model, naive Bayes classifiers can be trained very efficiently in a supervised learning setting. In despite of their naive desing naive Bayes classifiers often work mush better in many complex real-world situations</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="210" ref="208" time="23/12/2008 09:25:50">yes, razvan,this is alo true</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="211" ref="-1" time="23/12/2008 09:27:01">an advantage of the NB classifier is that it requires a small amount of training data to estimate the parameters necessary for classification</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="212" ref="-1" time="23/12/2008 09:28:52">because it is a very easy method bayesian approach can be applied to many scientific issues and a search for this term in the ISI's database yelded ~ 4000 papers ( between 1990- 2008)</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="213" ref="-1" time="23/12/2008 09:29:22">and about 200 of these were relevant to health technology</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="214" ref="211" time="23/12/2008 09:29:27">the support vector machines also needs small amount of data for training. Excesive information can confuse the algorithm</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="215" ref="-1" time="23/12/2008 09:30:27">question for both of you : if the amount of information used in the training phase of your algorithms is small does increasing the amount of information offer better results ?</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="216" ref="-1" time="23/12/2008 09:30:52">but NB analisys is used in a variety of nonmedical fields such as engineering, image processing, expert systems, gene sequencing, etc</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="217" ref="-1" time="23/12/2008 09:34:04">i think that when increasing the available data used by the NB the quality and precision of the output information increases / improves</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="218" ref="215" time="23/12/2008 09:34:54">you must provide different information. if you provide a lot of simillar examples you don't increase the performance</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="219" ref="-1" time="23/12/2008 09:36:20">ok in understand. andreea do you want to add something before claudia begins ?</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="220" ref="219" time="23/12/2008 09:36:57">no, thank you:)</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="221" ref="-1" time="23/12/2008 09:37:01">claudia?</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="222" ref="221" time="23/12/2008 09:37:06">ok, then</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="223" ref="220" time="23/12/2008 09:37:29">thank you for a very interesting presentation.</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="224" ref="-1" time="23/12/2008 09:37:37">I will tell you some things about ART</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="225" ref="-1" time="23/12/2008 09:38:11">ART comes from Adaptative resonance theory and it is a neural network architecture</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="226" ref="-1" time="23/12/2008 09:39:06">the theory evolved from the following very encountered problem in artificial neural networks</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="227" ref="-1" time="23/12/2008 09:39:53">the problem was that when trying to add new classes neural networks tens to forget</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="228" ref="-1" time="23/12/2008 09:40:30">one nice feature of the human mind is that we learn many new things without necessarily forgeting old stuff</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="229" ref="-1" time="23/12/2008 09:41:18">like: we still remember out parents faces even if we haven't seen them for a long time and we have learned many other peple in this time</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="230" ref="-1" time="23/12/2008 09:41:31">Most neural networks will tend to forget old information if we attempt to add new information incrementally</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="231" ref="-1" time="23/12/2008 09:41:54">ART was developed to solve the learning instability problem</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="232" ref="-1" time="23/12/2008 09:42:35">if you remember how backpropagation works (from artificial intelligence course _ this will be easy</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="233" ref="-1" time="23/12/2008 09:42:37">:</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="234" ref="-1" time="23/12/2008 09:42:58">Suppose you intend to train a backpropagation to recognize the silhouettes of a certain class of aircraft</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="235" ref="-1" time="23/12/2008 09:43:14">he appropriate images can be collected and used to train the network</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="236" ref="-1" time="23/12/2008 09:43:26">this is time-consuming</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="237" ref="-1" time="23/12/2008 09:43:58">After the network has learned successfully to recognize all of the aircraft, the training period is ended and no further modification of the weights is allowed. If, at some future time, another aircraft in the same class becomes operational, you may wish to add its silhouette to the store of knowledge in your neural network.</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="238" ref="-1" time="23/12/2008 09:44:21">To do this, you would have to retrain the network with the new pattern plus all of the previous patterns. Training on only the new silhouette could result in the network learning that pattern quite well, but forgetting previously learned patterns. Although retraining may not take as long as the initial training, it still could require a significant investment.</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="239" ref="-1" time="23/12/2008 09:44:34">ART solves this problem</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="240" ref="-1" time="23/12/2008 09:45:21">the weights have to be enoufh flexible to be able to learn new things</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="241" ref="-1" time="23/12/2008 09:45:39">but not so much as to lose old stuff</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="242" ref="-1" time="23/12/2008 09:46:15">ART is used for unsupervised and supervised learning, pattern recognition, and prediction</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="243" ref="-1" time="23/12/2008 09:47:39">to be mode precise</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="244" ref="-1" time="23/12/2008 09:47:55">Can you tell us something about the arhitecture of an ART ?</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="245" ref="-1" time="23/12/2008 09:48:11">speech recognition, text clasiffication , image recognition</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="246" ref="244" time="23/12/2008 09:48:16">yes</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="247" ref="-1" time="23/12/2008 09:48:36">ART has two layers</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="248" ref="-1" time="23/12/2008 09:48:51">or so called fields</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="249" ref="-1" time="23/12/2008 09:49:00">comparison field and a recognition field composed of neurons</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="250" ref="-1" time="23/12/2008 09:49:26">we have to take into account a vigilance parameter</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="251" ref="-1" time="23/12/2008 09:49:34">and it also has a reset module</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="252" ref="-1" time="23/12/2008 09:49:58">do you want me to draw everithing ?</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="253" ref="-1" time="23/12/2008 09:50:05">it's a little biot complicated</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="254" ref="-1" time="23/12/2008 09:50:32">a little drawing could help us better understand</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="255" ref="-1" time="23/12/2008 09:50:34">there are pages and pages of formulas telling us how the flow of information goes</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="256" ref="-1" time="23/12/2008 09:50:45">but i'll try to sum up</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="257" ref="-1" time="23/12/2008 09:50:49">everything</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="258" ref="252" time="23/12/2008 09:51:05">just the basic arhitecture if you can sum it up please.</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="259" ref="-1" time="23/12/2008 09:52:55">now the story behind the picture</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="260" ref="-1" time="23/12/2008 09:52:58">:</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="261" ref="-1" time="23/12/2008 09:53:13">The vigilance parameter has considerable influence on the system</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="262" ref="-1" time="23/12/2008 09:53:23">higher vigilance produces highly detailed memories</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="263" ref="-1" time="23/12/2008 09:53:29">lower vigilance results in more general memories</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="264" ref="-1" time="23/12/2008 09:53:39">down is the comparison field</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="265" ref="-1" time="23/12/2008 09:53:48">up is the recognition field</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="266" ref="-1" time="23/12/2008 09:53:59">at the base is the input</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="267" ref="-1" time="23/12/2008 09:54:23">right to the layers is the reset module</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="268" ref="-1" time="23/12/2008 09:54:33">The comparison field takes an input vector and transfers it to its best match in the recognition field</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="269" ref="-1" time="23/12/2008 09:54:48">its best match is the single neuron whose set of weights (weight vector) most closely matches the input vector.</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="270" ref="-1" time="23/12/2008 09:55:02">Each recognition field neuron outputs a negative signal</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="271" ref="-1" time="23/12/2008 09:55:13">to each of the other recognition field neurons and inhibits their output accordingly</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="272" ref="-1" time="23/12/2008 09:55:30">This is called WTA( winner-takes-all)</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="273" ref="-1" time="23/12/2008 09:55:49">In this way the recognition field exhibits lateral inhibition, allowing each neuron in it to represent a category to which input vectors are classified. After the input vector is classified, the reset module compares the strength of the recognition match to the vigilance parameter.</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="274" ref="-1" time="23/12/2008 09:57:17">there are many types of ART L ART1-takes binary inputm ART2 takes continous input and uses differential ec</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="275" ref="-1" time="23/12/2008 09:57:54">and there's fyuzzy ART enhancing generalizability and introducing absence of featurea in clasiffication</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="276" ref="-1" time="23/12/2008 09:58:21">the good thing about it is that he system can search memory in parallel and change its search order adaptively</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="277" ref="-1" time="23/12/2008 09:58:45">and there's more .....but i think this wikll do</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="278" ref="-1" time="23/12/2008 09:58:46">for nboew</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="279" ref="-1" time="23/12/2008 09:58:50">noe</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="280" ref="-1" time="23/12/2008 09:58:54">now</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="281" ref="-1" time="23/12/2008 09:58:55">:P</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="282" ref="-1" time="23/12/2008 09:59:09">Thank you very much claudia for the info and drawing about ART.</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="283" ref="-1" time="23/12/2008 10:00:01">very interesting. a starting point for study</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="284" ref="-1" time="23/12/2008 10:02:54">Now let's talk about ways of putting all these algorithms togheter</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="285" ref="-1" time="23/12/2008 10:04:26">I think that my algorithm should be used in the first stage of the clustering procedure.</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="286" ref="-1" time="23/12/2008 10:04:54">It gives the fastest results and most of the times they're pretty close to being good results</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="287" ref="285" time="23/12/2008 10:05:25">then we can use SVM to separate different sets of data</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="288" ref="-1" time="23/12/2008 10:06:10">Andreea where do you thingk your algorithm should fall into place ?</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="289" ref="-1" time="23/12/2008 10:06:44">i think that NV can be used for classification</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="290" ref="-1" time="23/12/2008 10:07:07">we can either combine all methods together in an application, in which, we can compare which method has better prediction</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="291" ref="290" time="23/12/2008 10:07:30">this should be interesting</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="292" ref="-1" time="23/12/2008 10:07:31">or we can combine them all together in a single computer vision (detection, grouping, shape recognition) application for which we can later decide what it will actually do (for example detecting an recognizing the people in a crowded area - like a train/bus station)</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="293" ref="-1" time="23/12/2008 10:08:10">I think that in a real world scenario all algorithms should be used but for different types of data/ different purposes.</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="294" ref="-1" time="23/12/2008 10:08:29">For example andreeeas algorithm would work better on data that takes into account probabilities.</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="295" ref="-1" time="23/12/2008 10:08:38">It would work better than any of the other algorithsm.</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="296" ref="-1" time="23/12/2008 10:08:43">ART already has 5-6 variants used for different stuff</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="297" ref="-1" time="23/12/2008 10:09:07">but it wouldn't work as good as claudias version in an application that has an evolving set of input data.</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="298" ref="-1" time="23/12/2008 10:09:14">but it does not take into account probabilities</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="299" ref="-1" time="23/12/2008 10:09:17">or stuff</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="300" ref="-1" time="23/12/2008 10:10:51">so how do we combine....evolving input, probabilities , fast results and small data sets ? I think we cannot</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="301" ref="-1" time="23/12/2008 10:11:17">there's no perfect answear</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="302" ref="-1" time="23/12/2008 10:11:20">to a problem</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="303" ref="300" time="23/12/2008 10:11:45">i'm not sure there are problems that need all those factors</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="304" ref="-1" time="23/12/2008 10:12:09">usually u either need fast results, or you have data probability that you must take into account</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="305" ref="303" time="23/12/2008 10:12:10">remember the problem with sleeping drivers</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="306" ref="-1" time="23/12/2008 10:12:14">small data sets will evolve eventually in big data sets :P</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="307" ref="-1" time="23/12/2008 10:12:22">:D</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="308" ref="-1" time="23/12/2008 10:12:52">we can use Razvan's method to distinguish driver's face</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="309" ref="-1" time="23/12/2008 10:14:39">then the SVM can be combined with data collected from EEG devices</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="310" ref="-1" time="23/12/2008 10:15:44">with Claudia's method a system can learn when a driver can become sleepy</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="311" ref="-1" time="23/12/2008 10:16:27">and of course, with Andreea's method we can predict these kind of situations and we can prevent them</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="312" ref="-1" time="23/12/2008 10:18:58">it might work, but io still think that we don't really need them toghether</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="313" ref="-1" time="23/12/2008 10:19:16">we could try to integrate all as stefan sais</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="314" ref="-1" time="23/12/2008 10:19:34">to prove that it is doable</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="315" ref="313" time="23/12/2008 10:19:36">i think it would be overkill :D</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="316" ref="-1" time="23/12/2008 10:20:15">and then we can talk about money</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="317" ref="-1" time="23/12/2008 10:20:15">:P</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="318" ref="-1" time="23/12/2008 10:20:33">ok so let me sum it up.</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="319" ref="-1" time="23/12/2008 10:20:56">we have 4 algorithms with different strong suits and weaknesses</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="320" ref="-1" time="23/12/2008 10:21:14">depending on the problem that we have to solve we could use one or a combination of 2-3 of them.</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="321" ref="-1" time="23/12/2008 10:21:27">using 4 of them togheter would be overkill.</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="322" ref="-1" time="23/12/2008 10:21:45">considering the main ideas of all the algorithms i think it can be done, but, ofcourse it will be a lot of problems during implementation</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="323" ref="-1" time="23/12/2008 10:22:39">so this is it ?</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="324" ref="323" time="23/12/2008 10:23:57">i think we covered most of the issues</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="325" ref="-1" time="23/12/2008 10:24:01">i'm glad i've heard a lot of information about very interesting methods</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="326" ref="-1" time="23/12/2008 10:24:58">see you next time</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="327" ref="325" time="23/12/2008 10:25:00">i second that.</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="328" ref="-1" time="23/12/2008 10:25:12">I wish you all a merry Xmas and a happy new year.</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="329" ref="-1" time="23/12/2008 10:25:21">thank you for all</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="330" ref="-1" time="23/12/2008 10:25:27">Happy new year! :)</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="331" ref="-1" time="23/12/2008 10:25:44">merry xmas</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="332" ref="-1" time="23/12/2008 10:25:48">bye !</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="333" ref="-1" time="23/12/2008 10:25:52">merry xmas my friends</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="334" ref="-1" time="23/12/2008 10:25:56">good bye</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="335" ref="-1" time="23/12/2008 10:25:57">bye bye</Utterance>
+</Turn>
+<Turn nickname="StefanToma">
+<Utterance genid="336" ref="-1" time="23/12/2008 10:26:08">leaves the room</Utterance>
+</Turn>
+<Turn nickname="Andreea.L">
+<Utterance genid="337" ref="-1" time="23/12/2008 10:26:10">leaves the room</Utterance>
+</Turn>
+<Turn nickname="claudia">
+<Utterance genid="338" ref="-1" time="23/12/2008 10:26:15">leaves the room</Utterance>
+</Turn>
+<Turn nickname="csrazvan">
+<Utterance genid="339" ref="-1" time="23/12/2008 10:26:19">leaves the room</Utterance>
+</Turn>
+</Body>
+</Dialog>

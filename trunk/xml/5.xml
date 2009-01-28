@@ -1,0 +1,279 @@
+<Dialog team="t5">
+<Participants>
+<Person nickname="Andrei"/>
+<Person nickname="Mihai"/>
+</Participants>
+<Topics/>
+<Body>
+<Turn nickname="Andrei">
+<Utterance genid="1" ref="-1" time="23/12/2008 09:42:19">joins the room</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="2" ref="-1" time="23/12/2008 09:42:43">joins the room</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="3" ref="-1" time="23/12/2008 09:42:56">:))))))</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="4" ref="-1" time="23/12/2008 09:43:06">hello</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="5" ref="-1" time="23/12/2008 09:44:00">hello, I'm Mihai Ciuraru</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="6" ref="-1" time="23/12/2008 09:44:08">I'm Andrei Popa</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="7" ref="-1" time="23/12/2008 09:44:28">what techology are you proposing</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="8" ref="-1" time="23/12/2008 09:45:09">well, as manager of the Photon company specialized in image processing i''m proposing K-means</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="9" ref="-1" time="23/12/2008 09:45:27">how about you?</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="10" ref="-1" time="23/12/2008 09:45:44">well...</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="11" ref="-1" time="23/12/2008 09:45:54">i'm not a manager</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="12" ref="-1" time="23/12/2008 09:46:04">but i will sustain my technology</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="13" ref="-1" time="23/12/2008 09:46:32">which is a simple Naive Bayes classifier</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="14" ref="-1" time="23/12/2008 09:47:35">i don't know much about that tehnology, would you briefly describe it?</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="15" ref="-1" time="23/12/2008 09:47:47">sure</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="16" ref="-1" time="23/12/2008 09:48:15">it's a classifier based on the Bayes' theorem</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="17" ref="-1" time="23/12/2008 09:48:48">Bayes' theorem relates the conditional and marginal probabilities of two random events.</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="18" ref="16" time="23/12/2008 09:48:50">how does it work</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="19" ref="-1" time="23/12/2008 09:49:03">well, it is a simple approach</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="20" ref="-1" time="23/12/2008 09:50:17">In simple terms, a naive Bayes classifier assumes that the presence (or absence) of a particular feature of a class is unrelated to the presence (or absence) of any other feature.</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="21" ref="-1" time="23/12/2008 09:51:21">I see....well we're also using a simple but efficient algorithm for clustering</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="22" ref="-1" time="23/12/2008 09:52:26">i k-means, grouping is done by minimizing the sum of squares of distances between data and a centroid</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="23" ref="22" time="23/12/2008 09:53:12">so on what data can it be applied</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="24" ref="23" time="23/12/2008 09:53:43">on all type of data, that can be represented by some coordinates</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="25" ref="-1" time="23/12/2008 09:55:14">we're using a common implementation method called Lloyd's algorithm</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="26" ref="18" time="23/12/2008 09:55:28">out technology is also used when classifying data</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="27" ref="-1" time="23/12/2008 09:55:36">our :))))</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="28" ref="26" time="23/12/2008 09:57:03">but also applies to events ?</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="29" ref="28" time="23/12/2008 09:57:36">i think so, if they can be described by a set of features</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="30" ref="28" time="23/12/2008 09:58:09">it can be applied to objects in general</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="31" ref="18" time="23/12/2008 09:58:37">For example, a fruit may be considered to be an apple if it is red, round, and about 4&amp;quot; in diameter.</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="32" ref="17" time="23/12/2008 10:00:26">so you basically classify the objects based on probability</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="33" ref="18" time="23/12/2008 10:01:19">in theory it applies the Bayes' theorem to the probability of an object for calculations</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="34" ref="-1" time="23/12/2008 10:01:37">this wouldn't be very usefull to us since we need exact coordinates in order to process images</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="35" ref="-1" time="23/12/2008 10:01:59">we classify the objects based on some exact coordinates</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="36" ref="35" time="23/12/2008 10:03:06">can you brief me shortly with this method ?</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="37" ref="35" time="23/12/2008 10:04:07">if we would have a set of objects represented by coordinates, what would your method do actually</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="38" ref="-1" time="23/12/2008 10:04:42">well the method consists in partitioning the initial set of objects into K clusters, randomly</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="39" ref="-1" time="23/12/2008 10:04:54">then we would calculate the center of each subset</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="40" ref="-1" time="23/12/2008 10:05:17">and then we re-assign objects to the closest center</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="41" ref="-1" time="23/12/2008 10:05:38">and repeat these steps until no object can be moved</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="42" ref="41" time="23/12/2008 10:06:12">and after no object can be moved, what would you obtain</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="43" ref="-1" time="23/12/2008 10:06:52">we have the K sets of objects, partitioned</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="44" ref="-1" time="23/12/2008 10:07:14">the advantage of our method is that is simple and fast</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="45" ref="43" time="23/12/2008 10:07:55">so it's similar to the technology that we are promoting, in the means that it also can be used to clasify objects</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="46" ref="44" time="23/12/2008 10:08:14">i was going to say that :))))</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="47" ref="-1" time="23/12/2008 10:09:01">yes but how accurate it is?</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="48" ref="-1" time="23/12/2008 10:09:05">looks like the other managers didn't come here to promote their long effort technologies</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="49" ref="47" time="23/12/2008 10:10:21">well, it's not very accurate if you use a small set of features to clasify objects</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="50" ref="49" time="23/12/2008 10:10:50">i see, so the more features you specify the more accurate it is</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="51" ref="49" time="23/12/2008 10:11:24">it is based on strong (naive) independence assumptions.</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="52" ref="49" time="23/12/2008 10:11:40">i don't find this very usefull since in image processing for example we only have a few features</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="53" ref="-1" time="23/12/2008 10:11:50">basically only coordinates for pixels</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="54" ref="-1" time="23/12/2008 10:13:03">on my previous example of the apple classification, the object is classified as an apple by the naive Bayes classifier , which considers all of these properties to independently contribute.</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="55" ref="-1" time="23/12/2008 10:14:42">An advantage of the naive Bayes classifier is that it requires a small amount of training data to estimate the parameters (means and variances of the variables) necessary for classification. Because independent variables are assumed, only the variances of the variables for each class need to be determined and not the entire covariance matrix.</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="56" ref="47" time="23/12/2008 10:16:20">it is used by the well known SpamAssassin</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="57" ref="47" time="23/12/2008 10:16:48">spam filter, that classifies documents into e-mail an spam</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="58" ref="56" time="23/12/2008 10:18:19">i see, well my method is best suited for border detection and image segmentation, but it works for any object that can be assign a set of coordinates</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="59" ref="-1" time="23/12/2008 10:19:41">we usually use a weighted distance between objects, for example pixel coordinates plus RGB color</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="60" ref="58" time="23/12/2008 10:21:41">well, we could develop an aplication that would use the both technologies</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="61" ref="-1" time="23/12/2008 10:22:17">Yes, now that I know how your algorithm works, I would be interested</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="62" ref="58" time="23/12/2008 10:22:40">it would process some images, and then we could classify them</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="63" ref="-1" time="23/12/2008 10:22:42">:))))))</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="64" ref="-1" time="23/12/2008 10:24:09">no, maybe we could find a way to classify objects within a picture</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="65" ref="-1" time="23/12/2008 10:25:13">or maybe we could use both algorithms for classifying objects, one method would make assumptions based on the coordinated (location)</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="66" ref="-1" time="23/12/2008 10:25:41">and the second would classify based on a set of features</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="67" ref="64" time="23/12/2008 10:26:28">which we could define as objects within the picture</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="68" ref="65" time="23/12/2008 10:26:55">yes, maybe we could create a new application for generic object processing and classification, not just pictures</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="69" ref="-1" time="23/12/2008 10:27:32">we could make a sort of framework</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="70" ref="-1" time="23/12/2008 10:28:21">and provide a set of methods for each case</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="71" ref="-1" time="23/12/2008 10:28:32">another ideea was to obtain a set of coordinates</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="72" ref="-1" time="23/12/2008 10:28:38">for objects</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="73" ref="-1" time="23/12/2008 10:28:58">that could reprezent features as well</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="74" ref="-1" time="23/12/2008 10:29:37">the coordinates are independent, so are the features, assumed by the naive Bayesian classifier</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="75" ref="64" time="23/12/2008 10:30:52">or maybe your ideea is the best</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="76" ref="74" time="23/12/2008 10:31:06">ah, I knew it :)</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="77" ref="64" time="23/12/2008 10:31:35">within one large image we could use your algorithm to identify objects by coordinates</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="78" ref="-1" time="23/12/2008 10:32:34">and then the objects would be classified based on colour, dimension, saturation, ...</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="79" ref="78" time="23/12/2008 10:33:02">yes, not bad</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="80" ref="-1" time="23/12/2008 10:33:27">i think this might work</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="81" ref="-1" time="23/12/2008 10:33:51">we'll have to do some aditional brainstorming in order to integrate these methods</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="82" ref="-1" time="23/12/2008 10:34:03">but we'll find something eventually</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="83" ref="64" time="23/12/2008 10:34:35">if we will find enough independent features , we could achieve the desired performance</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="84" ref="82" time="23/12/2008 10:35:28">so, i'm glad that we actually found something</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="85" ref="83" time="23/12/2008 10:35:31">i agree...i say we get to work already</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="86" ref="85" time="23/12/2008 10:35:52">yes, but after the holidays</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="87" ref="-1" time="23/12/2008 10:36:07">:) ok, see you then</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="88" ref="87" time="23/12/2008 10:36:23">nice talking to you mister Ciuraru</Utterance>
+</Turn>
+<Turn nickname="Andrei">
+<Utterance genid="89" ref="-1" time="23/12/2008 10:36:27">bye</Utterance>
+</Turn>
+<Turn nickname="Mihai">
+<Utterance genid="90" ref="-1" time="23/12/2008 10:36:30">bye</Utterance>
+</Turn>
+</Body>
+</Dialog>
