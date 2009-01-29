@@ -13,20 +13,22 @@ def getText(nodelist):
     return rc
 
 doc1 = minidom.parse('xml/4.xml')
-nodes_turn = doc1.getElementsByTagName('Turn')
+turns_node = doc1.getElementsByTagName('Turn')
 
 # creating an XML
 imp = getDOMImplementation()
 doc2 = imp.createDocument(None, 'names', None)
 top = doc2.documentElement
 
-for node_turn in nodes_turn:
-	nick = node_turn.attributes['nickname'].value
+for turn_node in turns_node:
+	nick = turn_node.attributes['nickname'].value
 	
-	utterance_node = node_turn.getElementsByTagName('Utterance')
+	utterance_node = turn_node.getElementsByTagName('Utterance')
 
 	utterance = getText(utterance_node)
 	
+	# de ce nu merge asta de mai jos? nu ca ar merge functia de mai sus oricum :)
+	#utterance =  turn_node.getElementsByTagName('Utterance')[0].data
 	print nick,":",utterance,"!"
 
 
