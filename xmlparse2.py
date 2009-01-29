@@ -6,11 +6,12 @@ from xml.dom import minidom
 from xml.dom.minidom import getDOMImplementation
 
 def getText(nodelist):
-    rc = ""
-    for node in nodelist:
-       if node.nodeType == node.TEXT_NODE:
-            rc = rc + node.data
-    return rc
+	rc = ""
+	for node in nodelist:
+		if node.hasChildNodes():
+			if node.firstChild.nodeType == node.TEXT_NODE:
+				rc = rc + node.firstChild.data
+	return rc
 
 doc1 = minidom.parse('xml/4.xml')
 turns_node = doc1.getElementsByTagName('Turn')
@@ -20,15 +21,18 @@ imp = getDOMImplementation()
 doc2 = imp.createDocument(None, 'names', None)
 top = doc2.documentElement
 
+
 for turn_node in turns_node:
 	nick = turn_node.attributes['nickname'].value
 	
 	utterance_node = turn_node.getElementsByTagName('Utterance')
-
 	utterance = getText(utterance_node)
 	
 	# de ce nu merge asta de mai jos? nu ca ar merge functia de mai sus oricum :)
 	#utterance =  turn_node.getElementsByTagName('Utterance')[0].data
+	
+	# Gabi says: nu merge pentru ca Utterance are de fapt un childnode :P si ala este TEXT_NODE
+	# Ti-am editat functia ca sa faca asta
 	print nick,":",utterance,"!"
 
 
