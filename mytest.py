@@ -4,8 +4,8 @@ from nltk.corpus import brown
 
 from nltk import *
 
-def backoff_tagger(tagged_sents, tagger_classes, backoff=None):  
-	if not backoff:  
+def backoff_tagger(tagged_sents, tagger_classes, backoff=None):
+	if not backoff:
 		backoff = tagger_classes[0](tagged_sents)  
 		del tagger_classes[0]  
    

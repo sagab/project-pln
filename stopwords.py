@@ -2,6 +2,24 @@
 #	http://www.dcs.gla.ac.uk/idom/ir_resources/linguistic_utils/stop_words
 #
 
+alt_stop_words = (
+	":P",
+	":p",
+	":)",
+	":(",
+	":|",
+	"pls",
+	"thx",
+	"np",
+	"ppl",
+	":-)",
+	":-(",
+	":-|",
+	"eh",
+	"yeah",
+	"nop",
+)
+
 stop_words = (
 	"a",
 	"about",
