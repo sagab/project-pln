@@ -1,9 +1,9 @@
 from stopwords import stop_words,alt_stop_words
-from stemmer import PorterStemmer
+from stemmer import Stemmer
 from operator import itemgetter
 
 def stemming(self, word):
-	return self.stemmer.stem(word, 0, len(word) - 1)
+	return self.stemmer.stem(word)
 
 def isStopWord(token):
 	return ((token in stop_words) or (token in alt_stop_words))
