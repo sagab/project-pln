@@ -29,7 +29,7 @@ class XMLReader:
 		
 
 	def close(self):
-		unlink(self.xmldoc)
+		self.xmldoc.unlink()
 
 	def getText(self,nodelist):
 		rc = ""
