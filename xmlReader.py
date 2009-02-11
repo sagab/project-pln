@@ -1,3 +1,11 @@
+"""
+PLN Toolkit Project
+
+Clasa XMLReader citeste un fisier de chat XML si retine replicile
+intr-o lista de Utterance, care pot fi accesate usor
+
+"""
+
 from xml.dom import minidom
 from xml.dom.minidom import getDOMImplementation
 
