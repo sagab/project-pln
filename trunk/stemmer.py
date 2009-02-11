@@ -9,9 +9,6 @@ pentru:
 - toate cuvintele dintr-un fisier chat XML dat ca parametru, cu
 	output alt fisier XML
 
-Apare si implementarea originala a algoritmului Porter pentru stemming
-pentru referinte suplimentare
-
 """
 
 import nltk
@@ -57,7 +54,23 @@ class Stemmer:
 		# iau fiecare Utterance din document si o stemmez dupa ce fac pe ea
 		# tokenize + stop words
 		for u in self.reader.doc:
-			print 'k'
+			stuel = doc.createElement('StemUt')
+			
+			# pun id-ul elementuliu StemUt sa referentieze id-ul replicii originale <Utterance>
+			stuel.setAttribute('id', u.id)
+			
+			snod.appendChild(doc.createTextNode('\n\t'))
+			snod.appendChild(stuel)
+			
+			# fac stop words elimin si obtin o lista de cuvinte
+			stems = self.stopworder.getWords2(u.text)
+			
+			text = ''
+			for w in stems:
+				text += self.stem(w) + ' '
+			
+			# adaug textul obtinut din stemming
+			stuel.appendChild(doc.createTextNode(text))
 		
 		# scriu continutul DOM in fisierul de output
 		file = open(fname_out, 'w')
@@ -65,6 +78,3 @@ class Stemmer:
 		file.close()
 		self.reader.close()
 
-
-#s = Stemmer()
-#s.stemXML('xml/4.xml','xml/test.xml')
