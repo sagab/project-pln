@@ -1,5 +1,45 @@
-# 	Lista cu stop_words
-#	http://www.dcs.gla.ac.uk/idom/ir_resources/linguistic_utils/stop_words
+"""
+PLN Toolkit Project
+
+Clasa Stopwords implementeaza operatia de eliminare a lor dintr-un
+string ce contine propozitii. Se foloseste si de tokenizare, curatand
+stringul de semne de punctuatie sau alte caractere nonliterale.
+"""
+
+import nltk
+from nltk.corpus import stopwords
+
+class StopWords:
+	def __init__(self):
+		
+		# obtin lista de stopwords din corpusul respectiv
+		self.list = stopwords.words('english')
+		
+	# versiunea stop words ce foloseste corpusul de la NLTK si emoticoane
+	def getWords1 (self, string):
+		l1 = nltk.word_tokenize(string)
+		l2 = []
+		
+		for w in l1:
+			if w not in self.list and w not in alt_stop_words:
+				l2.append(w)
+		
+		return l2
+		
+	# versiunea proprie la stop words
+	def getWords2 (self, string):
+		l1 = nltk.word_tokenize(string)
+		l2 = []
+		
+		for w in l1:
+			if w not in stop_words and w not in alt_stop_words:
+				l2.append(w)
+		
+		return l2
+			
+#
+# Emoticoane si alte prescurtari in chat - ar trebui o lista mult mai mare de emoticoane
+# si de prescurtari in chat
 #
 
 alt_stop_words = (
@@ -8,18 +48,40 @@ alt_stop_words = (
 	":)",
 	":(",
 	":|",
+	":D",
+	":d",
+	":x",
+	":X",
+	":S",
+	":O",
+	":o",
+	">.<",
+	">:)",
+	">.>",
+	"<.<",
+	"o/",
+	"\\o",
+	":-)",
+	":-(",
+	":-|",
+	"k",
+	"kk",
+	"bb",
+	"kthx",
+	"ta",
+	"ty",
+	"bbl",
 	"pls",
 	"thx",
 	"np",
 	"ppl",
-	":-)",
-	":-(",
-	":-|",
 	"eh",
 	"yeah",
 	"nop",
 )
 
+# Lista stop words difera putin de cea din corpus -> de exemplu, think e trecut ca
+# stop word acolo, cand e de fapt verb.
 stop_words = (
 	"a",
 	"about",

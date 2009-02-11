@@ -1,13 +1,13 @@
-#
-# PLN Toolkit Project
-# 
-# Class Tagger realizeaza POST pe
-# replicile dintr-un XML de chat si face outputul intr-un
-# fisier ce retine continutul primului si adauga replicile tagged
-#
-# Se poate folosi si pentru tagging pe o lista de tokens pasata ca
-# parametru. Prin token se intelege un cuvant stocat ca string.
-#
+"""
+PLN Toolkit Project
+
+Clasa Tagger realizeaza POST (Part Of Speech Tagging) pe
+replicile dintr-un XML de chat si face outputul intr-un
+fisier ce retine continutul primului si adauga replicile tagged
+
+Se poate folosi si pentru tagging pe o lista de tokens pasata ca
+parametru. Prin token se intelege un cuvant stocat ca string.
+"""
 
 import nltk
 from nltk.corpus import brown
@@ -106,6 +106,3 @@ class Tagger:
 		file.close()
 		
 		self.reader.close()
-		
-t = Tagger()
-t.tagXML('xml/4.xml', 'xml/test.xml')
