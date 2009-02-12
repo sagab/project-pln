@@ -9,7 +9,9 @@ clusterizarii Cardie Wagstaff.
 
 from tagger import Tagger
 from nltk.corpus import wordnet as wn
+from xmlReader import XMLReader
 import nltk
+import nltk.tag
 import math
 
 # o clasa pentru stocarea atributelor fiecarui NP impreuna cu textul propriu zis
@@ -308,22 +310,25 @@ class NP:
 			# caut semclasa noun
 			if self.tags[i][1][0] == 'N':
 				
-				# obtin syn-ul pentru noun 
-				syn = wn.synsets(self.tags[i][0])[0]
+				try:
+					# obtin syn-ul pentru noun 
+					syn = wn.synsets(self.tags[i][0])[0]
 				
-				# semclass
-				cl = 0
-				maxsim = -1
-				
-				# aflu maximul valorii de similitudine
-				for k in range(len(self.sclasses)):
-					val = wn.wup_similarity(syn, self.synsets[k])
-					if val >= maxsim:
-						cl = k
-						maxsim = val
-				
-				self.values[self.features['semclass']] = self.sclasses[cl]
-			
+					# semclass
+					cl = 0
+					maxsim = -1
+					
+					# aflu maximul valorii de similitudine
+					for k in range(len(self.sclasses)):
+						val = wn.lch_similarity(syn, self.synsets[k])
+						if val >= maxsim:
+							cl = k
+							maxsim = val
+						
+					self.values[self.features['semclass']] = self.sclasses[cl]
+				except Exception:
+					self.values[self.features['semclass']] = 'unk'
+					
 				# gender
 				# se face cu wup/etc similarity intre female si male
 				# dar nu functioneaza pe WordNet :|
@@ -346,6 +351,7 @@ class NP:
 class CorefRes:
 	def __init__(self):
 		self.tagger = Tagger()
+		self.reader = XMLReader()
 		
 	# extrage o lista de NP dintr-un string ce contine mai multe propozitii
 	def extractNP(self, string):
@@ -444,5 +450,122 @@ class CorefRes:
 		return 1
 
 
-c = CorefRes()
-print c.clusterize('Jerry has a Corvette. It looks great because he polishes it every day.', 50.0)
+	# ia un fisier XML chat si adauga o sectiune cu coreferinte intre replicile
+	# care sunt referentiate deja
+	def corefXML(self, fname_in, fname_out, radius = 50.0):
+		
+		#read the input xml chat
+		self.reader.read(fname_in)
+		
+		doc = self.reader.xmldoc
+		de = doc.documentElement
+		
+		# verific daca exista sectiunea Analysis
+		if len(de.getElementsByTagName('Analysis')) == 0:
+			el = doc.createElement('Analysis')
+			de.appendChild(el)
+		
+		anod = de.getElementsByTagName('Analysis')[0]
+		
+		# verific daca exista sectiunea Coref. daca da, o sterg.
+		# pentru a reface tot Coref
+		if len(anod.getElementsByTagName('Coref')) > 0:
+			cnod = anod.getElementsByTagName('Coref')[0]
+			anod.removeChild(cnod)
+		
+		cnod = doc.createElement('Coref')
+		anod.appendChild(doc.createTextNode('\n'))
+		anod.appendChild(cnod)
+		anod.appendChild(doc.createTextNode('\n'))
+		
+		# procesare
+		# se iau toate utterances la rand, daca descopar una care are o referinta,
+		# se proceseaza impreuna cu clusterize() altfel trec peste replici
+		for i in range(len(self.reader.doc)):
+			u = self.reader.doc[i]
+			if u.refid != -1:
+				
+				# cauta replica la care este legata
+				j = i
+				while j >= 0 and self.reader.doc[j].id != u.refid:
+					j = j - 1
+				
+				# verific daca a fost gasita referinta
+				if j > 0:
+					print 'clusterizing utterance ',self.reader.doc[j].id,' + ',self.reader.doc[i].id
+					
+					# concatenez replicile
+					s = self.reader.doc[j].text + ' ' + self.reader.doc[i].text
+					
+					# aplic clusterizarea
+					result = self.clusterize(s, radius)
+					
+					# creez un nou element in xml output
+					el = doc.createElement('CorefUt')
+					cnod.appendChild(doc.createTextNode('\n\t'))
+					cnod.appendChild(el)
+					
+					# pun ca atribute replicile pe care s-a rulat algoritmul
+					ut = doc.createElement('RefUt1')
+					el.appendChild(doc.createTextNode('\n\t\t'))
+					el.appendChild(ut)
+					ut.appendChild(doc.createTextNode(str(i)))
+					
+					ut = doc.createElement('RefUt2')
+					el.appendChild(doc.createTextNode('\n\t\t'))
+					el.appendChild(ut)
+					ut.appendChild(doc.createTextNode(str(j)))
+					
+					# pun lista de NP gasita
+					l = range(len(result[0]))
+					for npi in l:
+						nel = doc.createElement('NP')
+						el.appendChild(nel)
+						
+						nel.setAttribute('id',str(npi+1))
+						
+						# aici pun intr-un string continutul NP-ului
+						npstring = ''
+						
+						# parcurg continutul NP-ului npi din result[0]
+						for kap in result[0][npi].tags:
+							npstring +=  nltk.tag.util.tuple2str(kap,'/') + ' '
+						
+						nel.appendChild(doc.createTextNode(npstring))
+					
+					# pun lista de clustere
+					clusters = []
+					nodes = []
+					for cli in range(len(result[1])):
+						
+						# daca e un cluster nou, trebuie creat un nod
+						clj = 0
+						while (clj < len(clusters) and clusters[clj] != result[1][cli]):
+							clj = clj+1
+						
+						if clj >= len(clusters):
+							# trebuie creat un nod nou
+							clusters.append(result[1][cli])
+							no = doc.createElement('Cluster')
+							el.appendChild(doc.createTextNode('\n\t\t'))
+							el.appendChild(no)
+							nodes.append(no)
+							clj = len(nodes) - 1
+							no.setAttribute('id', str(clj + 1))
+
+							
+						cel = doc.createElement('NPid')
+						cel.setAttribute('id',str(cli+1))
+						nodes[clj].appendChild(cel)
+		
+		# output part
+		file = open(fname_out, 'w')
+		doc.writexml(file)
+		file.close()
+		
+		# inchid reader
+		self.reader.close()
+
+
+#c = CorefRes()
+#print c.clusterize('Jerry has a Corvette. It looks great because he polishes it every day.', 50.0)
