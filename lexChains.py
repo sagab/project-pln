@@ -3,7 +3,10 @@ import tagger
 from general import *
 from nltk.corpus import wordnet as wn
 from xmlReader import XMLReader
-		
+import cuephrases
+import interference
+from interference import *
+from cuephrases import *
 
 class LexChains:
 	def __init__(self, inFile):
@@ -15,6 +18,7 @@ class LexChains:
 		post.tagXML(inFile,'xml/post.xml')
 		self.r = xmlReader.XMLReader()
 		self.r.readPOST('xml/post.xml')
+		self.infer = Interference(inFile)
 
 	def writeLexChains(self,outFile):
 			reader = XMLReader()
@@ -75,6 +79,7 @@ class LexChains:
 		i = 0
 		legmax = 1.5
 		gasit = -1
+		legGasit=-1
 		for chain in self.semChains:
 			#luam fiecare cuvant din chain in care id-ul propozitiei e cu max 10 in urma
 			st=0
@@ -88,37 +93,44 @@ class LexChains:
 					#daca legatura este foarte puternica il adaugam in primul gasit
 					gasit = i
 					st = 1
+					legmax=leg
+					legGasit=chain[j][0]
 					break
 				if(dif <= 4):
 					if(leg>legmax):
 						legmax = leg
 						gasit = i
+						legGasit=chain[j][0]
 				j=j-1
 			i=i+1
 			if (st == 1):
 				break
 		if(gasit != -1):
 			# am gasit un lant semantic cu legatura pentru cuvant
-			print "lungime lant lexicam:",len(self.semChains)
-			print gasit
+			# avem o legatura intre replica gasit si legGasit cu similitudinea legmax
+			self.infer.addInf(legGasit, gasit, legmax)
 			self.semChains[gasit].append(aux)
 			return gasit
 		newChain=[]
 		newChain.append(aux)
-		self.semChains.append(newChain)	
+		self.semChains.append(newChain)
+		return -1	
 
-	def testFirst(self):
+	def testFirst(self, mid, mtext):
 		if(self.semChains==[]): # daca lista de lanturi este goala cream un nou lant
 			#aduagam pe prima pozitie idul propozitiei din care face parte cuvantul
 			chain=[]
-			chain.append(msg.id)
-			chain.append(syn[0])
+			chain.append(mid)
+			chain.append(mtext)
 			newChain = []
 			newChain.append(chain)
 			self.semChains.append(newChain)
 			print self.semChains
 			return 1
 		return 0	
+
+	def getInterference(self):
+		return self.infer
 
 
 
