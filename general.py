@@ -43,4 +43,33 @@ def sort_freq_dict(freq_dict,max_entries=0):
 	else:
 		return fd_items
 
+# genereaza toate bigramele din un string dat ex "a b c d"
+# returneaza o lista de tokenuri ['a b','b c','c d'], igonra bigramele care au un elem de len 1
+def getBigramList (text):
+	items = text.split()
+	i=0
+	rez = []
+	while i<len(items)-1:
+		if len(items[i])>1 and len(items[i+1])>1:
+			rez.append(items[i]+" "+items[i+1])
+		i+=1
+	return rez
+
+# genereaza toate bigramele din un string dat ex "a b c d"
+# returneaza o lista de tokenuri ['a b c','b c d'], igonra trigramele care au un elem de len 1
+def getTrigramList (text):
+	items = text.split()
+	i=0
+	rez = []
+	while i<len(items)-2:
+		if len(items[i])>1 and len(items[i+1])>1 and len(items[i+2])>1:
+			rez.append(items[i]+" "+items[i+1]+" "+items[i+2])
+		i+=1
+	return rez	
+
+#primeste o lista de orice si scoate duplicatele 
+def strip_duplicates (lst):
+	nd = []
+	[nd.append(i) for i in seq if not nd.count(i)]
+	return nd
 
