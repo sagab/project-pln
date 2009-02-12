@@ -6,6 +6,7 @@ from general import *
 from nltk.corpus import wordnet as wn
 from xmlReader import XMLReader
 from lexChains import LexChains		
+from interference import *
 
 def getChains():
 	words=[]
@@ -23,22 +24,21 @@ def getChains():
 						syn = wn.synsets(aux[0], pos='n')
 						if(syn != []):
 							print syn[0]," ",msg.id
-							if(lex.testFirst()==0):
+							if( lex.testFirst(msg.id, syn[0]) == 0):
 								# luam fiecare lant lexical si cautam cu maxim 10 propozitii in urma cuvinte puternic similare 
 								# si cu 5 prop in urma cele similare medium
 								# calculam pentru fiecare lant apropierea 
 								lex.addToChainList(msg.id, syn[0])
 
-	lex.writeLexChains('xml/testLC.xml')
+	#lex.writeLexChains('xml/testLC.xml')
+	inf = lex.getInterference()
+	inf.calcInf()
+	inf.writeInterf("xml/testInf.xml")
 
 
 
 
 print '-------------------------------------------------'
-#dictionar
-freq_dict = {}
-
-print wn.synsets('optimum', pos='n')[0].lch_similarity(wn.synsets('problem', pos='n')[0])
 
 getChains()
 
