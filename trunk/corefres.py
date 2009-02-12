@@ -103,7 +103,7 @@ class NP:
 		p1 = self.values[self.features['position']]
 		p2 = otherNP.values[self.features['position']]
 		
-		nr = len(context['tagged'])
+		nr = len(self.context['tagged'])
 		
 		return math.fabs(p1 - p2) / nr
 	
@@ -352,11 +352,97 @@ class CorefRes:
 		toks = nltk.word_tokenize(string)
 		lista = self.tagger.tag(toks)
 		
-		return lista
+		NP = []
+		listaNP = []
+		
+		# parcurg toata lista de cuvinte tagged si in adaug cuvinte la un NP
+		# pana cand dau de ceva ce face break
+		for i in range(len(lista)):
+			
+			# am gasit un noun sau pronume
+			if lista[i][1][0] == 'N' or lista[i][1][0:2] == 'PP':
+				NP.append(lista[i])
+				listaNP.append(NP)
+				NP = []
+				
+			# am dat de articol sau determinant
+			elif lista[i][1] == 'AT' or lista[i][1] == 'DT':
+				NP.append(lista[i])
+			
+			else:	# poate fi verb sau altceva
+				if len(NP) > 0:
+					listaNP.append(NP)
+				NP = []
+		
+		if len(NP) > 0:
+			listaNP.append(NP)
+			
+		return listaNP
 	
-	
+	# run the algorithm on the given string with the given radius for clusters
+	def clusterize (self, string, radius):
+		
+		# lista de tagged strings
+		list = self.extractNP(string)
+		
+		# in caz ca am nevoie in clasa NP de context
+		context = {'text':string, 'tagged':list}
+		
+		# aici o sa pastrez indice pentru clusterul caruia ii apartine
+		# NP-ul cu indicele respectiv
+		clusters = []
+		
+		# lista cu toate NP-urile
+		NPlist = []
+		
+		# creez pentru fiecare NP cate o instanta
+		for i in range(len(list)):
+			np = NP(list[i], context, i+1)
+			np.r = radius
+			
+			# calculez valorile pentru features
+			np.updateValues()
+			
+			NPlist.append(np)
+			clusters.append(i+1)	# la inceput, fiecare NP e in propriul cluster
+		
+		# iau NPlist in ordine inversa
+		r = range(len(NPlist))
+		r.reverse()
+		
+		# pentru fiecare NPj de la n la 0
+		for j in r:
+			
+			# lista de NP ce o preced pe NP curenta
+			prec = range(j)
+			
+			# pentru fiecare NPi precedenta
+			for i in prec:
+				d = NPlist[i].dist( NPlist[j])
+				ci = clusters[i]
+				cj = clusters[j]
+				
+				# verific daca trebuie sa fac reuniunea cj = ci + cj
+				if d < radius and self.all_NPS_compat(ci, cj, NPlist, clusters) == 1:
+					for c in range(len(clusters)):
+						if clusters[c] == ci:
+							clusters[c] = cj
+					
+		return [NPlist, clusters]
+						
+	# intoarce 1 daca toate NP din clasa ci sunt compatibile cu cj
+	def all_NPS_compat (self, ci, cj, NPlist, clusters):
+		l1 = range(len(clusters))
+		
+		for i in l1:
+			l2 = range(i+1, len(clusters))
+			for j in l2:
+				if clusters[i] == ci and clusters[j] == cj:
+					if NPlist[j].dist(NPlist[i]) == NPlist[j].max:
+						return 0
+		
+		return 1
 
 
-
-#c = CorefRes()
-#print c.extractNP('Jerry loves his car. He painted it green last summer. His apartment is painted also in the same color')
+c = CorefRes()
+print c.clusterize('Jerry has a Corvette. It looks great because he polishes it every day.', 50.0)
