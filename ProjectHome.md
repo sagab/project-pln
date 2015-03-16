@@ -1,0 +1,1 @@
+A project in Python for Natural Language Processing course, which tries to run speech analysis on specific XML format of conversations in English language from ConcertChat output.
